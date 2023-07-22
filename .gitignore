@@ -1,0 +1,20 @@
+# Ignore Jupyter Notebook Saves
+.ipynb_checkpoints
+__pycache__
+
+# Ignore MacOS directory metadata file
+.DS_Store
+
+potential_data/
+Selenium_Webdriver/
+
+Capstone_Notes.docx
+Capstone_Options.pdf
+Capstone_Options.pptx
+
+metadata_officialBoxScore.pdf
+metadata_playerBoxScore.pdf
+metadata_standing.pdf
+metadata_teamBoxScore.pdf
+
+Variables_for_Webscrape.xlsx
