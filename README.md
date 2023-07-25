@@ -16,6 +16,33 @@ Despite being the more brute-force approach, I opted to use Selenium for the sak
 
 
 
+# HOW OUR MODEL IS USEFUL EVEN THO VOTING SYSTEM IS CHANGING
+
+Building a predictive model based on historical NBA All-NBA Team voting data when voting was done by positional distinctions can still be valuable, despite the potential transition to a positionless voting system. The model would capture insights into the past patterns of voting and identify the factors that influenced the selection of players within specific positions. This knowledge can serve as a foundation for understanding the historical biases, player preferences, and performance criteria that influenced the voting outcomes.
+
+To make predictions in a positionless voting system, it's essential to acknowledge the differences between the two voting formats and consider potential enhancements to the model:
+
+Feature Engineering: Include new features in the model that assess a player's overall impact on the game, irrespective of their traditional positions. These features may include advanced statistics, efficiency metrics, and versatility indicators that highlight a player's ability to contribute across different roles.
+
+Positional Versatility: Account for positional versatility in player evaluations. Consider players who have demonstrated the capability to play multiple positions effectively and adjust the model's weightings accordingly.
+
+Voting Trends: Analyze trends in voting patterns over time and identify shifts in voter preferences. This may involve examining whether certain positions gained or lost importance in the voting process and adjusting the model to reflect these changing dynamics.
+
+Bias Analysis: Conduct a thorough analysis of historical biases present in the positional voting system and assess how they might impact the predictive model's performance in a positionless system. Work to eliminate any potential biases from the model.
+
+Machine Learning Techniques: Utilize machine learning techniques such as transfer learning or domain adaptation to help the model generalize from the positional voting data to the positionless context.
+
+Data Augmentation: Augment the historical data with synthetic examples to mimic positionless voting scenarios. This could involve creating hypothetical scenarios where players are considered without positional constraints, while still reflecting historical voting patterns.
+
+Monitor Changes: Continuously monitor the voting process and evaluate how the model's predictions align with the actual outcomes in a positionless voting system. Regularly update and refine the model to adapt to any changes in voter behavior or criteria.
+
+In summary, while the transition from positional to positionless voting presents a challenge for a model trained on historical data, it remains a valuable resource. By acknowledging the changes in voting criteria, incorporating new features, and continuously improving the model based on feedback and real-world outcomes, it is possible to enhance its predictive capabilities and ensure it remains relevant and effective in predicting All-NBA Team selections in a positionless context.
+
+
+
+
+
+
 <img src ="./images/ski_snow.png" style="float: left; margin: 20px; height: 80px">
 
 # Predicting Reddit Communities Using NLP and Classification Models

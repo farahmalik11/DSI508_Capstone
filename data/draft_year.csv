@@ -6513,8 +6513,8 @@ Bob Tolan,St. Louis Hawks,Eastern Kentucky,1965,16,3,107
 Willie Porter,Cincinnati Royals,Tennessee State,1965,16,4,108
 Roger Taylor,Baltimore Bullets,Illinois,1965,17,1,109
 Gail Goodrich,Los Angeles Lakers,California-Los Angeles,1965,0,0,0
-Bill Bradley,New York Knicks,Princeton,1965,0,0,0
 Bill Buntin,Detroit Pistons,Michigan,1965,0,0,0
+Bill Bradley,New York Knicks,Princeton,1965,0,0,0
 Jim Barnes,New York Knicks,Texas-El Paso,1964,1,1,1
 Joe Caldwell,Detroit Pistons,Arizona State,1964,1,2,2
 Gary Bradds,Baltimore Bullets,Ohio State,1964,1,3,3
@@ -6800,8 +6800,8 @@ Pat McKenzie,Chicago Zephyrs,Kansas State,1962,15,1,97
 Dave Ricerto,St. Louis Hawks,Rhode Island,1962,15,2,98
 Norman Majors,Chicago Zephyrs,Rockhurst,1962,16,1,99
 Wally Roundsville,St. Louis Hawks,Caltech,1962,16,2,100
-Dave DeBusschere,Detroit Pistons,Detroit Mercy,1962,0,0,0
 Jerry Lucas,Cincinnati Royals,Ohio State,1962,0,0,0
+Dave DeBusschere,Detroit Pistons,Detroit Mercy,1962,0,0,0
 Walt Bellamy,Chicago Packers,Indiana,1961,1,1,1
 Tom Stith,New York Knicks,St. Bonaventure,1961,1,2,2
 Larry Siegfried,Cincinnati Royals,Ohio State,1961,1,3,3
@@ -7265,8 +7265,8 @@ Bob Seitz,St. Louis Hawks,North Carolina State,1957,12,2,80
 Jim Weeks,Syracuse Nationals,New York Tech,1957,12,3,81
 Ed Romanoff,St. Louis Hawks,,1957,13,1,82
 Lavelle Langston,St. Louis Hawks,Northwestern State,1957,14,1,83
-Dan Tobin,Boston Celtics,Florida Southern,1957,0,0,0
 Jerry Gibson,Philadelphia Warriors,,1957,0,0,0
+Dan Tobin,Boston Celtics,Florida Southern,1957,0,0,0
 Si Green,Rochester Royals,Duquesne,1956,1,1,1
 Bill Russell,St. Louis Hawks,San Francisco,1956,1,2,2
 Jim Paxson,Minneapolis Lakers,Dayton,1956,1,3,3
@@ -7274,91 +7274,91 @@ Ron Shavlik,New York Knicks,North Carolina State,1956,1,4,4
 Joe Holup,Syracuse Nationals,George Washington,1956,1,5,5
 Ron Sobie,Ft. Wayne Zollner Pistons,DePaul,1956,1,6,6
 Hal Lear,Philadelphia Warriors,Temple,1956,1,7,7
-Bill Reigel,Minneapolis Lakers,McNeese State,1956,0,0,0
-John Schlimm,Ft. Wayne Zollner Pistons,John Carroll,1956,0,0,0
-Jim Houston,Boston Celtics,Brandeis,1956,9,0,0
-Junior Morgan,St. Louis Hawks,Duke,1956,0,0,0
-Joe Lieber,Ft. Wayne Zollner Pistons,Holy Cross,1956,0,0,0
-Hershel Pederson,St. Louis Hawks,Brigham Young,1956,0,0,0
-Dave Plunkett,St. Louis Hawks,Cincinnati,1956,0,0,0
-Jim Ray,Syracuse Nationals,Toledo,1956,0,0,0
-Jim Reed,St. Louis Hawks,Texas Tech,1956,0,0,0
-Bob Kessler,Ft. Wayne Zollner Pistons,Maryland,1956,0,0,0
-Bruce Harris,Ft. Wayne Zollner Pistons,Tennessee Tech,1956,0,0,0
-Morris Taft,St. Louis Hawks,California-Los Angeles,1956,0,0,0
-Mickey Winograd,Philadelphia Warriors,Duquesne,1956,0,0,0
-Phil Wheeler,Philadelphia Warriors,Cincinnati,1956,0,0,0
-Bevo Francis,Philadelphia Warriors,Rio Grande,1956,0,0,0
-John Fannon,Philadelphia Warriors,Notre Dame,1956,0,0,0
-Dave Piontek,Rochester Royals,Xavier,1956,0,0,0
-Ronald Clark,Philadelphia Warriors,Springfield,1956,0,0,0
-Forest Able,Syracuse Nationals,Western Kentucky,1956,0,0,0
-Joe Belmont,Philadelphia Warriors,Duke,1956,0,0,0
-Max Anderson,Philadelphia Warriors,Oregon,1956,0,0,0
-Joe Sexton,New York Knicks,Purdue,1956,0,0,0
-Tony Roybal,New York Knicks,New Mexico,1956,0,0,0
-Sam Jones,Minneapolis Lakers,North Carolina Central,1956,0,0,0
-Dick Miller,New York Knicks,Wisconsin,1956,0,0,0
-Dick Miani,New York Knicks,Miami (FL),1956,0,0,0
-Ronnie Mayer,New York Knicks,Duke,1956,0,0,0
-Johnny McCarthy,Rochester Royals,Canisius,1956,0,0,0
-Jerry Harper,New York Knicks,Alabama,1956,0,0,0
-Howard Crittendon,New York Knicks,Murray State,1956,0,0,0
-Art Bunte,New York Knicks,Utah,1956,0,0,0
-Jack Adams,New York Knicks,Eastern Kentucky,1956,0,0,0
-Vic Molodet,Boston Celtics,North Carolina State,1956,8,0,0
-Bill Logan,Boston Celtics,Iowa,1956,5,0,0
-Theophileus Lloyd,Boston Celtics,Maryland,1956,10,0,0
-George Linn,Boston Celtics,Alabama,1956,3,0,0
-Ed Petrie,New York Knicks,Seton Hall,1956,0,0,0
-Charles Slack,Ft. Wayne Zollner Pistons,Marshall,1956,0,0,0
-Dan Swartz,Boston Celtics,Morehead State,1956,4,0,0
-Bill Thieben,Ft. Wayne Zollner Pistons,Hofstra,1956,0,0,0
-Terry Rand,Minneapolis Lakers,Marquette,1956,0,0,0
-Jim Springer,Minneapolis Lakers,Gustavus Adolphus,1956,0,0,0
-Carl Widseth,Minneapolis Lakers,Tennessee,1956,0,0,0
-John Barber,Minneapolis Lakers,Cal State-Los Angeles,1956,0,0,0
-Elgin Baylor,Minneapolis Lakers,Seattle,1956,0,0,0
-Carl Cain,Rochester Royals,Iowa,1956,0,0,0
-Gary Bergen,New York Knicks,Utah,1956,0,0,0
-Gene Carpenter,Rochester Royals,Texas Tech,1956,0,0,0
-Bob Burrow,Rochester Royals,Kentucky,1956,0,0,0
-Clayton Carter,Rochester Royals,Oklahoma State,1956,0,0,0
-Jerry Bird,Minneapolis Lakers,Kentucky,1956,0,0,0
-Dan Mannix,Rochester Royals,St. Francis Brooklyn,1956,0,0,0
-John Patzwald,Minneapolis Lakers,Gustavus Adolphus,1956,0,0,0
-Jerry Moreman,Rochester Royals,Louisville,1956,0,0,0
-Kevin Thomas,Rochester Royals,Boston University,1956,0,0,0
-Phil Jordon,Minneapolis Lakers,Whitworth,1956,0,0,0
-Bob Hopkins,Syracuse Nationals,Grambling,1956,0,0,0
-Bill Uhl,Rochester Royals,Dayton,1956,0,0,0
-Willie Bergines,Syracuse Nationals,West Virginia,1956,0,0,0
-Don Boldebuck,Boston Celtics,Houston,1956,6,0,0
-Julius McCoy,St. Louis Hawks,Michigan State,1956,0,0,0
-Milt Graham,Syracuse Nationals,Colgate,1956,0,0,0
-Paul Judson,Syracuse Nationals,Illinois,1956,0,0,0
 Dick Julio,Syracuse Nationals,Massachusetts Dartmouth,1956,0,0,0
-Tom Heinsohn,Boston Celtics,Holy Cross,1956,0,0,0
-O'Neal Weaver,Boston Celtics,Midwestern State,1956,7,0,0
+Paul Judson,Syracuse Nationals,Illinois,1956,0,0,0
+John Schlimm,Ft. Wayne Zollner Pistons,John Carroll,1956,0,0,0
+Milt Graham,Syracuse Nationals,Colgate,1956,0,0,0
+Willie Bergines,Syracuse Nationals,West Virginia,1956,0,0,0
+Bill Uhl,Rochester Royals,Dayton,1956,0,0,0
+Kevin Thomas,Rochester Royals,Boston University,1956,0,0,0
+Jerry Moreman,Rochester Royals,Louisville,1956,0,0,0
+Dan Mannix,Rochester Royals,St. Francis Brooklyn,1956,0,0,0
+Clayton Carter,Rochester Royals,Oklahoma State,1956,0,0,0
+Charles Slack,Ft. Wayne Zollner Pistons,Marshall,1956,0,0,0
+Lloyd Aubrey,Minneapolis Lakers,Notre Dame,1956,0,0,0
+Phil Grawmeyer,Minneapolis Lakers,Kentucky,1956,0,0,0
 Robert Hodgson,Minneapolis Lakers,Wichita State,1956,0,0,0
-K.C. Jones,Boston Celtics,San Francisco,1956,2,0,0
-Pat Dunn,New York Knicks,Utah State,1956,0,0,0
-Willie Naulls,St. Louis Hawks,California-Los Angeles,1956,0,0,0
+Bob Hopkins,Syracuse Nationals,Grambling,1956,0,0,0
+John Patzwald,Minneapolis Lakers,Gustavus Adolphus,1956,0,0,0
+Carl Cain,Rochester Royals,Iowa,1956,0,0,0
+Carl Widseth,Minneapolis Lakers,Tennessee,1956,0,0,0
+Jim Springer,Minneapolis Lakers,Gustavus Adolphus,1956,0,0,0
+Terry Rand,Minneapolis Lakers,Marquette,1956,0,0,0
+Joe Lieber,Ft. Wayne Zollner Pistons,Holy Cross,1956,0,0,0
+Morris Taft,St. Louis Hawks,California-Los Angeles,1956,0,0,0
+Jim Reed,St. Louis Hawks,Texas Tech,1956,0,0,0
+Dave Plunkett,St. Louis Hawks,Cincinnati,1956,0,0,0
+Hershel Pederson,St. Louis Hawks,Brigham Young,1956,0,0,0
+Junior Morgan,St. Louis Hawks,Duke,1956,0,0,0
+Julius McCoy,St. Louis Hawks,Michigan State,1956,0,0,0
 Ed Huse,St. Louis Hawks,Wyoming,1956,0,0,0
 Arthur Helms,St. Louis Hawks,Houston,1956,0,0,0
 Robin Freeman,St. Louis Hawks,Ohio State,1956,0,0,0
 Darrell Floyd,St. Louis Hawks,Furman,1956,0,0,0
-Norm Stewart,St. Louis Hawks,Missouri,1956,0,0,0
 Wally Choice,St. Louis Hawks,Indiana,1956,0,0,0
 Chester Webb,Syracuse Nationals,Georgia Southern,1956,0,0,0
 Chuck Rolles,Syracuse Nationals,Cornell,1956,0,0,0
 Jess Roh,Syracuse Nationals,Idaho State,1956,0,0,0
-Phil Rollins,Philadelphia Warriors,Louisville,1956,0,0,0
-Harvey Halbrook,Syracuse Nationals,Oregon State,1956,0,0,0
-Dick Kenyon,Syracuse Nationals,Le Moyne,1956,0,0,0
-Phil Grawmeyer,Minneapolis Lakers,Kentucky,1956,0,0,0
-Lloyd Aubrey,Minneapolis Lakers,Notre Dame,1956,0,0,0
 Jim McLaughlin,Syracuse Nationals,Saint Louis,1956,0,0,0
+Bill Reigel,Minneapolis Lakers,McNeese State,1956,0,0,0
+Jim Houston,Boston Celtics,Brandeis,1956,9,0,0
+Theophileus Lloyd,Boston Celtics,Maryland,1956,10,0,0
+Bill Logan,Boston Celtics,Iowa,1956,5,0,0
+Vic Molodet,Boston Celtics,North Carolina State,1956,8,0,0
+Jack Adams,New York Knicks,Eastern Kentucky,1956,0,0,0
+Art Bunte,New York Knicks,Utah,1956,0,0,0
+Howard Crittendon,New York Knicks,Murray State,1956,0,0,0
+Jerry Harper,New York Knicks,Alabama,1956,0,0,0
+Ronnie Mayer,New York Knicks,Duke,1956,0,0,0
+Dick Miani,New York Knicks,Miami (FL),1956,0,0,0
+Dick Miller,New York Knicks,Wisconsin,1956,0,0,0
+Ed Petrie,New York Knicks,Seton Hall,1956,0,0,0
+Tony Roybal,New York Knicks,New Mexico,1956,0,0,0
+Joe Sexton,New York Knicks,Purdue,1956,0,0,0
+Max Anderson,Philadelphia Warriors,Oregon,1956,0,0,0
+Joe Belmont,Philadelphia Warriors,Duke,1956,0,0,0
+Dick Kenyon,Syracuse Nationals,Le Moyne,1956,0,0,0
+Ronald Clark,Philadelphia Warriors,Springfield,1956,0,0,0
+John Fannon,Philadelphia Warriors,Notre Dame,1956,0,0,0
+Bevo Francis,Philadelphia Warriors,Rio Grande,1956,0,0,0
+Phil Wheeler,Philadelphia Warriors,Cincinnati,1956,0,0,0
+Mickey Winograd,Philadelphia Warriors,Duquesne,1956,0,0,0
+Bruce Harris,Ft. Wayne Zollner Pistons,Tennessee Tech,1956,0,0,0
+Bob Kessler,Ft. Wayne Zollner Pistons,Maryland,1956,0,0,0
+George Linn,Boston Celtics,Alabama,1956,3,0,0
+Phil Rollins,Philadelphia Warriors,Louisville,1956,0,0,0
+Don Boldebuck,Boston Celtics,Houston,1956,6,0,0
+Phil Jordon,Minneapolis Lakers,Whitworth,1956,0,0,0
+Harvey Halbrook,Syracuse Nationals,Oregon State,1956,0,0,0
+Pat Dunn,New York Knicks,Utah State,1956,0,0,0
+Bill Thieben,Ft. Wayne Zollner Pistons,Hofstra,1956,0,0,0
+Gary Bergen,New York Knicks,Utah,1956,0,0,0
+Dan Swartz,Boston Celtics,Morehead State,1956,4,0,0
+Gene Carpenter,Rochester Royals,Texas Tech,1956,0,0,0
+Dave Piontek,Rochester Royals,Xavier,1956,0,0,0
+Willie Naulls,St. Louis Hawks,California-Los Angeles,1956,0,0,0
+Norm Stewart,St. Louis Hawks,Missouri,1956,0,0,0
+Jim Ray,Syracuse Nationals,Toledo,1956,0,0,0
+Sam Jones,Minneapolis Lakers,North Carolina Central,1956,0,0,0
+Jerry Bird,Minneapolis Lakers,Kentucky,1956,0,0,0
+K.C. Jones,Boston Celtics,San Francisco,1956,2,0,0
+O'Neal Weaver,Boston Celtics,Midwestern State,1956,7,0,0
+Elgin Baylor,Minneapolis Lakers,Seattle,1956,0,0,0
+Johnny McCarthy,Rochester Royals,Canisius,1956,0,0,0
+Forest Able,Syracuse Nationals,Western Kentucky,1956,0,0,0
+Bob Burrow,Rochester Royals,Kentucky,1956,0,0,0
+Tom Heinsohn,Boston Celtics,Holy Cross,1956,0,0,0
+John Barber,Minneapolis Lakers,Cal State-Los Angeles,1956,0,0,0
 Dick Ricketts,St. Louis Hawks,Duquesne,1955,1,1,1
 Maurice Stokes,Rochester Royals,Saint Francis (PA),1955,1,2,2
 Jim Loscutoff,Boston Celtics,Oregon,1955,1,3,3
@@ -7397,46 +7397,6 @@ Denver Brackeen,New York Knicks,Mississippi,1955,5,5,35
 Bill Banks,Minneapolis Lakers,Texas State,1955,5,6,36
 Mal Duffy,Syracuse Nationals,St. Bonaventure,1955,5,7,37
 Cleo Littleton,Ft. Wayne Zollner Pistons,Wichita State,1955,5,8,38
-Mark Davis,Boston Celtics,Marietta,1955,12,0,0
-Henry Dooley,Boston Celtics,Wiley,1955,13,0,0
-Carl Hartman,Boston Celtics,Alderson Broaddus,1955,11,0,0
-Jim Ahearn,Boston Celtics,Connecticut,1955,10,0,0
-Dick Welsh,St. Louis Hawks,Southern California,1955,0,0,0
-Joe Beck,New York Knicks,Truman State,1955,8,0,0
-Jim Fay,New York Knicks,St. Ambrose,1955,7,0,0
-Mickey Harrington,New York Knicks,Southern Mississippi,1955,12,0,0
-Wally McCarvill,New York Knicks,Iona,1955,10,0,0
-Don Payne,New York Knicks,Adelphi,1955,9,0,0
-Howard Sessums,New York Knicks,Mississippi College,1955,6,0,0
-Charles Stickels,New York Knicks,Hastings,1955,11,0,0
-Al Didriksen,Philadelphia Warriors,Temple,1955,8,0,0
-Jerry Koch,Philadelphia Warriors,Saint Louis,1955,10,0,0
-Lester Lane,Philadelphia Warriors,Oklahoma,1955,9,0,0
-Harry Silcox,Philadelphia Warriors,Temple,1955,7,0,0
-George Swyers,Philadelphia Warriors,West Virginia Tech,1955,6,0,0
-Don Belcher,Ft. Wayne Zollner Pistons,Louisiana State,1955,0,0,0
-Tom Harrold,Ft. Wayne Zollner Pistons,Colorado,1955,0,0,0
-Happy Mahfouz,Ft. Wayne Zollner Pistons,Spring Hill,1955,0,0,0
-Tom Mixon,Ft. Wayne Zollner Pistons,Mercer,1955,0,0,0
-Tom Mock,Ft. Wayne Zollner Pistons,Colorado,1955,0,0,0
-Bob Reiter,Ft. Wayne Zollner Pistons,Missouri,1955,0,0,0
-Ray Warren,Ft. Wayne Zollner Pistons,Texas Christian,1955,0,0,0
-Don Boldebuck,Minneapolis Lakers,Houston,1955,0,0,0
-Don Bragg,Minneapolis Lakers,California-Los Angeles,1955,0,0,0
-Jim Scott,Minneapolis Lakers,West Texas A&M,1955,0,0,0
-Bill Warden,Minneapolis Lakers,North Central (IL),1955,0,0,0
-O'Neal Weaver,Minneapolis Lakers,Midwestern State,1955,0,0,0
-Harry Jorgensen,Rochester Royals,Wyoming,1955,0,0,0
-Jerry Jung,Rochester Royals,Kansas State,1955,0,0,0
-Jim McConnell,Rochester Royals,Niagara,1955,0,0,0
-John Prudhoe,Rochester Royals,Louisville,1955,0,0,0
-Art Quimby,Rochester Royals,Connecticut,1955,0,0,0
-Tony Vlastelica,Rochester Royals,Oregon State,1955,0,0,0
-Cliff Dwyer,Syracuse Nationals,North Carolina State,1955,0,0,0
-Ed Galvin,Syracuse Nationals,Loyola (LA),1955,0,0,0
-Stan Glowaski,Syracuse Nationals,Seattle,1955,0,0,0
-Russ Lawler,Syracuse Nationals,Stanford,1955,0,0,0
-Marty Satalino,Syracuse Nationals,St. John's (NY),1955,0,0,0
 Ron Tomsic,Syracuse Nationals,Stanford,1955,0,0,0
 Harvey Babetch,St. Louis Hawks,Bradley,1955,0,0,0
 Dick Cable,St. Louis Hawks,Wisconsin,1955,0,0,0
@@ -7445,15 +7405,55 @@ Joe Fitt,St. Louis Hawks,,1955,0,0,0
 Charles Hoxie,St. Louis Hawks,Niagara,1955,0,0,0
 Ed O'Connor,St. Louis Hawks,Manhattan,1955,0,0,0
 Bill Reigel,St. Louis Hawks,McNeese State,1955,0,0,0
-John Mahoney,Boston Celtics,William & Mary,1955,6,0,0
-John Moore,Boston Celtics,California-Los Angeles,1955,7,0,0
-Dean Parsons,Boston Celtics,Washington,1955,8,0,0
-Nick Romanoff,Boston Celtics,Pacific,1955,9,0,0
+Dick Welsh,St. Louis Hawks,Southern California,1955,0,0,0
+George Swyers,Philadelphia Warriors,West Virginia Tech,1955,6,0,0
 Bob Scuddelari,Boston Celtics,Cooper Union,1955,14,0,0
+Harry Silcox,Philadelphia Warriors,Temple,1955,7,0,0
+Joe Beck,New York Knicks,Truman State,1955,8,0,0
 K.C. Jones,Minneapolis Lakers,San Francisco,1955,0,0,0
-Bob Armstrong,Rochester Royals,Michigan State,1955,0,0,0
+Lester Lane,Philadelphia Warriors,Oklahoma,1955,9,0,0
+Jim Fay,New York Knicks,St. Ambrose,1955,7,0,0
+Jerry Koch,Philadelphia Warriors,Saint Louis,1955,10,0,0
+Mickey Harrington,New York Knicks,Southern Mississippi,1955,12,0,0
+Al Didriksen,Philadelphia Warriors,Temple,1955,8,0,0
+Charles Stickels,New York Knicks,Hastings,1955,11,0,0
+Howard Sessums,New York Knicks,Mississippi College,1955,6,0,0
+Wally McCarvill,New York Knicks,Iona,1955,10,0,0
+Don Payne,New York Knicks,Adelphi,1955,9,0,0
+Cliff Dwyer,Syracuse Nationals,North Carolina State,1955,0,0,0
+Marty Satalino,Syracuse Nationals,St. John's (NY),1955,0,0,0
+Tony Vlastelica,Rochester Royals,Oregon State,1955,0,0,0
+Art Quimby,Rochester Royals,Connecticut,1955,0,0,0
+John Prudhoe,Rochester Royals,Louisville,1955,0,0,0
+Jim McConnell,Rochester Royals,Niagara,1955,0,0,0
+Jerry Jung,Rochester Royals,Kansas State,1955,0,0,0
+Harry Jorgensen,Rochester Royals,Wyoming,1955,0,0,0
+O'Neal Weaver,Minneapolis Lakers,Midwestern State,1955,0,0,0
 Tom Gola,Philadelphia Warriors,La Salle,1955,0,0,0
+Bill Warden,Minneapolis Lakers,North Central (IL),1955,0,0,0
+Jim Scott,Minneapolis Lakers,West Texas A&M,1955,0,0,0
+Don Bragg,Minneapolis Lakers,California-Los Angeles,1955,0,0,0
 Dick Garmaker,Minneapolis Lakers,Minnesota,1955,0,0,0
+Don Boldebuck,Minneapolis Lakers,Houston,1955,0,0,0
+Ray Warren,Ft. Wayne Zollner Pistons,Texas Christian,1955,0,0,0
+Bob Armstrong,Rochester Royals,Michigan State,1955,0,0,0
+Bob Reiter,Ft. Wayne Zollner Pistons,Missouri,1955,0,0,0
+Tom Mock,Ft. Wayne Zollner Pistons,Colorado,1955,0,0,0
+Nick Romanoff,Boston Celtics,Pacific,1955,9,0,0
+Tom Mixon,Ft. Wayne Zollner Pistons,Mercer,1955,0,0,0
+Happy Mahfouz,Ft. Wayne Zollner Pistons,Spring Hill,1955,0,0,0
+Tom Harrold,Ft. Wayne Zollner Pistons,Colorado,1955,0,0,0
+Don Belcher,Ft. Wayne Zollner Pistons,Louisiana State,1955,0,0,0
+Dean Parsons,Boston Celtics,Washington,1955,8,0,0
+Carl Hartman,Boston Celtics,Alderson Broaddus,1955,11,0,0
+Russ Lawler,Syracuse Nationals,Stanford,1955,0,0,0
+Stan Glowaski,Syracuse Nationals,Seattle,1955,0,0,0
+Ed Galvin,Syracuse Nationals,Loyola (LA),1955,0,0,0
+John Moore,Boston Celtics,California-Los Angeles,1955,7,0,0
+Jim Ahearn,Boston Celtics,Connecticut,1955,10,0,0
+Mark Davis,Boston Celtics,Marietta,1955,12,0,0
+Henry Dooley,Boston Celtics,Wiley,1955,13,0,0
+John Mahoney,Boston Celtics,William & Mary,1955,6,0,0
 Frank Selvy,Baltimore Bullets,Furman,1954,1,1,1
 Bob Pettit,Milwaukee Hawks,Louisiana State,1954,1,2,2
 Gene Shue,Philadelphia Warriors,Maryland,1954,1,3,3
@@ -7561,19 +7561,106 @@ Richie Regan,Rochester Royals,Seton Hall,1953,1,4,4
 Frank Ramsey,Boston Celtics,Kentucky,1953,1,5,5
 Jim Neal,Syracuse Nationals,Wofford,1953,1,6,6
 Jim Fritsche,Minneapolis Lakers,Hamline,1953,1,7,7
+Norm Grekin,Philadelphia Warriors,La Salle,1953,3,0,0
+Joe Cipriano,Milwaukee Hawks,Washington,1953,0,0,0
+Frank Reddout,Rochester Royals,Syracuse,1953,0,0,0
+Eddie O'Brien,Milwaukee Hawks,Seattle,1953,0,0,0
+Bob Peterson,Baltimore Bullets,Oregon,1953,0,0,0
+Connie Rea,Baltimore Bullets,Centenary (LA),1953,0,0,0
+John O'Brien,Milwaukee Hawks,Seattle,1953,0,0,0
+Bob Rousey,Milwaukee Hawks,Kansas State,1953,0,0,0
+Darrell Tucker,Milwaukee Hawks,Utah State,1953,0,0,0
+Bill Hull,Syracuse Nationals,Utah State,1953,0,0,0
+Dick Knostman,Syracuse Nationals,Kansas State,1953,0,0,0
+Lou Tsioropoulos,Boston Celtics,Kentucky,1953,7,0,0
 Bill Kenville,Syracuse Nationals,St. Bonaventure,1953,0,0,0
+Bill Bolger,Milwaukee Hawks,Georgetown,1953,0,0,0
+Paul Nolen,Baltimore Bullets,Texas Tech,1953,0,0,0
+Walter Dukes,New York Knicks,Seton Hall,1953,0,0,0
+Gene Dyker,Milwaukee Hawks,DePaul,1953,0,0,0
+Irv Bemoras,Milwaukee Hawks,Illinois,1953,0,0,0
+Joe Holup,Boston Celtics,George Washington,1953,5,0,0
+Norm Swanson,Rochester Royals,Detroit Mercy,1953,0,0,0
+Ernie Beck,Philadelphia Warriors,Pennsylvania,1953,0,0,0
+Joe Smyth,New York Knicks,Niagara,1953,0,0,0
+Jack George,Philadelphia Warriors,La Salle,1953,0,0,0
+Ken Sears,Rochester Royals,Santa Clara,1953,0,0,0
+Bob Santini,New York Knicks,Iona,1953,5,0,0
+Cliff Hagan,Boston Celtics,Kentucky,1953,3,0,0
+Larry Hennessy,Philadelphia Warriors,Villanova,1953,2,0,0
+Donald Ackerman,New York Knicks,Long Island-Brooklyn,1953,2,0,0
+Ron Feiereisel,Minneapolis Lakers,DePaul,1953,0,0,0
+Richard Atha,New York Knicks,Indiana State,1953,0,0,0
+Paul Brandt,Milwaukee Hawks,Columbia,1953,0,0,0
+Warren Shackelford,Syracuse Nationals,Tulsa,1953,0,0,0
+Mike Bodnar,Ft. Wayne Zollner Pistons,St. Bonaventure,1953,0,0,0
+Jim Bredar,Ft. Wayne Zollner Pistons,Illinois,1953,0,0,0
+George Glasgow,Ft. Wayne Zollner Pistons,Fairleigh Dickinson,1953,0,0,0
+William Hagan,Ft. Wayne Zollner Pistons,Siena,1953,0,0,0
+Dean Kelley,Ft. Wayne Zollner Pistons,Kansas,1953,0,0,0
+Norb Lewinski,Ft. Wayne Zollner Pistons,Notre Dame,1953,0,0,0
+Dick White,Ft. Wayne Zollner Pistons,Eastern Kentucky,1953,0,0,0
+Doug Atkins,Minneapolis Lakers,Tennessee,1953,0,0,0
+Hank Budde,Minneapolis Lakers,Xavier,1953,0,0,0
+Bill Chambers,Minneapolis Lakers,William & Mary,1953,0,0,0
+Joe Hughes,Syracuse Nationals,Denver,1953,0,0,0
+Harold Christensen,Minneapolis Lakers,Brigham Young,1953,0,0,0
+Ken Flowers,Minneapolis Lakers,Southern California,1953,0,0,0
+Bob Gelle,Minneapolis Lakers,Minnesota,1953,0,0,0
+Bob Gussner,Minneapolis Lakers,Hamline,1953,0,0,0
+Walt Kearns,Minneapolis Lakers,Arkansas,1953,0,0,0
+Glen Dille,Syracuse Nationals,Tulsa,1953,0,0,0
+Hartly Kruger,Minneapolis Lakers,Idaho,1953,0,0,0
+Roger Kuss,Minneapolis Lakers,Wisconsin-River Falls,1953,0,0,0
+Garrett Beshear,Syracuse Nationals,Murray State,1953,0,0,0
+Zippy Morocco,Minneapolis Lakers,Georgia,1953,0,0,0
+Lloyd Olmstead,Minneapolis Lakers,Cornell College,1953,0,0,0
+Joe Richey,Minneapolis Lakers,Brigham Young,1953,0,0,0
+Pete Silas,Minneapolis Lakers,Georgia Tech,1953,0,0,0
+Lloyd Thorgaard,Minneapolis Lakers,Hamline,1953,0,0,0
+Chuck Wolfe,Minneapolis Lakers,North Dakota,1953,0,0,0
+Will Bales,Rochester Royals,Eastern Kentucky,1953,0,0,0
+Al Bailey,Syracuse Nationals,Duquesne,1953,0,0,0
+Will Walls,Rochester Royals,Miami (FL),1953,0,0,0
+Paul Smaagard,Rochester Royals,Hamline,1953,0,0,0
+Tex Silverman,Rochester Royals,George Washington,1953,0,0,0
+Hugh Beins,Rochester Royals,Georgetown,1953,0,0,0
+Bill Edwards,Rochester Royals,St. Bonaventure,1953,0,0,0
+Jim Gerber,Rochester Royals,Bowling Green,1953,0,0,0
+Bob Goss,Rochester Royals,North Carolina State,1953,0,0,0
+Dick Gross,Rochester Royals,Wheaton (IL),1953,0,0,0
+Ed Kohl,Rochester Royals,Regis (CO),1953,0,0,0
+John Kurz,Rochester Royals,Loyola-Marymount,1953,0,0,0
+Gene Lambert,Rochester Royals,Arkansas,1953,0,0,0
+Nick Maguire,Rochester Royals,Villanova,1953,0,0,0
+Jim Scottie,Rochester Royals,West Virginia,1953,0,0,0
+Jim Bingham,Ft. Wayne Zollner Pistons,Eastern Kentucky,1953,0,0,0
+Edward Walsh,Baltimore Bullets,,1953,0,0,0
+Gerald Nappy,Syracuse Nationals,Georgetown,1953,0,0,0
+Andy McGowan,Syracuse Nationals,Manhattan,1953,0,0,0
+Bill Jenkins,Syracuse Nationals,Le Moyne,1953,0,0,0
+Jim Doherty,Boston Celtics,Whitworth,1953,12,0,0
+Lewis Gilcrease,Boston Celtics,Texas State,1953,9,0,0
+Ted Lallier,Boston Celtics,Colby,1953,8,0,0
+Tom Lillis,Boston Celtics,Saint Louis,1953,10,0,0
+Earle Markey,Boston Celtics,Holy Cross,1953,4,0,0
+Chet Noe,Boston Celtics,Oregon,1953,2,0,0
+Gil Reich,Boston Celtics,Kansas,1953,11,0,0
+Vernon Stokes,Boston Celtics,St. Francis Brooklyn,1953,6,0,0
+Thomas Bishop,New York Knicks,Southern Mississippi,1953,4,0,0
+Delmer Diercks,New York Knicks,Iowa State,1953,0,0,0
+Neil Gordon,New York Knicks,Furman,1953,3,0,0
+Forrest Hamilton,New York Knicks,Missouri State,1953,0,0,0
+Bob Matheny,New York Knicks,California,1953,0,0,0
+Larry O'Connor,New York Knicks,Canisius,1953,0,0,0
+Richard Prater,New York Knicks,Kentucky,1953,0,0,0
 Allan Schutts,New York Knicks,Springfield,1953,0,0,0
 Bill Dodd,Philadelphia Warriors,Colgate,1953,8,0,0
-Irv Bemoras,Milwaukee Hawks,Illinois,1953,0,0,0
 John Doogan,Philadelphia Warriors,Saint Joseph's,1953,11,0,0
 Charles Duffley,Philadelphia Warriors,St. Anselm,1953,12,0,0
-Walter Dukes,New York Knicks,Seton Hall,1953,0,0,0
 Don Eby,Philadelphia Warriors,Southern California,1953,6,0,0
 Toar Hester,Philadelphia Warriors,Centenary (LA),1953,10,0,0
-Ernie Beck,Philadelphia Warriors,Pennsylvania,1953,0,0,0
-Richard Atha,New York Knicks,Indiana State,1953,0,0,0
 Fred Ihle,Philadelphia Warriors,La Salle,1953,4,0,0
-Joe Holup,Boston Celtics,George Washington,1953,5,0,0
 Bob Marske,Philadelphia Warriors,,1953,7,0,0
 Bob Sassone,Philadelphia Warriors,St. Bonaventure,1953,9,0,0
 Eddie Solomon,Philadelphia Warriors,West Virginia Tech,1953,5,0,0
@@ -7585,97 +7672,10 @@ Dennis Murphy,Baltimore Bullets,Georgetown,1953,0,0,0
 Joe Piorkowski,Baltimore Bullets,,1953,0,0,0
 Bill Schyman,Baltimore Bullets,DePaul,1953,0,0,0
 Herman Sledzik,Baltimore Bullets,Penn State,1953,0,0,0
-Richard Prater,New York Knicks,Kentucky,1953,0,0,0
-Larry O'Connor,New York Knicks,Canisius,1953,0,0,0
-Bob Matheny,New York Knicks,California,1953,0,0,0
-Forrest Hamilton,New York Knicks,Missouri State,1953,0,0,0
-Neil Gordon,New York Knicks,Furman,1953,3,0,0
-Delmer Diercks,New York Knicks,Iowa State,1953,0,0,0
-Thomas Bishop,New York Knicks,Southern Mississippi,1953,4,0,0
-Vernon Stokes,Boston Celtics,St. Francis Brooklyn,1953,6,0,0
-Gil Reich,Boston Celtics,Kansas,1953,11,0,0
-Chet Noe,Boston Celtics,Oregon,1953,2,0,0
-Earle Markey,Boston Celtics,Holy Cross,1953,4,0,0
-Tom Lillis,Boston Celtics,Saint Louis,1953,10,0,0
-Ted Lallier,Boston Celtics,Colby,1953,8,0,0
-Lewis Gilcrease,Boston Celtics,Texas State,1953,9,0,0
-Jim Doherty,Boston Celtics,Whitworth,1953,12,0,0
-Gene Dyker,Milwaukee Hawks,DePaul,1953,0,0,0
-Dick Knostman,Syracuse Nationals,Kansas State,1953,0,0,0
-Paul Nolen,Baltimore Bullets,Texas Tech,1953,0,0,0
-Norm Grekin,Philadelphia Warriors,La Salle,1953,3,0,0
-Bill Bolger,Milwaukee Hawks,Georgetown,1953,0,0,0
-Jack George,Philadelphia Warriors,La Salle,1953,0,0,0
-Joe Smyth,New York Knicks,Niagara,1953,0,0,0
-Cliff Hagan,Boston Celtics,Kentucky,1953,3,0,0
-Norm Swanson,Rochester Royals,Detroit Mercy,1953,0,0,0
-Ron Feiereisel,Minneapolis Lakers,DePaul,1953,0,0,0
-Donald Ackerman,New York Knicks,Long Island-Brooklyn,1953,2,0,0
-Ken Sears,Rochester Royals,Santa Clara,1953,0,0,0
-Bob Santini,New York Knicks,Iona,1953,5,0,0
-Larry Hennessy,Philadelphia Warriors,Villanova,1953,2,0,0
 Bob Speight,Baltimore Bullets,North Carolina State,1953,0,0,0
 Don Stemmerich,Baltimore Bullets,,1953,0,0,0
-Lloyd Thorgaard,Minneapolis Lakers,Hamline,1953,0,0,0
-Chuck Wolfe,Minneapolis Lakers,North Dakota,1953,0,0,0
-Will Bales,Rochester Royals,Eastern Kentucky,1953,0,0,0
-Hugh Beins,Rochester Royals,Georgetown,1953,0,0,0
-Bill Edwards,Rochester Royals,St. Bonaventure,1953,0,0,0
-Jim Gerber,Rochester Royals,Bowling Green,1953,0,0,0
-Bob Goss,Rochester Royals,North Carolina State,1953,0,0,0
-Dick Gross,Rochester Royals,Wheaton (IL),1953,0,0,0
-Ed Kohl,Rochester Royals,Regis (CO),1953,0,0,0
-John Kurz,Rochester Royals,Loyola-Marymount,1953,0,0,0
-Harold Christensen,Minneapolis Lakers,Brigham Young,1953,0,0,0
-Gene Lambert,Rochester Royals,Arkansas,1953,0,0,0
-Nick Maguire,Rochester Royals,Villanova,1953,0,0,0
-Jim Scottie,Rochester Royals,West Virginia,1953,0,0,0
-Kendall Sheets,Rochester Royals,Oklahoma State,1953,0,0,0
-Tex Silverman,Rochester Royals,George Washington,1953,0,0,0
-Paul Smaagard,Rochester Royals,Hamline,1953,0,0,0
-Will Walls,Rochester Royals,Miami (FL),1953,0,0,0
-Al Bailey,Syracuse Nationals,Duquesne,1953,0,0,0
-Garrett Beshear,Syracuse Nationals,Murray State,1953,0,0,0
-Glen Dille,Syracuse Nationals,Tulsa,1953,0,0,0
-Joe Hughes,Syracuse Nationals,Denver,1953,0,0,0
-Bill Hull,Syracuse Nationals,Utah State,1953,0,0,0
-Bill Jenkins,Syracuse Nationals,Le Moyne,1953,0,0,0
-Andy McGowan,Syracuse Nationals,Manhattan,1953,0,0,0
-Gerald Nappy,Syracuse Nationals,Georgetown,1953,0,0,0
-Connie Rea,Baltimore Bullets,Centenary (LA),1953,0,0,0
-Warren Shackelford,Syracuse Nationals,Tulsa,1953,0,0,0
-Frank Reddout,Rochester Royals,Syracuse,1953,0,0,0
-Paul Brandt,Milwaukee Hawks,Columbia,1953,0,0,0
-Joe Cipriano,Milwaukee Hawks,Washington,1953,0,0,0
-Eddie O'Brien,Milwaukee Hawks,Seattle,1953,0,0,0
-John O'Brien,Milwaukee Hawks,Seattle,1953,0,0,0
-Bob Rousey,Milwaukee Hawks,Kansas State,1953,0,0,0
-Darrell Tucker,Milwaukee Hawks,Utah State,1953,0,0,0
-Lou Tsioropoulos,Boston Celtics,Kentucky,1953,7,0,0
-Pete Silas,Minneapolis Lakers,Georgia Tech,1953,0,0,0
-Joe Richey,Minneapolis Lakers,Brigham Young,1953,0,0,0
-William Hagan,Ft. Wayne Zollner Pistons,Siena,1953,0,0,0
-Jim Bredar,Ft. Wayne Zollner Pistons,Illinois,1953,0,0,0
-Mike Bodnar,Ft. Wayne Zollner Pistons,St. Bonaventure,1953,0,0,0
-Dean Kelley,Ft. Wayne Zollner Pistons,Kansas,1953,0,0,0
-Jim Bingham,Ft. Wayne Zollner Pistons,Eastern Kentucky,1953,0,0,0
-Norb Lewinski,Ft. Wayne Zollner Pistons,Notre Dame,1953,0,0,0
-Dick White,Ft. Wayne Zollner Pistons,Eastern Kentucky,1953,0,0,0
-Edward Walsh,Baltimore Bullets,,1953,0,0,0
-Doug Atkins,Minneapolis Lakers,Tennessee,1953,0,0,0
 Elmer Tolson,Baltimore Bullets,Eastern Kentucky,1953,0,0,0
-Hank Budde,Minneapolis Lakers,Xavier,1953,0,0,0
-Bill Chambers,Minneapolis Lakers,William & Mary,1953,0,0,0
-Ken Flowers,Minneapolis Lakers,Southern California,1953,0,0,0
-George Glasgow,Ft. Wayne Zollner Pistons,Fairleigh Dickinson,1953,0,0,0
-Bob Gelle,Minneapolis Lakers,Minnesota,1953,0,0,0
-Bob Gussner,Minneapolis Lakers,Hamline,1953,0,0,0
-Walt Kearns,Minneapolis Lakers,Arkansas,1953,0,0,0
-Hartly Kruger,Minneapolis Lakers,Idaho,1953,0,0,0
-Lloyd Olmstead,Minneapolis Lakers,Cornell College,1953,0,0,0
-Bob Peterson,Baltimore Bullets,Oregon,1953,0,0,0
-Zippy Morocco,Minneapolis Lakers,Georgia,1953,0,0,0
-Roger Kuss,Minneapolis Lakers,Wisconsin-River Falls,1953,0,0,0
+Kendall Sheets,Rochester Royals,Oklahoma State,1953,0,0,0
 Mark Workman,Milwaukee Hawks,West Virginia,1952,1,0,1
 Jim Baechtold,Baltimore Bullets,Eastern Kentucky,1952,1,0,2
 Dick Groat,Ft. Wayne Zollner Pistons,Duke,1952,1,0,3
@@ -7685,79 +7685,11 @@ Bill Stauffer,Boston Celtics,Missouri,1952,1,0,6
 Bob Lochmueller,Syracuse Nationals,Louisville,1952,1,0,7
 Chuck Darling,Rochester Royals,Iowa,1952,1,0,8
 Clyde Lovellette,Minneapolis Lakers,Kansas,1952,1,0,9
-Jim Buchanan,Boston Celtics,Nebraska,1952,6,0,0
-Arnold Smith,Rochester Royals,City College of New York,1952,0,0,0
-Jim Dilling,Boston Celtics,Holy Cross,1952,9,0,0
-Art Press,Baltimore Bullets,McDaniel,1952,0,0,0
-Fred Eydt,Boston Celtics,Cornell,1952,7,0,0
-Bud Penwell,Baltimore Bullets,Oklahoma City,1952,0,0,0
-Ray Sonnenberg,Rochester Royals,Saint Louis,1952,0,0,0
-Bob Holt,Minneapolis Lakers,Tulane,1952,0,0,0
-Bud Julian,New York Knicks,Missouri State,1952,0,0,0
-Ben Stewart,Philadelphia Warriors,Villanova,1952,0,0,0
-Jim Iverson,Boston Celtics,Kansas State,1952,2,0,0
-Don Johnson,Boston Celtics,Oklahoma State,1952,5,0,0
-Ed Ramiraz,Minneapolis Lakers,Centenary (LA),1952,0,0,0
-Ben Gibson,New York Knicks,St. Mary's (CA),1952,0,0,0
-Cliff Haag,Minneapolis Lakers,Wyoming,1952,0,0,0
-Dick Means,Minneapolis Lakers,Minnesota,1952,0,0,0
-Bill Lea,Baltimore Bullets,Missouri State,1952,0,0,0
-Frank Guisness,Baltimore Bullets,Washington,1952,0,0,0
-Roy Belliveau,New York Knicks,Seton Hall,1952,0,0,0
-Gene Smith,Minneapolis Lakers,Huron,1952,0,0,0
-Tom Katsimpalis,Minneapolis Lakers,Eastern Illinois,1952,0,0,0
-Mike Magula,Baltimore Bullets,Youngstown State,1952,0,0,0
-Dwight Morrison,Minneapolis Lakers,Southern California,1952,0,0,0
-Gordon Mungier,Boston Celtics,Spring Hill,1952,8,0,0
-J. C. Maze,Boston Celtics,Texas State,1952,3,0,0
-Jim Ramstead,Ft. Wayne Zollner Pistons,Stanford,1952,0,0,0
-Don Schneider,Minneapolis Lakers,Arizona,1952,0,0,0
-Bob Clifton,Ft. Wayne Zollner Pistons,Iowa,1952,0,0,0
-Middie Smith,Minneapolis Lakers,Xavier,1952,0,0,0
-Homer Spain,Minneapolis Lakers,Union (TN),1952,0,0,0
-John Wallesea,Minneapolis Lakers,Memphis,1952,0,0,0
-Bryant Ivey,Rochester Royals,Alabama,1952,0,0,0
-Leroy Leslie,Rochester Royals,Notre Dame,1952,0,0,0
-Jewell McDowell,Rochester Royals,Texas A&M,1952,0,0,0
-Sam Miranda,Rochester Royals,Indiana,1952,0,0,0
-Leo Corkery,Ft. Wayne Zollner Pistons,St. Bonaventure,1952,0,0,0
-Jerry Romney,Rochester Royals,Brigham Young,1952,0,0,0
-Nick Kladis,Philadelphia Warriors,Loyola-Chicago,1952,0,0,0
-Newt Jones,Philadelphia Warriors,La Salle,1952,0,0,0
-Hal Cerra,Ft. Wayne Zollner Pistons,Duquesne,1952,0,0,0
-Burr Carlson,Philadelphia Warriors,Connecticut,1952,0,0,0
-Bob Brown,Philadelphia Warriors,Louisville,1952,0,0,0
-Don Scanlon,Philadelphia Warriors,Pennsylvania,1952,0,0,0
-Bill Carlson,Ft. Wayne Zollner Pistons,Fordham,1952,0,0,0
-Jim Kennedy,Syracuse Nationals,Duquesne,1952,0,0,0
-Bud Donnelly,Syracuse Nationals,La Salle,1952,0,0,0
-Dale Toft,Indianapolis Olympians,Denver,1952,0,0,0
-Ray Royce,Rochester Royals,Houston,1952,0,0,0
-Gordon Stauffer,Indianapolis Olympians,Michigan State,1952,0,0,0
-Lee Terrill,Ft. Wayne Zollner Pistons,North Carolina State,1952,0,0,0
-Jim Hoverder,Indianapolis Olympians,Central Missouri,1952,0,0,0
-Bill Harrell,Indianapolis Olympians,Siena,1952,0,0,0
-Glenn Smith,Philadelphia Warriors,Utah,1952,0,0,0
-Tom Ackerman,Minneapolis Lakers,West Liberty,1952,0,0,0
-Benny Purcell,Baltimore Bullets,Murray State,1952,0,0,0
-Jay Handlan,Indianapolis Olympians,Washington & Lee,1952,0,0,0
-Jim Bishop,Minneapolis Lakers,Southern Mississippi,1952,0,0,0
-Rod Fletcher,Minneapolis Lakers,Illinois,1952,0,0,0
-Bob Whitmer,Rochester Royals,Florida State,1952,0,0,0
-Harry Moore,Syracuse Nationals,West Virginia,1952,0,0,0
-Ray Steiner,Rochester Royals,Saint Louis,1952,0,0,0
+Moe Radovich,Philadelphia Warriors,Wyoming,1952,0,0,0
+Bob Priddy,Baltimore Bullets,New Mexico State,1952,0,0,0
+Bob Peterson,Baltimore Bullets,Oregon,1952,0,0,0
+Gene Rhodes,Indianapolis Olympians,Western Kentucky,1952,0,0,0
 Robert Zawoluk,Indianapolis Olympians,St. John's (NY),1952,0,0,0
-Jim Brasco,Syracuse Nationals,New York University,1952,0,0,0
-Tom Brennan,Philadelphia Warriors,Villanova,1952,0,0,0
-Gene Conley,Boston Celtics,Washington State,1952,10,0,0
-Bert Cook,New York Knicks,Utah State,1952,0,0,0
-Jim Holstein,Minneapolis Lakers,Cincinnati,1952,0,0,0
-Paul Sullivan,New York Knicks,Alabama,1952,0,0,0
-Herm Hedderick,Boston Celtics,Canisius,1952,4,0,0
-Dick Bunt,New York Knicks,New York University,1952,0,0,0
-Chuck Grigsby,Baltimore Bullets,Dayton,1952,0,0,0
-Walt Davis,Philadelphia Warriors,Texas A&M,1952,2,0,0
-Blaine Denning,Baltimore Bullets,Lawrence Tech,1952,0,0,0
 Bill Mlkvy,Philadelphia Warriors,Temple,1952,0,0,0
 Eddie Miller,Milwaukee Hawks,Syracuse,1952,0,0,0
 Don Meineke,Ft. Wayne Zollner Pistons,Dayton,1952,0,0,0
@@ -7765,23 +7697,91 @@ Carl McNulty,Minneapolis Lakers,Purdue,1952,0,0,0
 Jack McMahon,Rochester Royals,St. John's (NY),1952,0,0,0
 George McLeod,Milwaukee Hawks,Texas Christian,1952,0,0,0
 Ken McBride,Syracuse Nationals,Maryland-Eastern Shore,1952,0,0,0
-Bob Peterson,Baltimore Bullets,Oregon,1952,0,0,0
-Bob Priddy,Baltimore Bullets,New Mexico State,1952,0,0,0
-Moe Radovich,Philadelphia Warriors,Wyoming,1952,0,0,0
-Coyt Vance,Milwaukee Hawks,Mississippi State,1952,0,0,0
-Ab Nicholas,Milwaukee Hawks,Wisconsin,1952,0,0,0
-Gene Rhodes,Indianapolis Olympians,Western Kentucky,1952,0,0,0
-Ronnie MacGilvray,Rochester Royals,St. John's (NY),1952,0,0,0
+Ray Sonnenberg,Rochester Royals,Saint Louis,1952,0,0,0
+Arnold Smith,Rochester Royals,City College of New York,1952,0,0,0
+Ray Royce,Rochester Royals,Houston,1952,0,0,0
+Jerry Romney,Rochester Royals,Brigham Young,1952,0,0,0
+Sam Miranda,Rochester Royals,Indiana,1952,0,0,0
+Jewell McDowell,Rochester Royals,Texas A&M,1952,0,0,0
+Leroy Leslie,Rochester Royals,Notre Dame,1952,0,0,0
 Dick Surhoff,New York Knicks,Long Island-Brooklyn,1952,0,0,0
-Jim Walsh,Baltimore Bullets,Stanford,1952,0,0,0
-Lucian Whitaker,Indianapolis Olympians,Kentucky,1952,0,0,0
+John Wallesea,Minneapolis Lakers,Memphis,1952,0,0,0
+Bryant Ivey,Rochester Royals,Alabama,1952,0,0,0
+Bill Harrell,Indianapolis Olympians,Siena,1952,0,0,0
+Hal Cerra,Ft. Wayne Zollner Pistons,Duquesne,1952,0,0,0
+Bill Carlson,Ft. Wayne Zollner Pistons,Fordham,1952,0,0,0
+Benny Purcell,Baltimore Bullets,Murray State,1952,0,0,0
+Art Press,Baltimore Bullets,McDaniel,1952,0,0,0
+Bud Penwell,Baltimore Bullets,Oklahoma City,1952,0,0,0
+Mike Magula,Baltimore Bullets,Youngstown State,1952,0,0,0
+Bill Lea,Baltimore Bullets,Missouri State,1952,0,0,0
+Frank Guisness,Baltimore Bullets,Washington,1952,0,0,0
+Ben Stewart,Philadelphia Warriors,Villanova,1952,0,0,0
+Glenn Smith,Philadelphia Warriors,Utah,1952,0,0,0
+Don Scanlon,Philadelphia Warriors,Pennsylvania,1952,0,0,0
+Nick Kladis,Philadelphia Warriors,Loyola-Chicago,1952,0,0,0
+Newt Jones,Philadelphia Warriors,La Salle,1952,0,0,0
+Burr Carlson,Philadelphia Warriors,Connecticut,1952,0,0,0
+Bob Brown,Philadelphia Warriors,Louisville,1952,0,0,0
+Paul Sullivan,New York Knicks,Alabama,1952,0,0,0
+Bud Julian,New York Knicks,Missouri State,1952,0,0,0
+Ben Gibson,New York Knicks,St. Mary's (CA),1952,0,0,0
+Roy Belliveau,New York Knicks,Seton Hall,1952,0,0,0
+Gordon Mungier,Boston Celtics,Spring Hill,1952,8,0,0
+J. C. Maze,Boston Celtics,Texas State,1952,3,0,0
+Don Johnson,Boston Celtics,Oklahoma State,1952,5,0,0
+Jim Iverson,Boston Celtics,Kansas State,1952,2,0,0
+Fred Eydt,Boston Celtics,Cornell,1952,7,0,0
+Jim Dilling,Boston Celtics,Holy Cross,1952,9,0,0
+Jim Buchanan,Boston Celtics,Nebraska,1952,6,0,0
+Jim Ramstead,Ft. Wayne Zollner Pistons,Stanford,1952,0,0,0
+Ray Steiner,Rochester Royals,Saint Louis,1952,0,0,0
+Bob Whitmer,Rochester Royals,Florida State,1952,0,0,0
+Jay Handlan,Indianapolis Olympians,Washington & Lee,1952,0,0,0
+Harry Moore,Syracuse Nationals,West Virginia,1952,0,0,0
 Bob Roche,Syracuse Nationals,Syracuse,1952,0,0,0
-Bobby Watson,Milwaukee Hawks,Kentucky,1952,0,0,0
 Pete Brewster,Milwaukee Hawks,Purdue,1952,0,0,0
-Jim Tackett,Milwaukee Hawks,New Mexico,1952,0,0,0
-John Snee,Milwaukee Hawks,Clemson,1952,0,0,0
 Roger Johnson,Milwaukee Hawks,Arizona,1952,0,0,0
+Ab Nicholas,Milwaukee Hawks,Wisconsin,1952,0,0,0
 Dick Retherford,Milwaukee Hawks,Baldwin Wallace,1952,0,0,0
+John Snee,Milwaukee Hawks,Clemson,1952,0,0,0
+Jim Tackett,Milwaukee Hawks,New Mexico,1952,0,0,0
+Coyt Vance,Milwaukee Hawks,Mississippi State,1952,0,0,0
+Bobby Watson,Milwaukee Hawks,Kentucky,1952,0,0,0
+Jim Kennedy,Syracuse Nationals,Duquesne,1952,0,0,0
+Bud Donnelly,Syracuse Nationals,La Salle,1952,0,0,0
+Dale Toft,Indianapolis Olympians,Denver,1952,0,0,0
+Gordon Stauffer,Indianapolis Olympians,Michigan State,1952,0,0,0
+Bob Clifton,Ft. Wayne Zollner Pistons,Iowa,1952,0,0,0
+Leo Corkery,Ft. Wayne Zollner Pistons,St. Bonaventure,1952,0,0,0
+Ronnie MacGilvray,Rochester Royals,St. John's (NY),1952,0,0,0
+Lucian Whitaker,Indianapolis Olympians,Kentucky,1952,0,0,0
+Dick Bunt,New York Knicks,New York University,1952,0,0,0
+Homer Spain,Minneapolis Lakers,Union (TN),1952,0,0,0
+Middie Smith,Minneapolis Lakers,Xavier,1952,0,0,0
+Gene Smith,Minneapolis Lakers,Huron,1952,0,0,0
+Don Schneider,Minneapolis Lakers,Arizona,1952,0,0,0
+Ed Ramiraz,Minneapolis Lakers,Centenary (LA),1952,0,0,0
+Chuck Grigsby,Baltimore Bullets,Dayton,1952,0,0,0
+Jim Walsh,Baltimore Bullets,Stanford,1952,0,0,0
+Dwight Morrison,Minneapolis Lakers,Southern California,1952,0,0,0
+Jim Hoverder,Indianapolis Olympians,Central Missouri,1952,0,0,0
+Gene Conley,Boston Celtics,Washington State,1952,10,0,0
+Bert Cook,New York Knicks,Utah State,1952,0,0,0
+Jim Holstein,Minneapolis Lakers,Cincinnati,1952,0,0,0
+Dick Means,Minneapolis Lakers,Minnesota,1952,0,0,0
+Walt Davis,Philadelphia Warriors,Texas A&M,1952,2,0,0
+Tom Katsimpalis,Minneapolis Lakers,Eastern Illinois,1952,0,0,0
+Lee Terrill,Ft. Wayne Zollner Pistons,North Carolina State,1952,0,0,0
+Tom Ackerman,Minneapolis Lakers,West Liberty,1952,0,0,0
+Jim Bishop,Minneapolis Lakers,Southern Mississippi,1952,0,0,0
+Blaine Denning,Baltimore Bullets,Lawrence Tech,1952,0,0,0
+Rod Fletcher,Minneapolis Lakers,Illinois,1952,0,0,0
+Cliff Haag,Minneapolis Lakers,Wyoming,1952,0,0,0
+Jim Brasco,Syracuse Nationals,New York University,1952,0,0,0
+Tom Brennan,Philadelphia Warriors,Villanova,1952,0,0,0
+Bob Holt,Minneapolis Lakers,Tulane,1952,0,0,0
+Herm Hedderick,Boston Celtics,Canisius,1952,4,0,0
 Gene Melchiorre,Baltimore Bullets,Bradley,1951,1,1,1
 Mel Hutchins,Milwaukee Hawks,Brigham Young,1951,1,2,2
 Marcus Freiberger,Indianapolis Olympians,Oklahoma,1951,1,3,3
@@ -7880,116 +7880,116 @@ Bob Lavoy,Indianapolis Olympians,Western Kentucky,1950,1,8,8
 Joe McNamee,Rochester Royals,San Francisco,1950,1,9,9
 Kevin O'Shea,Minneapolis Lakers,Notre Dame,1950,1,10,10
 Don Lofgran,Syracuse Nationals,San Francisco,1950,1,11,11
-Paul Hicks,Tri-Cities Blackhawks,Eastern Kentucky,1950,4,0,0
-Ed Beach,Minneapolis Lakers,West Virginia,1950,5,0,0
-Dale Barnstable,Boston Celtics,Kentucky,1950,7,0,0
-Bob Cope,Boston Celtics,Montana,1950,9,0,0
-Matt Forman,Boston Celtics,Holy Cross,1950,10,0,0
-Paul Arizin,Philadelphia Warriors,Villanova,1950,0,0,0
-Frank Oftring,Boston Celtics,Holy Cross,1950,8,0,0
-Earl Lloyd,Washington Capitols,West Virginia State,1950,9,0,0
+Stan Weber,New York Knicks,Bowling Green,1950,3,0,0
+Don Parsons,New York Knicks,Rutgers,1950,6,0,0
+Costic Borsavage,Philadelphia Warriors,Temple,1950,5,0,0
+Alan Sawyer,Washington Capitols,California-Los Angeles,1950,3,0,0
+Brooks Ricca,Philadelphia Warriors,Villanova,1950,8,0,0
+Jim Riffey,Ft. Wayne Zollner Pistons,Tulane,1950,2,0,0
+Joe Ossola,New York Knicks,Saint Louis,1950,4,0,0
+Charles Northup,Philadelphia Warriors,Siena,1950,7,0,0
+Charles Hope,New York Knicks,Appalachian State,1950,8,0,0
+Herb Scherer,New York Knicks,Long Island-Brooklyn,1950,2,0,0
+Jack Laub,Baltimore Bullets,Cincinnati,1950,9,0,0
+Jerry Reed,Baltimore Bullets,Wyoming,1950,4,0,0
+George King,Chicago Stags,Charleston (WV),1950,8,0,0
+Leon Blevins,Indianapolis Olympians,Arizona,1950,7,0,0
+Tommy O'Keefe,Washington Capitols,Georgetown,1950,4,0,0
+Ed Gayda,Tri-Cities Blackhawks,Washington State,1950,2,0,0
+Ed Montgomery,Philadelphia Warriors,Tennessee,1950,12,0,0
+Mike Zedalis,Baltimore Bullets,Loyola-Maryland,1950,10,0,0
 Ken Reeves,Boston Celtics,Louisville,1950,4,0,0
+Bernie Adams,Philadelphia Warriors,Princeton,1950,10,0,0
+Ken Murray,Chicago Stags,St. Bonaventure,1950,4,0,0
+Buddy Cate,Philadelphia Warriors,Western Kentucky,1950,3,0,0
+Chuck Mrazovich,Indianapolis Olympians,Eastern Kentucky,1950,3,0,0
 Jack Shelton,Boston Celtics,Oklahoma State,1950,5,0,0
+Rick Harman,Baltimore Bullets,Kansas State,1950,6,0,0
+Milt Whitehead,Chicago Stags,Nebraska,1950,7,0,0
+George Bush,Baltimore Bullets,Toledo,1950,8,0,0
+Wally Osterkorn,Chicago Stags,Illinois,1950,2,0,0
+Joe Noertker,Washington Capitols,Virginia,1950,10,0,0
+Joe Greenbach,Washington Capitols,Santa Clara,1950,8,0,0
+Paul Arizin,Philadelphia Warriors,Villanova,1950,0,0,0
 John Brown,Chicago Stags,Georgetown,1950,9,0,0
+Francis Mahoney,Boston Celtics,Brown,1950,6,0,0
+Paul Sensky,Philadelphia Warriors,Saint Joseph's,1950,4,0,0
+Jim Cathcart,Washington Capitols,Arkansas,1950,7,0,0
+Warren Cartier,Washington Capitols,North Carolina State,1950,6,0,0
+Dick Dallmer,Philadelphia Warriors,Cincinnati,1950,6,0,0
 Stu Inman,Chicago Stags,San Jose State,1950,6,0,0
+Claude Overton,Washington Capitols,East Central,1950,5,0,0
+Joe Nelson,Rochester Royals,Brigham Young,1950,5,0,0
+Joe Kaufman,Philadelphia Warriors,New York University,1950,9,0,0
+Leo Wolfe,Philadelphia Warriors,Villanova,1950,11,0,0
+Ed Beach,Minneapolis Lakers,West Virginia,1950,5,0,0
 Bud Schaeffer,Chicago Stags,Wheaton (IL),1950,10,0,0
 Don Stroot,Chicago Stags,Missouri,1950,5,0,0
 Lou Watson,Chicago Stags,Indiana,1950,3,0,0
-Milt Whitehead,Chicago Stags,Nebraska,1950,7,0,0
-Dick Barnes,New York Knicks,San Diego State,1950,5,0,0
-Don Heathington,New York Knicks,Baylor,1950,9,0,0
-Charles Hope,New York Knicks,Appalachian State,1950,8,0,0
-Joe Ossola,New York Knicks,Saint Louis,1950,4,0,0
-Don Parsons,New York Knicks,Rutgers,1950,6,0,0
-Bud Grant,Minneapolis Lakers,Minnesota,1950,4,0,0
-Art Burris,Ft. Wayne Zollner Pistons,Tennessee,1950,3,0,0
-Gerry Calabrese,Syracuse Nationals,St. John's (NY),1950,2,0,0
-Norm Mager,Baltimore Bullets,City College of New York,1950,5,0,0
-Leon Blevins,Indianapolis Olympians,Arizona,1950,7,0,0
-Costic Borsavage,Philadelphia Warriors,Temple,1950,5,0,0
-Francis Mahoney,Boston Celtics,Brown,1950,6,0,0
-Ed Gayda,Tri-Cities Blackhawks,Washington State,1950,2,0,0
-Tommy O'Keefe,Washington Capitols,Georgetown,1950,4,0,0
-Cal Christensen,Tri-Cities Blackhawks,Toledo,1950,5,0,0
-Joe Hutton,Minneapolis Lakers,Hamline,1950,7,0,0
-Chuck Cooper,Boston Celtics,Duquesne,1950,2,0,0
-Alan Sawyer,Washington Capitols,California-Los Angeles,1950,3,0,0
-Herb Scherer,New York Knicks,Long Island-Brooklyn,1950,2,0,0
-Ed Dahler,Philadelphia Warriors,Duquesne,1950,2,0,0
-Bill Sharman,Washington Capitols,Southern California,1950,2,0,0
-Joe Nelson,Rochester Royals,Brigham Young,1950,5,0,0
+Frank Comerford,Baltimore Bullets,La Salle,1950,7,0,0
+Matt Forman,Boston Celtics,Holy Cross,1950,10,0,0
+Jerry Stuteville,Indianapolis Olympians,Indiana,1950,8,0,0
+Paul Unruh,Indianapolis Olympians,Bradley,1950,2,0,0
+Lou Arko,Syracuse Nationals,Akron,1950,7,0,0
+Stan Christie,Syracuse Nationals,Southern California,1950,3,0,0
+Bob Healey,Syracuse Nationals,Georgia,1950,8,0,0
 Buckshot O'Brien,Indianapolis Olympians,Butler,1950,6,0,0
-Nate DeLong,Tri-Cities Blackhawks,Wisconsin-River Falls,1950,9,0,0
-Wally Osterkorn,Chicago Stags,Illinois,1950,2,0,0
-Dick Dickey,Baltimore Bullets,North Carolina State,1950,3,0,0
-Claude Overton,Washington Capitols,East Central,1950,5,0,0
+Paul Merchant,Syracuse Nationals,Oklahoma,1950,4,0,0
+Joe Hutton,Minneapolis Lakers,Hamline,1950,7,0,0
+Bob Savage,Syracuse Nationals,Syracuse,1950,9,0,0
+Mack Suprunowicz,Syracuse Nationals,Michigan,1950,6,0,0
+Glenn Wilkes,Syracuse Nationals,Mercer,1950,10,0,0
+Bob Anderson,Tri-Cities Blackhawks,Loyola-Maryland,1950,6,0,0
+Keith Bloom,Tri-Cities Blackhawks,Wyoming,1950,10,0,0
+Clarence Brannum,Tri-Cities Blackhawks,Kansas State,1950,3,0,0
+Loy Doty,Tri-Cities Blackhawks,Wyoming,1950,8,0,0
+Bill Erickson,Tri-Cities Blackhawks,Illinois,1950,7,0,0
+Paul Hicks,Tri-Cities Blackhawks,Eastern Kentucky,1950,4,0,0
+Paul Hickey,Syracuse Nationals,Denver,1950,5,0,0
 Bob Donham,Boston Celtics,Ohio State,1950,3,0,0
-Ken Murray,Chicago Stags,St. Bonaventure,1950,4,0,0
-George King,Chicago Stags,Charleston (WV),1950,8,0,0
-Chuck Mrazovich,Indianapolis Olympians,Eastern Kentucky,1950,3,0,0
+Dick Dickey,Baltimore Bullets,North Carolina State,1950,3,0,0
+Nate DeLong,Tri-Cities Blackhawks,Wisconsin-River Falls,1950,9,0,0
+Bob Cope,Boston Celtics,Montana,1950,9,0,0
+Ed Dahler,Philadelphia Warriors,Duquesne,1950,2,0,0
+Earl Lloyd,Washington Capitols,West Virginia State,1950,9,0,0
+Dale Barnstable,Boston Celtics,Kentucky,1950,7,0,0
+Chuck Cooper,Boston Celtics,Duquesne,1950,2,0,0
 John Pilch,Baltimore Bullets,Wyoming,1950,2,0,0
-Jim Riffey,Ft. Wayne Zollner Pistons,Tulane,1950,2,0,0
-Stan Weber,New York Knicks,Bowling Green,1950,3,0,0
-Bernie Adams,Philadelphia Warriors,Princeton,1950,10,0,0
+Cal Christensen,Tri-Cities Blackhawks,Toledo,1950,5,0,0
+Gerry Calabrese,Syracuse Nationals,St. John's (NY),1950,2,0,0
+Art Burris,Ft. Wayne Zollner Pistons,Tennessee,1950,3,0,0
+Norm Mager,Baltimore Bullets,City College of New York,1950,5,0,0
+Dan Bagley,New York Knicks,Notre Dame,1950,7,0,0
+Dick Barnes,New York Knicks,San Diego State,1950,5,0,0
 Gene Schmidt,Indianapolis Olympians,Texas Christian,1950,9,0,0
 Jim Line,Indianapolis Olympians,Kentucky,1950,4,0,0
 Jimmy Doyle,Indianapolis Olympians,Butler,1950,11,0,0
-Paul Unruh,Indianapolis Olympians,Bradley,1950,2,0,0
-Lou Arko,Syracuse Nationals,Akron,1950,7,0,0
+Bill Sharman,Washington Capitols,Southern California,1950,2,0,0
 Colin Anderson,Indianapolis Olympians,Georgia Tech,1950,10,0,0
-Stan Christie,Syracuse Nationals,Southern California,1950,3,0,0
-Bob Healey,Syracuse Nationals,Georgia,1950,8,0,0
 Sonny Allen,Indianapolis Olympians,Morehead State,1950,5,0,0
 Warren Switzer,Rochester Royals,Rice,1950,9,0,0
-Paul Hickey,Syracuse Nationals,Denver,1950,5,0,0
-Paul Merchant,Syracuse Nationals,Oklahoma,1950,4,0,0
-Bob Savage,Syracuse Nationals,Syracuse,1950,9,0,0
 George Stanich,Rochester Royals,California-Los Angeles,1950,2,0,0
 Bob Roper,Rochester Royals,John Carroll,1950,3,0,0
 Carl Kraushaar,Rochester Royals,California-Los Angeles,1950,8,0,0
+Billy Adcock,Ft. Wayne Zollner Pistons,Vanderbilt,1950,8,0,0
 Dan Kahler,Rochester Royals,Southwestern (KS),1950,7,0,0
-Mack Suprunowicz,Syracuse Nationals,Michigan,1950,6,0,0
 John Givens,Rochester Royals,Western Kentucky,1950,6,0,0
 Chet Giermak,Rochester Royals,William & Mary,1950,4,0,0
 Harry Foley,Rochester Royals,Niagara,1950,10,0,0
-Glenn Wilkes,Syracuse Nationals,Mercer,1950,10,0,0
+Al Henningsen,Ft. Wayne Zollner Pistons,Northwest Missouri State,1950,9,0,0
 Howie Williams,Minneapolis Lakers,Purdue,1950,3,0,0
 Jim Reilly,Minneapolis Lakers,Swarthmore,1950,9,0,0
+Don Heathington,New York Knicks,Baylor,1950,9,0,0
 Hal Haskins,Minneapolis Lakers,Hamline,1950,2,0,0
-Bob Anderson,Tri-Cities Blackhawks,Loyola-Maryland,1950,6,0,0
 Wayne Glasgow,Minneapolis Lakers,Oklahoma,1950,6,0,0
 Andy Butchko,Minneapolis Lakers,Purdue,1950,10,0,0
-Keith Bloom,Tri-Cities Blackhawks,Wyoming,1950,10,0,0
 Newt Benson,Minneapolis Lakers,Wisconsin-River Falls,1950,8,0,0
-Buddy Cate,Philadelphia Warriors,Western Kentucky,1950,3,0,0
-Dick Dallmer,Philadelphia Warriors,Cincinnati,1950,6,0,0
-Joe Kaufman,Philadelphia Warriors,New York University,1950,9,0,0
-Ed Montgomery,Philadelphia Warriors,Tennessee,1950,12,0,0
-Charles Northup,Philadelphia Warriors,Siena,1950,7,0,0
-Brooks Ricca,Philadelphia Warriors,Villanova,1950,8,0,0
-Paul Sensky,Philadelphia Warriors,Saint Joseph's,1950,4,0,0
-Leo Wolfe,Philadelphia Warriors,Villanova,1950,11,0,0
-Warren Cartier,Washington Capitols,North Carolina State,1950,6,0,0
-Jim Cathcart,Washington Capitols,Arkansas,1950,7,0,0
-Joe Greenbach,Washington Capitols,Santa Clara,1950,8,0,0
-Joe Noertker,Washington Capitols,Virginia,1950,10,0,0
-George Bush,Baltimore Bullets,Toledo,1950,8,0,0
-Frank Comerford,Baltimore Bullets,La Salle,1950,7,0,0
-Rick Harman,Baltimore Bullets,Kansas State,1950,6,0,0
-Jack Laub,Baltimore Bullets,Cincinnati,1950,9,0,0
-Jerry Reed,Baltimore Bullets,Wyoming,1950,4,0,0
-Dan Bagley,New York Knicks,Notre Dame,1950,7,0,0
-Mike Zedalis,Baltimore Bullets,Loyola-Maryland,1950,10,0,0
-Bill Erickson,Tri-Cities Blackhawks,Illinois,1950,7,0,0
-Billy Adcock,Ft. Wayne Zollner Pistons,Vanderbilt,1950,8,0,0
-Al Henningsen,Ft. Wayne Zollner Pistons,Northwest Missouri State,1950,9,0,0
+Frank Oftring,Boston Celtics,Holy Cross,1950,8,0,0
+Bud Grant,Minneapolis Lakers,Minnesota,1950,4,0,0
 Ed Jones,Ft. Wayne Zollner Pistons,Tennessee,1950,7,0,0
-Bob Metcalf,Ft. Wayne Zollner Pistons,Valparaiso,1950,6,0,0
-Len Rzewszewski,Ft. Wayne Zollner Pistons,Indiana State,1950,4,0,0
 Ed Thompson,Ft. Wayne Zollner Pistons,Kent State,1950,5,0,0
-Loy Doty,Tri-Cities Blackhawks,Wyoming,1950,8,0,0
-Clarence Brannum,Tri-Cities Blackhawks,Kansas State,1950,3,0,0
-Jerry Stuteville,Indianapolis Olympians,Indiana,1950,8,0,0
+Len Rzewszewski,Ft. Wayne Zollner Pistons,Indiana State,1950,4,0,0
+Bob Metcalf,Ft. Wayne Zollner Pistons,Valparaiso,1950,6,0,0
 Howie Shannon,Providence Steamrollers,Kansas State,1949,1,1,1
 Alex Groza,Indianapolis Olympians,Kentucky,1949,1,2,2
 Bob Harris,Ft. Wayne Zollner Pistons,Oklahoma State,1949,1,3,3
@@ -8000,71 +8000,71 @@ Dick McGuire,New York Knicks,St. John's (NY),1949,1,7,7
 Wallace Jones,Washington Capitols,Kentucky,1949,1,8,8
 Jack Kerris,Chicago Stags,Loyola-Chicago,1949,1,9,9
 Frank Saul,Rochester Royals,Seton Hall,1949,1,10,10
-John Pritchard,St. Louis Bombers,Drake,1949,7,0,0
-Cliff Barker,Washington Capitols,Kentucky,1949,5,0,0
-Warren Perkins,Providence Steamrollers,Tulane,1949,4,0,0
-Leo Barnhorst,Indianapolis Olympians,Notre Dame,1949,2,0,0
+Jim McMullen,Baltimore Bullets,Xavier,1949,0,0,0
+Tom Gallagher,Baltimore Bullets,St. Francis Brooklyn,1949,0,0,0
+Bill Evans,Baltimore Bullets,Drake,1949,0,0,0
+Jim Owens,Washington Capitols,Baylor,1949,2,0,0
+Roger Wiley,Baltimore Bullets,Oregon,1949,0,0,0
+Jim Lacy,Washington Capitols,Loyola-Maryland,1949,0,0,0
 Bill Zipple,Baltimore Bullets,Lafayette,1949,0,0,0
-Vern Mikkelsen,Minneapolis Lakers,Hamline,1949,0,0,0
-Ralph Beard,Chicago Stags,Kentucky,1949,2,0,0
-Paul Gordon,Baltimore Bullets,Notre Dame,1949,3,0,0
-Joe Mullaney,Boston Celtics,Holy Cross,1949,3,0,0
-Nelson Bobb,Philadelphia Warriors,Temple,1949,3,0,0
-Jerry Nagel,Ft. Wayne Zollner Pistons,Loyola-Chicago,1949,4,0,0
-Bob Harrison,Minneapolis Lakers,Michigan,1949,0,0,0
-Don Boven,Indianapolis Olympians,Western Michigan,1949,6,0,0
-Earl Dodd,St. Louis Bombers,Truman State,1949,5,0,0
-Mac Otten,Indianapolis Olympians,Bowling Green,1949,3,0,0
-Jack Coleman,Rochester Royals,Louisville,1949,2,0,0
-Johnny Oldham,Ft. Wayne Zollner Pistons,Western Kentucky,1949,2,0,0
-Thomas Eddleman,Chicago Stags,Illinois,1949,3,0,0
-Jim Nolan,Philadelphia Warriors,Georgia Tech,1949,2,0,0
-Ray Corley,Providence Steamrollers,Georgetown,1949,5,0,0
-Johnny Orr,St. Louis Bombers,Beloit,1949,2,0,0
-Marv Schatzman,St. Louis Bombers,Saint Louis,1949,0,0,0
-Fred Schaus,Ft. Wayne Zollner Pistons,West Virginia,1949,3,0,0
-Bob Evans,Indianapolis Olympians,Butler,1949,4,0,0
-Harry Donovan,New York Knicks,Muhlenberg,1949,2,0,0
+Maynard Haitcock,Washington Capitols,George Washington,1949,0,0,0
 Preston Ward,St. Louis Bombers,Missouri State,1949,0,0,0
+Eppa Rixey,Baltimore Bullets,Kenyon,1949,0,0,0
+Eddie Van Zant,St. Louis Bombers,Northwestern Oklahoma State,1949,0,0,0
+Bob Retherford,St. Louis Bombers,Nebraska,1949,0,0,0
+Jack Davidson,St. Louis Bombers,Stanford,1949,0,0,0
+Joe Crandall,St. Louis Bombers,Oregon State,1949,0,0,0
+Jack Theolan,Providence Steamrollers,DePaul,1949,0,0,0
+Bill Tanzler,Providence Steamrollers,Florida,1949,0,0,0
+Carl Schaeffer,Providence Steamrollers,Alabama,1949,0,0,0
+Paul Courty,Providence Steamrollers,Oklahoma,1949,0,0,0
+Bob Prewitt,New York Knicks,Southern Methodist,1949,0,0,0
 Bill Litchfield,New York Knicks,Emporia State,1949,0,0,0
 Bill Kleine,New York Knicks,Missouri Valley,1949,0,0,0
 Ken Kearns,New York Knicks,Arkansas,1949,0,0,0
-Ernie Vandeweghe,New York Knicks,Colgate,1949,3,0,0
-Bob Prewitt,New York Knicks,Southern Methodist,1949,0,0,0
 Don Bagley,New York Knicks,Notre Dame,1949,0,0,0
-Paul Courty,Providence Steamrollers,Oklahoma,1949,0,0,0
 Bill Weight,Boston Celtics,Brigham Young,1949,0,0,0
 Russ Washburn,Boston Celtics,Colby,1949,0,0,0
-Carl Schaeffer,Providence Steamrollers,Alabama,1949,0,0,0
 Bill Vandenburgh,Boston Celtics,Washington,1949,0,0,0
 Bill Tom,Boston Celtics,Rice,1949,0,0,0
-Bill Tanzler,Providence Steamrollers,Florida,1949,0,0,0
-Jack Theolan,Providence Steamrollers,DePaul,1949,0,0,0
 Emerson Speicher,Boston Celtics,Bowling Green,1949,0,0,0
 Jim Simpson,Boston Celtics,Bates,1949,0,0,0
 Ed Little,Boston Celtics,Denver Junior College,1949,0,0,0
-Joe Crandall,St. Louis Bombers,Oregon State,1949,0,0,0
-Jack Davidson,St. Louis Bombers,Stanford,1949,0,0,0
-Bob Retherford,St. Louis Bombers,Nebraska,1949,0,0,0
-Eddie Van Zant,St. Louis Bombers,Northwestern Oklahoma State,1949,0,0,0
-Paul Walther,Minneapolis Lakers,Tennessee,1949,0,0,0
-Maynard Haitcock,Washington Capitols,George Washington,1949,0,0,0
-Jim Lacy,Washington Capitols,Loyola-Maryland,1949,0,0,0
-Jim Owens,Washington Capitols,Baylor,1949,2,0,0
-George Kaftan,Boston Celtics,Holy Cross,1949,2,0,0
-Bill Evans,Baltimore Bullets,Drake,1949,0,0,0
-Tom Gallagher,Baltimore Bullets,St. Francis Brooklyn,1949,0,0,0
-Charlie Maas,Indianapolis Olympians,Butler,1949,0,0,0
-Ed Leede,Providence Steamrollers,Dartmouth,1949,3,0,0
-Jim O'Halloran,Indianapolis Olympians,Notre Dame,1949,0,0,0
-Jim McMullen,Baltimore Bullets,Xavier,1949,0,0,0
-Dal Zuber,Ft. Wayne Zollner Pistons,Toledo,1949,0,0,0
-Duane Klueh,Boston Celtics,Indiana State,1949,8,0,0
-Eppa Rixey,Baltimore Bullets,Kenyon,1949,0,0,0
 Bob Royer,Providence Steamrollers,Indiana State,1949,8,0,0
-Roger Wiley,Baltimore Bullets,Oregon,1949,0,0,0
-J.L. Parks,Indianapolis Olympians,Oklahoma State,1949,0,0,0
+George Kaftan,Boston Celtics,Holy Cross,1949,2,0,0
+Bob Harrison,Minneapolis Lakers,Michigan,1949,0,0,0
+Warren Perkins,Providence Steamrollers,Tulane,1949,4,0,0
+Paul Walther,Minneapolis Lakers,Tennessee,1949,0,0,0
 Ed Macauley,St. Louis Bombers,Saint Louis,1949,0,0,0
+John Pritchard,St. Louis Bombers,Drake,1949,7,0,0
+Ernie Vandeweghe,New York Knicks,Colgate,1949,3,0,0
+Ed Leede,Providence Steamrollers,Dartmouth,1949,3,0,0
+Dal Zuber,Ft. Wayne Zollner Pistons,Toledo,1949,0,0,0
+Charlie Maas,Indianapolis Olympians,Butler,1949,0,0,0
+Cliff Barker,Washington Capitols,Kentucky,1949,5,0,0
+Bob Evans,Indianapolis Olympians,Butler,1949,4,0,0
+Marv Schatzman,St. Louis Bombers,Saint Louis,1949,0,0,0
+Fred Schaus,Ft. Wayne Zollner Pistons,West Virginia,1949,3,0,0
+Leo Barnhorst,Indianapolis Olympians,Notre Dame,1949,2,0,0
+Paul Gordon,Baltimore Bullets,Notre Dame,1949,3,0,0
+Harry Donovan,New York Knicks,Muhlenberg,1949,2,0,0
+Ralph Beard,Chicago Stags,Kentucky,1949,2,0,0
+Vern Mikkelsen,Minneapolis Lakers,Hamline,1949,0,0,0
+Thomas Eddleman,Chicago Stags,Illinois,1949,3,0,0
+Earl Dodd,St. Louis Bombers,Truman State,1949,5,0,0
+Duane Klueh,Boston Celtics,Indiana State,1949,8,0,0
+Joe Mullaney,Boston Celtics,Holy Cross,1949,3,0,0
+Ray Corley,Providence Steamrollers,Georgetown,1949,5,0,0
+Jerry Nagel,Ft. Wayne Zollner Pistons,Loyola-Chicago,1949,4,0,0
+Jack Coleman,Rochester Royals,Louisville,1949,2,0,0
+Nelson Bobb,Philadelphia Warriors,Temple,1949,3,0,0
+J.L. Parks,Indianapolis Olympians,Oklahoma State,1949,0,0,0
+Jim Nolan,Philadelphia Warriors,Georgia Tech,1949,2,0,0
+Johnny Oldham,Ft. Wayne Zollner Pistons,Western Kentucky,1949,2,0,0
+Johnny Orr,St. Louis Bombers,Beloit,1949,2,0,0
+Jim O'Halloran,Indianapolis Olympians,Notre Dame,1949,0,0,0
+Don Boven,Indianapolis Olympians,Western Michigan,1949,6,0,0
+Mac Otten,Indianapolis Olympians,Bowling Green,1949,3,0,0
 Andy Tonkovich,Providence Steamrollers,Marshall,1948,1,1,1
 George Kok,Indianapolis Jets,Arkansas,1948,1,2,2
 George Hauptfuhrer,Boston Celtics,Harvard,1948,1,3,3
@@ -8077,107 +8077,107 @@ Chuck Hanger,Minneapolis Lakers,California,1948,1,9,9
 Bobby Wanzer,Rochester Royals,Seton Hall,1948,1,10,10
 Don Ray,Philadelphia Warriors,Western Kentucky,1948,1,11,11
 Jack Nichols,Washington Capitols,Washington,1948,1,12,12
-Dick Shrider,New York Knicks,Ohio,1948,0,0,0
+Leo Katkaveck,Washington Capitols,North Carolina State,1948,0,0,0
+Estes Parham,St. Louis Bombers,Texas Wesleyan,1948,0,0,0
+Johnny Bach,Boston Celtics,Fordham,1948,0,0,0
+Leo Kubiak,Rochester Royals,Bowling Green,1948,0,0,0
+Norman Carey,Boston Celtics,Oregon State,1948,0,0,0
+Bob Curran,Boston Celtics,Holy Cross,1948,0,0,0
+Neil Dooley,Boston Celtics,Colgate,1948,0,0,0
+Jack Hauser,Boston Celtics,Denver,1948,0,0,0
+Guinn Phillips,Boston Celtics,Texas Wesleyan,1948,0,0,0
+Bobby Cook,Ft. Wayne Zollner Pistons,Wisconsin,1948,0,0,0
+Ray Wehde,Boston Celtics,Iowa State,1948,0,0,0
+Mickey Marty,Chicago Stags,Loras,1948,0,0,0
+Ed Mills,Chicago Stags,Wisconsin,1948,0,0,0
 Don Reagan,Chicago Stags,Murray State,1948,0,0,0
 Joe Shafer,Chicago Stags,Wheaton (IL),1948,0,0,0
 Fred Weber,Chicago Stags,Siena,1948,0,0,0
 Leland Byrd,New York Knicks,West Virginia,1948,0,0,0
 Keith Grimes,New York Knicks,East Central,1948,0,0,0
 John Stanisch,New York Knicks,California-Los Angeles,1948,0,0,0
-Ed Mills,Chicago Stags,Wisconsin,1948,0,0,0
-Ray Lumpp,Indianapolis Jets,New York University,1948,0,0,0
-Leo Kubiak,Rochester Royals,Bowling Green,1948,0,0,0
-Jack Burmaster,St. Louis Bombers,Illinois,1948,0,0,0
-Alex Hannum,Indianapolis Jets,Southern California,1948,0,0,0
-Mickey Marty,Chicago Stags,Loras,1948,0,0,0
 William Brown,Philadelphia Warriors,Maryland,1948,0,0,0
-Gene Berce,New York Knicks,Marquette,1948,0,0,0
-Johnny Bach,Boston Celtics,Fordham,1948,0,0,0
-Johnny Macknowski,Rochester Royals,Seton Hall,1948,0,0,0
-Herb Krautblatt,Baltimore Bullets,Rider,1948,0,0,0
-Ray Wehde,Boston Celtics,Iowa State,1948,0,0,0
-Arnie Ferrin,Minneapolis Lakers,Utah,1948,0,0,0
-Marshall Hawkins,Boston Celtics,Tennessee,1948,0,0,0
-Guinn Phillips,Boston Celtics,Texas Wesleyan,1948,0,0,0
-Dan Kraus,Baltimore Bullets,Georgetown,1948,0,0,0
-Dick Wehr,Indianapolis Jets,Rice,1948,0,0,0
-Andy Kostecka,Indianapolis Jets,Georgetown,1948,0,0,0
-Jack Hauser,Boston Celtics,Denver,1948,0,0,0
-Johnny Orr,Minneapolis Lakers,Beloit,1948,0,0,0
-Dee Gibson,Minneapolis Lakers,Western Kentucky,1948,0,0,0
-Jake Carter,Baltimore Bullets,Texas A&M-Commerce,1948,0,0,0
 Darrell Brown,Baltimore Bullets,Humboldt State,1948,0,0,0
-Neil Dooley,Boston Celtics,Colgate,1948,0,0,0
-Bob Curran,Boston Celtics,Holy Cross,1948,0,0,0
-Norman Carey,Boston Celtics,Oregon State,1948,0,0,0
-Murray Wier,Ft. Wayne Zollner Pistons,Iowa,1948,0,0,0
-Joe Holland,Baltimore Bullets,Kentucky,1948,0,0,0
-Bobby Cook,Ft. Wayne Zollner Pistons,Wisconsin,1948,0,0,0
-D.C. Wilcutt,St. Louis Bombers,Saint Louis,1948,0,0,0
-Jack Coleman,Providence Steamrollers,Louisville,1948,0,0,0
+Jack Parkinson,Washington Capitols,Kentucky,1948,0,0,0
+Arnie Ferrin,Minneapolis Lakers,Utah,1948,0,0,0
 Billy Gabor,Rochester Royals,Syracuse,1948,0,0,0
 Harry Gallatin,New York Knicks,Truman State,1948,0,0,0
 Earl Gardner,Minneapolis Lakers,DePauw,1948,0,0,0
-Alex Athas,Rochester Royals,Tulane,1948,0,0,0
-Hugh Compton,Philadelphia Warriors,Louisville,1948,0,0,0
-Warren Stickel,Rochester Royals,Syracuse,1948,0,0,0
-Don Walker,Washington Capitols,Sam Houston State,1948,0,0,0
-Al Williams,Washington Capitols,Arkansas,1948,0,0,0
-Jim Black,Baltimore Bullets,Occidental,1948,0,0,0
-Robert Carroll,Baltimore Bullets,West Virginia,1948,0,0,0
-Marvin English,Baltimore Bullets,Newberry,1948,0,0,0
-Tom Kelly,Boston Celtics,New York University,1948,0,0,0
-Leo Katkaveck,Washington Capitols,North Carolina State,1948,0,0,0
-J. W. Fullerton,Baltimore Bullets,Arkansas State,1948,0,0,0
-Marshall Gemberling,Baltimore Bullets,Lebanon Valley,1948,0,0,0
-Vince Hansen,Baltimore Bullets,Washington State,1948,0,0,0
-Wayne Jones,Baltimore Bullets,American International,1948,0,0,0
-Mel McGaha,New York Knicks,Arkansas,1948,0,0,0
-Gene Fellmoth,Baltimore Bullets,Wittenberg,1948,0,0,0
-Paul Marcincin,Baltimore Bullets,Moravian,1948,0,0,0
-Link Richmond,Ft. Wayne Zollner Pistons,Arizona,1948,0,0,0
-Edwin Kachan,Chicago Stags,DePaul,1948,0,0,0
-Ed Peterson,New York Knicks,Cornell,1948,0,0,0
-Reede Berg,Indianapolis Jets,Oregon,1948,0,0,0
-Jack Coleman,Indianapolis Jets,Louisiana State,1948,0,0,0
-Hank O'Keefe,Rochester Royals,Canisius,1948,0,0,0
-Lionel Melamed,Rochester Royals,City College of New York,1948,0,0,0
-Roy Pugh,Philadelphia Warriors,Southern Methodist,1948,0,0,0
-Norman Kohler,Indianapolis Jets,North Carolina,1948,0,0,0
-Bob Paxton,Indianapolis Jets,North Carolina,1948,0,0,0
-Jack Phoenix,Indianapolis Jets,Idaho,1948,0,0,0
-Cliff Crandall,Minneapolis Lakers,Oregon State,1948,0,0,0
-Ed Keim,Rochester Royals,Niagara,1948,0,0,0
-Goebel Ritter,New York Knicks,Eastern Kentucky,1948,0,0,0
-Ken Jastrow,Minneapolis Lakers,Denver,1948,0,0,0
-Bob Lowther,Minneapolis Lakers,Louisiana State,1948,0,0,0
-Junior Skogland,Minneapolis Lakers,Gustavus Adolphus,1948,0,0,0
 Kenny Rollins,Ft. Wayne Zollner Pistons,Kentucky,1948,0,0,0
-Quentin Stinson,Minneapolis Lakers,Southern Illinois,1948,0,0,0
-C.T. Parker,Washington Capitols,Louisiana Tech,1948,0,0,0
-Jack Parkinson,Washington Capitols,Kentucky,1948,0,0,0
+D.C. Wilcutt,St. Louis Bombers,Saint Louis,1948,0,0,0
+Edwin Kachan,Chicago Stags,DePaul,1948,0,0,0
+Goebel Ritter,New York Knicks,Eastern Kentucky,1948,0,0,0
+Johnny Macknowski,Rochester Royals,Seton Hall,1948,0,0,0
+Murray Wier,Ft. Wayne Zollner Pistons,Iowa,1948,0,0,0
+Marshall Hawkins,Boston Celtics,Tennessee,1948,0,0,0
+Dee Gibson,Minneapolis Lakers,Western Kentucky,1948,0,0,0
+Dick Shrider,New York Knicks,Ohio,1948,0,0,0
+Dick Wehr,Indianapolis Jets,Rice,1948,0,0,0
+Odie Spears,Chicago Stags,Western Kentucky,1948,0,0,0
+Brady Walker,Providence Steamrollers,Brigham Young,1948,0,0,0
+Ray Lumpp,Indianapolis Jets,New York University,1948,0,0,0
+Joe Holland,Baltimore Bullets,Kentucky,1948,0,0,0
+Jack Burmaster,St. Louis Bombers,Illinois,1948,0,0,0
+Jake Carter,Baltimore Bullets,Texas A&M-Commerce,1948,0,0,0
+Jack Coleman,Providence Steamrollers,Louisville,1948,0,0,0
+John Dillon,Chicago Stags,North Carolina,1948,0,0,0
+Roy Pugh,Philadelphia Warriors,Southern Methodist,1948,0,0,0
+Ed Peterson,New York Knicks,Cornell,1948,0,0,0
+Hugh Compton,Philadelphia Warriors,Louisville,1948,0,0,0
 Joe Nelson,Philadelphia Warriors,Brigham Young,1948,0,0,0
 Murray Mitchell,Boston Celtics,Sam Houston State,1948,0,0,0
-Thorton Jenkins,Washington Capitols,Missouri,1948,0,0,0
-Ed Hughes,Washington Capitols,San Jose State,1948,0,0,0
-Ed Faber,Providence Steamrollers,Trinity (TX),1948,0,0,0
-Verl Heap,Providence Steamrollers,Arizona State,1948,0,0,0
-A. L. Bennett,Providence Steamrollers,Oklahoma State,1948,0,0,0
-Estes Parham,St. Louis Bombers,Texas Wesleyan,1948,0,0,0
-Otto Snellbacher,Providence Steamrollers,Kansas,1948,0,0,0
-Fred Bartell,Washington Capitols,Oregon,1948,0,0,0
-Andy Wolfe,Philadelphia Warriors,California,1948,0,0,0
-Odie Spears,Chicago Stags,Western Kentucky,1948,0,0,0
+Andy Kostecka,Indianapolis Jets,Georgetown,1948,0,0,0
+Reede Berg,Indianapolis Jets,Oregon,1948,0,0,0
 Paul Yesavi,Rochester Royals,Niagara,1948,0,0,0
-Gordon Flick,St. Louis Bombers,Drake,1948,0,0,0
+Warren Stickel,Rochester Royals,Syracuse,1948,0,0,0
+Dan Kraus,Baltimore Bullets,Georgetown,1948,0,0,0
+Hank O'Keefe,Rochester Royals,Canisius,1948,0,0,0
+Lionel Melamed,Rochester Royals,City College of New York,1948,0,0,0
+Ed Keim,Rochester Royals,Niagara,1948,0,0,0
+Alex Athas,Rochester Royals,Tulane,1948,0,0,0
+Don Walker,Washington Capitols,Sam Houston State,1948,0,0,0
+Quentin Stinson,Minneapolis Lakers,Southern Illinois,1948,0,0,0
+Junior Skogland,Minneapolis Lakers,Gustavus Adolphus,1948,0,0,0
+Bob Lowther,Minneapolis Lakers,Louisiana State,1948,0,0,0
+Herb Krautblatt,Baltimore Bullets,Rider,1948,0,0,0
+Ken Jastrow,Minneapolis Lakers,Denver,1948,0,0,0
+Al Williams,Washington Capitols,Arkansas,1948,0,0,0
+Jim Black,Baltimore Bullets,Occidental,1948,0,0,0
+Cliff Crandall,Minneapolis Lakers,Oregon State,1948,0,0,0
+Robert Carroll,Baltimore Bullets,West Virginia,1948,0,0,0
+Marvin English,Baltimore Bullets,Newberry,1948,0,0,0
+Gene Fellmoth,Baltimore Bullets,Wittenberg,1948,0,0,0
+Jack Phoenix,Indianapolis Jets,Idaho,1948,0,0,0
+J. W. Fullerton,Baltimore Bullets,Arkansas State,1948,0,0,0
+Marshall Gemberling,Baltimore Bullets,Lebanon Valley,1948,0,0,0
+Bob Paxton,Indianapolis Jets,North Carolina,1948,0,0,0
+Vince Hansen,Baltimore Bullets,Washington State,1948,0,0,0
+Wayne Jones,Baltimore Bullets,American International,1948,0,0,0
+Paul Marcincin,Baltimore Bullets,Moravian,1948,0,0,0
+Norman Kohler,Indianapolis Jets,North Carolina,1948,0,0,0
+Link Richmond,Ft. Wayne Zollner Pistons,Arizona,1948,0,0,0
+Jack Coleman,Indianapolis Jets,Louisiana State,1948,0,0,0
+Gene Berce,New York Knicks,Marquette,1948,0,0,0
+Otto Snellbacher,Providence Steamrollers,Kansas,1948,0,0,0
+Thorton Jenkins,Washington Capitols,Missouri,1948,0,0,0
+Tom Kelly,Boston Celtics,New York University,1948,0,0,0
+Johnny Orr,Minneapolis Lakers,Beloit,1948,0,0,0
+Fred Bartell,Washington Capitols,Oregon,1948,0,0,0
 D. Miller,St. Louis Bombers,Saint Louis,1948,0,0,0
 Dan London,St. Louis Bombers,Washington (MO),1948,0,0,0
-John Dillon,Chicago Stags,North Carolina,1948,0,0,0
+Alex Hannum,Indianapolis Jets,Southern California,1948,0,0,0
 John Hoppin,St. Louis Bombers,Dickinson,1948,0,0,0
+C.T. Parker,Washington Capitols,Louisiana Tech,1948,0,0,0
+Gordon Flick,St. Louis Bombers,Drake,1948,0,0,0
+Ed Hughes,Washington Capitols,San Jose State,1948,0,0,0
+Verl Heap,Providence Steamrollers,Arizona State,1948,0,0,0
+Ed Faber,Providence Steamrollers,Trinity (TX),1948,0,0,0
+A. L. Bennett,Providence Steamrollers,Oklahoma State,1948,0,0,0
+Andy Wolfe,Philadelphia Warriors,California,1948,0,0,0
 Joe Wahl,Philadelphia Warriors,Akron,1948,0,0,0
-Clint Pace,Philadelphia Warriors,Pepperdine,1948,0,0,0
 Tom Short,Philadelphia Warriors,Kansas Wesleyan,1948,0,0,0
-Brady Walker,Providence Steamrollers,Brigham Young,1948,0,0,0
+Clint Pace,Philadelphia Warriors,Pepperdine,1948,0,0,0
+Mel McGaha,New York Knicks,Arkansas,1948,0,0,0
 Clifton McNeeley,Pittsburgh Ironmen,Texas-El Paso,1947,1,1,1
 Glen Selbo,Toronto Huskies,Wisconsin,1947,1,2,2
 Eddie Ehlers,Boston Celtics,Purdue,1947,1,3,3
@@ -8188,71 +8188,71 @@ Jack Underman,St. Louis Bombers,Ohio State,1947,1,7,7
 Paul Huston,Chicago Stags,Ohio State,1947,1,8,8
 Dick O'Keefe,Washington Capitols,Santa Clara,1947,1,9,9
 Larry Killick,Baltimore Bullets,Vermont,1947,1,10,10
-Gene Stump,Boston Celtics,DePaul,1947,0,0,0
-Irv Rothenberg,Washington Capitols,Long Island-Brooklyn,1947,0,0,0
-Bob Alamo,Pittsburgh Ironmen,Santa Clara,1947,0,0,0
-Matt Zunic,Washington Capitols,George Washington,1947,0,0,0
-Ed Koffenberger,Philadelphia Warriors,Duke,1947,0,0,0
-Jim Kaeding,Philadelphia Warriors,York (PA),1947,0,0,0
-Bob Alemeida,Boston Celtics,,1947,0,0,0
-George Felt,Boston Celtics,Northwestern,1947,0,0,0
-Norman Butz,Philadelphia Warriors,Saint Joseph's,1947,0,0,0
-Donald Smith,Chicago Stags,Minnesota,1947,0,0,0
-Tom Tomlinson,New York Knicks,Southern Methodist,1947,0,0,0
-Carl Reichert,New York Knicks,Findlay,1947,0,0,0
-Dan Miller,New York Knicks,Saint Louis,1947,0,0,0
-Jimmy Darden,Chicago Stags,Denver,1947,0,0,0
-John Kelly,Boston Celtics,Notre Dame,1947,0,0,0
-George Petrovick,Boston Celtics,,1947,0,0,0
-Ralph Bishop,Chicago Stags,Washington,1947,0,0,0
-Ron Livingston,New York Knicks,St. Mary's (CA),1947,0,0,0
-Garland Head,New York Knicks,Texas Tech,1947,0,0,0
-Johnny Ezersky,Boston Celtics,Rhode Island,1947,0,0,0
-Ed Golub,New York Knicks,,1947,0,0,0
-Hank Biasatti,Boston Celtics,Long Island-Brooklyn,1947,0,0,0
-Red Rocha,Toronto Huskies,Oregon State,1947,0,0,0
-Hank Decker,Chicago Stags,West Texas A&M,1947,0,0,0
-Joseph Reiser,Baltimore Bullets,New York University,1947,0,0,0
-Jack Stone,Chicago Stags,Kansas State,1947,0,0,0
-Ray Evans,New York Knicks,Kansas,1947,0,0,0
-Jim Pollard,Chicago Stags,Stanford,1947,0,0,0
-George Brown,Pittsburgh Ironmen,,1947,0,0,0
 Ben Schadler,Chicago Stags,Northwestern,1947,0,0,0
+Red Rocha,Toronto Huskies,Oregon State,1947,0,0,0
+Jimmy Darden,Chicago Stags,Denver,1947,0,0,0
+Joseph Reiser,Baltimore Bullets,New York University,1947,0,0,0
+Andy Phillip,Chicago Stags,Illinois,1947,0,0,0
 Jack Hewson,Boston Celtics,Temple,1947,0,0,0
+Paul Napolitano,St. Louis Bombers,San Francisco,1947,0,0,0
+Gene Vance,Chicago Stags,Illinois,1947,0,0,0
+Donald Smith,Chicago Stags,Minnesota,1947,0,0,0
+Fred Nagy,Pittsburgh Ironmen,Akron,1947,0,0,0
+Gene Stump,Boston Celtics,DePaul,1947,0,0,0
+Jim Pollard,Chicago Stags,Stanford,1947,0,0,0
+"Bear, The Body Hoffman",Toronto Huskies,Purdue,1947,0,0,0
+Jack Tingle,Washington Capitols,Kentucky,1947,0,0,0
+Andy Duncan,New York Knicks,William & Mary,1947,0,0,0
+Bob Hubbard,Providence Steamrollers,Springfield,1947,0,0,0
+Hank Biasatti,Boston Celtics,Long Island-Brooklyn,1947,0,0,0
+Wat Misaka,New York Knicks,Utah,1947,0,0,0
+Paul Cloyd,Washington Capitols,Wisconsin,1947,0,0,0
+Harry Gallatin,Baltimore Bullets,Truman State,1947,0,0,0
 John Rusinko,Baltimore Bullets,Penn State,1947,0,0,0
 Charles Raynor,Baltimore Bullets,Houston,1947,0,0,0
 Bob Jake,Baltimore Bullets,Vermont,1947,0,0,0
 Hugh Hampton,Baltimore Bullets,High Point,1947,0,0,0
 Scotty Hamilton,Baltimore Bullets,West Virginia,1947,0,0,0
-"Bear, The Body Hoffman",Toronto Huskies,Purdue,1947,0,0,0
 Robert Bolyard,Baltimore Bullets,Toledo,1947,0,0,0
-Abel Rodriguez,Washington Capitols,San Francisco,1947,0,0,0
 Bill Burke,Washington Capitols,St. Mary's (MD),1947,0,0,0
 Wimpy Quinn,Toronto Huskies,Oregon,1947,0,0,0
 Frank Broyles,Toronto Huskies,Georgia Tech,1947,0,0,0
-Fred Nagy,Pittsburgh Ironmen,Akron,1947,0,0,0
-Andy Duncan,New York Knicks,William & Mary,1947,0,0,0
 Herb Wilkinson,St. Louis Bombers,Iowa,1947,0,0,0
-Bob Hubbard,Providence Steamrollers,Springfield,1947,0,0,0
-Elmer R. Gainer,Baltimore Bullets,DePaul,1947,0,0,0
-Paul Napolitano,St. Louis Bombers,San Francisco,1947,0,0,0
-Paul Cloyd,Washington Capitols,Wisconsin,1947,0,0,0
 Bill Strannigan,St. Louis Bombers,Wyoming,1947,0,0,0
-Harry Gallatin,Baltimore Bullets,Truman State,1947,0,0,0
-Saul Mariaschin,Washington Capitols,Harvard,1947,0,0,0
-Jack Tingle,Washington Capitols,Kentucky,1947,0,0,0
 Bob Kurland,St. Louis Bombers,Oklahoma State,1947,0,0,0
-John Mandic,Washington Capitols,Oregon State,1947,0,0,0
 Jack Knopf,St. Louis Bombers,Louisville,1947,0,0,0
 Al Nichols,Providence Steamrollers,Rhode Island,1947,0,0,0
 John Mills,Providence Steamrollers,Hofstra,1947,0,0,0
 Roy Lipscomb,Providence Steamrollers,St. Mary's (MD),1947,0,0,0
 Bob Joyce,Providence Steamrollers,Bates,1947,0,0,0
-Wat Misaka,New York Knicks,Utah,1947,0,0,0
-Andy Phillip,Chicago Stags,Illinois,1947,0,0,0
+Dick Furey,Providence Steamrollers,St. Thomas (MN),1947,0,0,0
 Joe Barry,Providence Steamrollers,,1947,0,0,0
 Jack Walton,Pittsburgh Ironmen,DePaul,1947,0,0,0
 Herman Knoche,Pittsburgh Ironmen,Washington & Jefferson,1947,0,0,0
-Gene Vance,Chicago Stags,Illinois,1947,0,0,0
 Dick Ives,Pittsburgh Ironmen,Iowa,1947,0,0,0
-Dick Furey,Providence Steamrollers,St. Thomas (MN),1947,0,0,0
+George Brown,Pittsburgh Ironmen,,1947,0,0,0
+Bob Alamo,Pittsburgh Ironmen,Santa Clara,1947,0,0,0
+Ed Koffenberger,Philadelphia Warriors,Duke,1947,0,0,0
+Jim Kaeding,Philadelphia Warriors,York (PA),1947,0,0,0
+Norman Butz,Philadelphia Warriors,Saint Joseph's,1947,0,0,0
+Tom Tomlinson,New York Knicks,Southern Methodist,1947,0,0,0
+Carl Reichert,New York Knicks,Findlay,1947,0,0,0
+Dan Miller,New York Knicks,Saint Louis,1947,0,0,0
+Ron Livingston,New York Knicks,St. Mary's (CA),1947,0,0,0
+Garland Head,New York Knicks,Texas Tech,1947,0,0,0
+Ed Golub,New York Knicks,,1947,0,0,0
+Ray Evans,New York Knicks,Kansas,1947,0,0,0
+Jack Stone,Chicago Stags,Kansas State,1947,0,0,0
+Hank Decker,Chicago Stags,West Texas A&M,1947,0,0,0
+Ralph Bishop,Chicago Stags,Washington,1947,0,0,0
+George Petrovick,Boston Celtics,,1947,0,0,0
+John Kelly,Boston Celtics,Notre Dame,1947,0,0,0
+George Felt,Boston Celtics,Northwestern,1947,0,0,0
+Bob Alemeida,Boston Celtics,,1947,0,0,0
+Matt Zunic,Washington Capitols,George Washington,1947,0,0,0
+Johnny Ezersky,Boston Celtics,Rhode Island,1947,0,0,0
+Saul Mariaschin,Washington Capitols,Harvard,1947,0,0,0
+John Mandic,Washington Capitols,Oregon State,1947,0,0,0
+Elmer R. Gainer,Baltimore Bullets,DePaul,1947,0,0,0
+Irv Rothenberg,Washington Capitols,Long Island-Brooklyn,1947,0,0,0
+Abel Rodriguez,Washington Capitols,San Francisco,1947,0,0,0
