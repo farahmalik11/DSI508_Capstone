@@ -38,7 +38,8 @@ Monitor Changes: Continuously monitor the voting process and evaluate how the mo
 
 In summary, while the transition from positional to positionless voting presents a challenge for a model trained on historical data, it remains a valuable resource. By acknowledging the changes in voting criteria, incorporating new features, and continuously improving the model based on feedback and real-world outcomes, it is possible to enhance its predictive capabilities and ensure it remains relevant and effective in predicting All-NBA Team selections in a positionless context.
 
-
+<img src="path/to/your/image.png" alt="Image Description" width="300" height="200">
+<img src="path/to/your/image.png" alt="Image Description" width="50%">
 
 
 
