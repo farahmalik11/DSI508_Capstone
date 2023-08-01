@@ -1,3 +1,24 @@
+<img src ="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzl1NWVzZWhvY3Y0M2U2b3Fvb2xtMm4zam81cGpqNG0wMjB5YTFvaSZlcD12MV9naWZzX3NlYXJjaCZjdD1z/l1J9MDXvL4gkebHyg/giphy.gif" style="float: left; margin: 20px; height: 80px">
+
+# Predicting Reddit Communities Using NLP and Classification Models
+---
+
+# Problem Statement
+The snowboarding and skiing communities represent vibrant and rapidly growing segments within the sports industry. The winter season in 2021 marked the highest number of active skiers and snowboarders in over 25 years, with a 26% increase in less than a decade; and for the first time, the directionality of interest for snowboarding outpaced that of skiing (_[1](https://kenver.com/blogs/news/state-snow-sports)_). Participation in winter sports is only expected to grow considering factors such as high consumer spending on outdoor activities (exacerbated by the COVID-19 pandemic), increasing number of winter sports events around the world, the growing focus on mental and physical health (_[2](https://www.factmr.com/report/229/snowboard-equipment-market)_).
+
+The skiing and snowboarding communities exhibit unique and shared preferences, needs, and desires, presenting a meaningful opportunity for sports gear and apparel companies to cater to their specific requirements. By understanding, exploring, and attempting to address the characteristics of these communities, winter sports companies can capitalize on the opportunity to meet their diverse needs effectively, and members of the community themselves may maximize their performance by choosing the right brands, apparel, and accessories for themselves. For brands who would benefit from keeping or gaining more of the market share of these communities, such as Burton Snowboards, Inc., engaging further with the communities will empower them to develop tailored product offerings, refine marketing strategies, and strengthen their brand presence within these niche markets. 
+
+In this analysis, we used natural language processing on two large subreddit communities to gauge the needs, preferences, interests, and other information needed that will allow Burton to target both the skiing and snowboarding  community effectively. The model we create at the end of this analysis is able to classify the originating community from which a subreddit post came.
+
+At the end of this assignment, Burton will better understand how to leverage opportunities based on what the customers within these communities want. Ultimately, this should help them establish themselves as the preferred choice for gear manufacturer and/or sports apparel among snowboarders _and_ skiers, in turn driving business growth and fostering lasting customer relationships.
+
+<img src ="./images/ski_snow_rise.png" width="650" height="450">
+Source: [https://kenver.com/blogs/news/state-snow-sports](https://kenver.com/blogs/news/state-snow-sports)
+
+
+
+
+
 # DSI508_Capstone
 Final project on predicting NBA player salaries and All-NBA First, Second, and Third Teams
 
@@ -12,6 +33,8 @@ So we have two real options:
 use a pre-built utility to do this, like nba-api, reading all the documentation to learn the functionalities
 use automated browser software, like Selenium WebDriver
 Despite being the more brute-force approach, I opted to use Selenium for the sake of time.
+
+
 
 
 
@@ -44,22 +67,35 @@ In summary, while the transition from positional to positionless voting presents
 
 
 
-<img src ="./images/ski_snow.png" style="float: left; margin: 20px; height: 80px">
 
-# Predicting Reddit Communities Using NLP and Classification Models
----
 
-# Problem Statement
-The snowboarding and skiing communities represent vibrant and rapidly growing segments within the sports industry. The winter season in 2021 marked the highest number of active skiers and snowboarders in over 25 years, with a 26% increase in less than a decade; and for the first time, the directionality of interest for snowboarding outpaced that of skiing (_[1](https://kenver.com/blogs/news/state-snow-sports)_). Participation in winter sports is only expected to grow considering factors such as high consumer spending on outdoor activities (exacerbated by the COVID-19 pandemic), increasing number of winter sports events around the world, the growing focus on mental and physical health (_[2](https://www.factmr.com/report/229/snowboard-equipment-market)_).
 
-The skiing and snowboarding communities exhibit unique and shared preferences, needs, and desires, presenting a meaningful opportunity for sports gear and apparel companies to cater to their specific requirements. By understanding, exploring, and attempting to address the characteristics of these communities, winter sports companies can capitalize on the opportunity to meet their diverse needs effectively, and members of the community themselves may maximize their performance by choosing the right brands, apparel, and accessories for themselves. For brands who would benefit from keeping or gaining more of the market share of these communities, such as Burton Snowboards, Inc., engaging further with the communities will empower them to develop tailored product offerings, refine marketing strategies, and strengthen their brand presence within these niche markets. 
 
-In this analysis, we used natural language processing on two large subreddit communities to gauge the needs, preferences, interests, and other information needed that will allow Burton to target both the skiing and snowboarding  community effectively. The model we create at the end of this analysis is able to classify the originating community from which a subreddit post came.
 
-At the end of this assignment, Burton will better understand how to leverage opportunities based on what the customers within these communities want. Ultimately, this should help them establish themselves as the preferred choice for gear manufacturer and/or sports apparel among snowboarders _and_ skiers, in turn driving business growth and fostering lasting customer relationships.
 
-<img src ="./images/ski_snow_rise.png" width="650" height="450">
-Source: [https://kenver.com/blogs/news/state-snow-sports](https://kenver.com/blogs/news/state-snow-sports)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Data Dictionary
 
