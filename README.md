@@ -73,32 +73,32 @@ Read the CBA [here](https://ak-static.cms.nba.com/wp-content/uploads/sites/4/202
 ## Initial Findings
 ### Baseline Models
 In order for our models to be useful, they needed to outperform the baseline models. 
-- All-NBA Team Regression Model
+- **All-NBA Team Regression Model**
     - Baseline: 0.0681 (mean of all past voter shares, similar value when took the average voter share by season and then averaged across that)
     - RMSE: 0.2009
-    
-- All-NBA Team Classification Models (Multi-Class and Binary)
+<br></br>
+- **All-NBA Team Classification Models (Multi-Class and Binary)**
     - Baseline: 0.8842
-   
-- Player Salary
+<br></br>
+- **Player Salary**
     - Baseline: 0.1455 (mean of all cap-shares [salary as a percent of salary cap])
     - RMSE: 0.104
 
 ### Final Model Performance
-- All-NBA Team Regression Model
+- **All-NBA Team Regression Model**
     - Model: Extra Trees
     - Testing Score: 0.8274
     - RMSE: 0.0832
-    
-- All-NBA Team Multi-Class Classification Models
+    <br></br>
+- **All-NBA Team Multi-Class Classification Models**
     - Model: SVM
     - Accuracy Score: 0.9355
-
-- All-NBA Team Binary Classification Models
+<br></br>
+- **All-NBA Team Binary Classification Models**
     - Model: Logistic Regression
     - Accuracy Score: 0.9642
-
-- Player Salary
+<br></br>
+- **Player Salary**
     - Model: LGBM
     - Testing Score: 0.7591
     - RMSE: 0.0527
@@ -127,29 +127,161 @@ In order for our models to be useful, they needed to outperform the baseline mod
     - However, as he _was_ selected as an All-NBA winner, he is subject now to negotiate a deeper contract - this may put Golden State too far beyond the salary cap to be comfortable, but it is also important they retain and reward strong role players. Our model can help anticipate situations like these and proactively engage.    
     
 ## Methodology and Analysis
-To complete this analysis, several regression and classification models were trained and fit of historical NBA data from 1990-91 season to 2022-23 season. Before modeling could begin, we had a variety of tasks, from data pulling, to cleaning and feature engineering, to exploration. The high-level process for this analysis is outlined below.
-
-# FROM https://towardsdatascience.com/using-machine-learning-to-predict-nba-all-stars-part-1-data-collection-9fb94d386530
-
-For the next step, we need to scrape tabular data from stats.nba.com, and this is where things get a little more complicated. These webpages have a dynamic implementation using AJAX (Asynchronous JavaScript and XML), so the displayed tables are nowhere to be found in the HTML document.
-
-Instead, the webpage will send a request (with accompanying data filters) to an API endpoint and get back a JSON response. We would have to go through the process of identifying the relevant endpoints and then manually curate the data ourselves. This would get incredibly tedious since now we’re talking about deriving advanced statistics for every single player over a date range given nothing but a whole bunch of box scores.
-
-So we have two real options:
-
-use a pre-built utility to do this, like nba-api, reading all the documentation to learn the functionalities
-use automated browser software, like Selenium WebDriver
-Despite being the more brute-force approach, I opted to use Selenium for the sake of time.
-
+To complete this analysis, several regression and classification models were trained and fit on historical NBA data from 1990-91 season to 2022-23 season. Before modeling could begin, we had a variety of tasks, from data pulling, to cleaning and feature engineering, to exploration. The high-level process for this analysis is outlined below.
 
 ### 1. Data Acquisition 
+Predicting All-NBA Team and player salaries required an abundant amount of performance data which is available across several statistics sites, including [nba.com/stats](https://www.nba.com/stats), [basketball-reference.com](https://www.basketball-reference.com/), and [hoopshype.com](https://hoopshype.com/salaries/). Webscraping across all these sites was required to access and pull all the needed data. 
+
+#### Data Scraped
+Ultimately, the data scraped on all active players and teams from 1990-2022 included:
+1. **Player Data**
+    - Performance Statistics
+        - Per Game
+        - Totals
+        - Advanced
+    - NBA Draft Year
+    - All-Star Selection and Number of Appearances
+2. **All-NBA Team Data**
+    - Winners
+    - Vote-Receivers
+3. **Team Data**
+    - Team Rankings
+    - Team Standings
+4. **Salary Data**
+    - Player
+    - Team Payroll
+    - Salary Caps
+    
+#### Process for Scraping
+Using webscraping methods BeautifulSoup and Selenium, we first saved a snapshot of the HTML page housing our desired statistics. We then used those pages to inspect and pull the tables the interest into CSV's for further data cleaning and feature engineering. Below we describe the two scenarios encountered in our webscraping journey.
+
+1. **Traditional Full-Page Reloading / Synchronous Loading**
+    - For websites which fully reloaded from the server upon user interaction, our process was straightforward. The server would process the request, generate a new HTML page, and send it back to our browser with our full data available for inspection and scraping. 
+    - We employed ```BeautifulSoup```, inspected the HTML, and were able to scrape only our tables of interest. 
+    <br></br>
+2. **AJAX (Asynchronous JavaScript and XML)**
+    - For websites that employed a dynamic implementation using AJAX, the displayed tables were absent in the HTML document and BeautifulSoup could not be used. For these dynamic tables, our tables/rows would be rendered using JavaScript only after the page had fully loaded.
+    - We leveraged the ```Selenium``` Python package, an automated browser software, for these instances. With this, we were able to dynamically interact with web pages and simulate user actions like clicking buttons, filling out forms, and navigating through various elements. 
+    - For further instructions on how to install and use Selenium and it's associated webdriver, see my [Data Acquisition](./code/01_Data_Acquisition.ipynb) notebook.
+ 
+We ensured respectful and responsible webscraping by incorporating random sleep times / rate limits of 4-6 seconds (continuous) between data pulling requests to prevent server overload and potential IP blocking.
 
 ### 2. Data Cleaning
+Once our data was scraped, a vast amount of data cleaning was necessary to combine all dataset, reconcile differences, explore and fill in missings, and engineer variables that would be useful for future modeling. Our rough steps, considerations, and decisions are outlined below.
+
+1. We built a <u>**foundational dataset**</u> by merging per-game, advanced, and total statistic
+    - Each dataset required various amounts of initial cleaning, including:
+        - Removing any Unnamed columns that made their way into our final scraped data
+        - Removing rows which were repeat headers, also a byproduct of the HTML tables before they were scraped
+        - Convert Objects to Floats
+        - Prefix variables with statistic type ```pg_```, ```adv_```, ```tot_``` to enable smooth merging
+     - Further manipulations needed to be made to the data once merged, for example...
+        - Dummifying the Position (```Pos```) variable into 3 categories for All-NBA Team prediction and 5 categories for our salary model
+        - Managing players with midseason transfers
+            - These players appeared across multiple rows in our data, once for each team they played for throughout a single season. We took only the "TOT" (i.e., Total) statistics row, and for the players' Team, we listed the team they finished season with (i.e., their 'latest' team)
+            - Many player names contained special characters, such as asterisks, to indicate whether a player was the MVP that season. We deleted these special characters and did not store MVP data elsewhere as this would not available yet in determining future All-Team winners. There were also special characters such as accents in player names, which we scrubbed appropriately via the ```unicodedata.normalize``` function
+            <br></br>
+2. Once our base dataset was built, we established a <u>**Minimum Selection Criteria**</u> for All-NBA candidates based on historical lows. Players not meeting these qualifications would not be in our model, as they would create noise and not be useful for model training. The minimum criteria included:
+    -   Minimum Number of Games Played: 41
+        - Gus Johnson (1965-66 season) had 41 games played when selected as All-NBA team winner (2nd team)
+    - Minimum Number of Minutes Played Per Game: 26
+        - Bob Cousy (1962-63 season) had 26 minutes per game played when selected as an All-NBA team winner (1st team)
+    - Minimum Points Per Game: 6.9
+        - Ben Wallace (2002-2003 season) had 6.9 ppg when selected as an All-NBA team winner (2nd team)
+    - Minimum Player Efficiency Ranking: 11
+        - Slater Martin (1957-58 & 1958-59 seasons) had a 9.3 PER when selected as an All-NBA team winner (2nd team)
+        - We capped our results at 11, which was close to the next lowest amount, as 9.3 seems anomalous and this data may be outdated based on current-day voting standards; 11 is still well below the league average of 15.
+    - Minimum Selection Criteria starting in the 2023-24 season
+        - Based on the July 1, 2023, 7-year CBA, players will need to be on the floor for 20 minutes in at least 65 games to be eligible for honors including NBA MVP and All-NBA teams. We put these filtering criteria in place for 2023 and onwards in our model.
+<br></br>
+3. With our pared down data, we then <u>**finalized our player data**</u> with the following:
+    - Added All-Star participation indicator
+    - Incorporated draft data, including:
+        - NBA Draft Year 
+        - Overall draft pick
+            - Overall draft picks for undrafted players who were signed as walk-ons or free-agents was imputed as 1000
+        - Built a subsequent ```career length``` variable
+    - Cleaned and incorporated salary data:
+        - For players with partially missing salary data (e.g., missing some seasons of information but not all), salaries were imputed with their players average salary
+        - For players with completely missing salary data, the seasons average salary was imputed 
+        - Data was merged by player name and season; as such, player names were investigated and updated to match in spelling for correct merging to take place (e.g., ‘PJ Brown’ was mapped to ‘P.J. Brown’, 'Hidayet Turkoglu' was mapped to "Hedo Turkoglu", 'Maurice Williams' was mapped to "Mo Williams", etc.)
+<br></br>
+4. Next, we focused on <u>**processing and merging in team data**</u>, by doing the following:
+    - Integrated team rankings/seed and win percentages
+    - Generated variable for which team won the championship that season, accompanied by a binary indicator ```championship_won```
+    - Merged in Salary Cap data (unadjusted and adjusted for inflation)
+    - Merged in Team Payroll data (unadjusted and adjusted for inflation)
+        - Missing data was researched separately and merged in
+    - Reconciled data for the Charlotte Bobcats who changed names and abbreviations and relocated a few different times
+<br></br>
+5. Lastly, <u>**missing values**</u> were assessed and all features were snake-cased and stripped of any potential leading and trailing spaces
+    - The only missing values left included some 3-point percentage statistics (```3P%```), which existed because the player did not attempt any 3-pointers that season. This if valid for some players, such as true Centers who focus garnering their point share from the paint. For these few players, we imputed 3P% with 0, and were confident it would not cause disruption.
 
 ### 3. Data Exploration and Visualization
+With our cleaned data, we conducted preliminary exploration on our target variables of interest: All-NBA Team Voter Share (```share```) and player salary (```salary```). We focused primarily on distributions and the impact of different statistics on each other and on our targets. The following are the different views explored.
+
+- **Age Distributions** - The average age of the NBA over seasons
+<br></br>
+- **Championship Count** - The number of championships won by team/franchise
+<br></br>
+- **Statistics Correlation Matrices** - Correlation between all numeric values
+    - Per-Game statistics
+    - Advanced statistics
+     <br></br>
+- **Players With Most Selections** - A stacked bar chart of players with the most All-NBA Team selections, broken out by 1st, 2nd, and 3rd Teams
+<br></br>
+- **Variable Associations** - A pairplot showing main player statistics against our target variables
+<br></br>
+- **Distributions of Various Performance Statistics**
+    - PER, PPG, VORP by Position - Scatterplots showing player efficiency rate, points per game, and value over replacement player among overall and among All-NBA winners 
+    <img src="./images/boxplot_pos_pg_pts.png" alt="Points by Position" width="90%">
+    <br></br>
+    - PER and TS% by Position Among Winners - Boxplots looking at player efficiency and true shooting percentage over 10-year intervals to see evolution over time
+    <img src="./images/boxplot_pos_adv_per_allnba.png" alt="PER Among All-NBA Winners" width="90%">
+    <br></br>
+    - PER and BPM Comparison Among 1st, 2nd, & 3rd Team - Violin plots observing player efficiency and play box scores among 1st, 2nd, and 3rd Team winners
+    <img src="./images/violin_pos_bpm.png" alt="Plus Minus Box Score Among All-NBA Winners" width="90%">
+    <br></br>  
+    - Win Share by PER, VORP, & BPM - Scatterplots of player win-shares across various statistical components
+    <img src="./images/scatter_ws_stats.png" alt="Win Share Scatterplots" width="90%">
+    <br></br>  
+- **Salary Information Exploration**
+    - Salary Distributions Across Years - Histogram visualizing the salary distributions currently, 10 years ago, 20 years ago, and 30 years ago
+    - Salary Cap vs. Team Payroll - Double-line chart of salary cap and average team payrolls over the seasons
+    - Salary Cap Differential: Amount Spent Above/Below the Salary Cap - Histogram visualizing the distribution of differences between the salary cap and team payroll currently, 10 years ago, 20 years ago, and 30 years ago
+    - Salary Cap Differential by Win Percentage - Scatterplot of the difference between the salary cap and team payroll, highlighting championship winners
+    <img src="./images/scatter_salcap_diff.png" alt="Salary Cap Differential" width="90%">
+    <br></br>
+    - Salary Distribution by All-NBA Selection - Violin plots and boxplots of salary distribution broken out by 1st, 2nd, and 3rd Teams, as well as position
+    - PER by Salary and All-NBA Selection - Scatterplot visualizing player efficiency ratings and salary, highlight All-NBA Team placement
+    <img src="./images/scatter_sal_per.png" alt="Salary by PER" width="90%">
+    <br></br>
+    - Career Length and Salary - Scatterplot showing the pattern between career length and salary, broken out by All-NBA Team placement
 
 ### 4. Data Modeling
 ##### Pre-Processing and Modeling
+Once our data was completely cleaned, manipulated, and explored, data transformation and modeling took place via pipelining and hyperparameter tuning. Because out data cannot be shuffled due to it's seasonal/annual natures, rather than a traditional train/test/split, we manually setup out data into three parts:
+1. Training Data - 1990-2016 seasons
+2. Validation Data - 2017-2020
+3. Holdout/Final Testing Data - 2021-2022
+
+We begun testing our various regression and classification models using one transformer (StandardScaler) and one estimator (our chosen model) via pipeline automation and GridSearchCV with cross validation. Ultimately, 4 models (and 1 Ensembling attempt) were tested using either CountVectorizer or TfidfVectorizer to transform text data for processing, accuracy reports and/or Confusion Matrices were conducted for each, and overall model considerations were assessed. Below is a summary of each model and the parameters tuned.
+
+1. <u>**Model 1**</u>: Logistic Regression (C, penalty)
+2. <u>**Model 2**</u>: Multinomial Naive Bayes (alpha)
+3. <u>**Model 3**</u>: Suport Vector Machine (C, kernel, degree)
+4. <u>**Model 4**</u>: Random Forest and Extra Trees (n_estimators, max_depth)
+    - Performed in attempt to reduce overfitting
+
+Each model was tested with both _CountVectorizer_ and _TfidfVectorizer_, with the following general features:
+ - With and Without English stopwords
+ - Max features
+ - Min_df and Max_df
+
+##### Modeling Considerations
+<u>Ensembling</u> the LR, MNB, and SVM models was tested, but did not lead to gain in model accuracy, so was discontinued.
+
+<u>Lemmatized</u> and <u>Stemmed</u> text was briefly explored, however, did not lead to much gain in modeling accuracy, therefore was not considered further. Moreover, <u>custom stop words</u> were created which included words that strongly help our model in identifying the subreddit from which a post originated (e.g., words such as snowboard, snowboarding, ski, skiing). These custom words were tested as stop words in our models, but were ultimately excluded from further consideration. While accuracy scores of the models still ranged around ~70-80%, meaningfully outperforming the baseline model, introducing this additional complexity to our model was unnecessary and not aligned with our problem statement. We seek to classify posts into two group to assure that the correct content is tailored to them, and the easier we can make this, the more beneficial it will be to the client (Burton Snowboards) and their target audience.
 
 ##### Final Testing Scores
 Each model outperformed the baseline significantly, but each model performed similarly in terms of accuracy. For details on the final model selected, see subsequent section.
