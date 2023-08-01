@@ -1,101 +1,19 @@
 <img src ="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzl1NWVzZWhvY3Y0M2U2b3Fvb2xtMm4zam81cGpqNG0wMjB5YTFvaSZlcD12MV9naWZzX3NlYXJjaCZjdD1z/l1J9MDXvL4gkebHyg/giphy.gif" style="float: left; margin: 20px; height: 80px">
 
-# Predicting Reddit Communities Using NLP and Classification Models
+# Using Machine Learning and Sports Analytics to Optimize NBA Management and Decision-Making
 ---
 
+<center><font size="3"><em>"Analytics are part and parcel of virtually everything we do now" - NBA Commissioner Adam Silver</em></font></center>
+
 # Problem Statement
-The snowboarding and skiing communities represent vibrant and rapidly growing segments within the sports industry. The winter season in 2021 marked the highest number of active skiers and snowboarders in over 25 years, with a 26% increase in less than a decade; and for the first time, the directionality of interest for snowboarding outpaced that of skiing (_[1](https://kenver.com/blogs/news/state-snow-sports)_). Participation in winter sports is only expected to grow considering factors such as high consumer spending on outdoor activities (exacerbated by the COVID-19 pandemic), increasing number of winter sports events around the world, the growing focus on mental and physical health (_[2](https://www.factmr.com/report/229/snowboard-equipment-market)_).
 
-The skiing and snowboarding communities exhibit unique and shared preferences, needs, and desires, presenting a meaningful opportunity for sports gear and apparel companies to cater to their specific requirements. By understanding, exploring, and attempting to address the characteristics of these communities, winter sports companies can capitalize on the opportunity to meet their diverse needs effectively, and members of the community themselves may maximize their performance by choosing the right brands, apparel, and accessories for themselves. For brands who would benefit from keeping or gaining more of the market share of these communities, such as Burton Snowboards, Inc., engaging further with the communities will empower them to develop tailored product offerings, refine marketing strategies, and strengthen their brand presence within these niche markets. 
+The National Basketball Association (NBA) has been increasing in popularity since it's inception in 1946, with the most drastic surge in viewership and fan engagement in the last few decades. Today, it is among the world's leading sports industries, fueled by factors such as expanding it's recruiting to the global sphere, exercising prowess in marketing, promotions, endorsements, and sponsorships, devising complex business contracts and collective bargaining agreements, partaking in \\$24B network deals, and ultimately generating over \\$10B in revenue ([_1_](https://www.premiumtimesng.com/promoted/596711-exploring-the-reasons-behind-the-success-of-the-nba.html))([_2_](https://randerson112358.medium.com/how-the-nba-uses-data-analytics-6eac3c43a096#:~:text=Most%20NBA%20teams%20have%20data,and%20track%20their%20fatigue%20levels)).
 
-In this analysis, we used natural language processing on two large subreddit communities to gauge the needs, preferences, interests, and other information needed that will allow Burton to target both the skiing and snowboarding  community effectively. The model we create at the end of this analysis is able to classify the originating community from which a subreddit post came.
+With the increase in viewership both domestically and internationally, as well as the shift towards becoming a serious business, the NBA presents abundant opportunities for management and analytics. Team executives, coaches, and decision-makers recognize the need to optimize their positions in the industry via data-driven strategies. It is more important than ever to hone and enhance each of the factors that contribute to team success, and ultimately, the bottom line of the industry.
 
-At the end of this assignment, Burton will better understand how to leverage opportunities based on what the customers within these communities want. Ultimately, this should help them establish themselves as the preferred choice for gear manufacturer and/or sports apparel among snowboarders _and_ skiers, in turn driving business growth and fostering lasting customer relationships.
+Our objective is to help NBA team management stakeholders plan for the future of their franchise via predictive modeling and machine learning. One such way is to project and account for the salary negotiations that will take place with top and/or upcoming players. Here there exists a delicate balance between keeping top performers and assuring that team payroll is manageable. In this analysis, we have sought to proactively manage team circumstances by making a series of regression and classification models that predict: 1) All-NBA Team voter share and selection, and 2) player salaries based on performance. Our models successfully predict these targets, and therefore can be leveraged by management executives for optimal player evaluation, contract negotiation, and decision-making.
 
-<img src ="./images/ski_snow_rise.png" width="650" height="450">
-Source: [https://kenver.com/blogs/news/state-snow-sports](https://kenver.com/blogs/news/state-snow-sports)
-
-
-
-
-
-# DSI508_Capstone
-Final project on predicting NBA player salaries and All-NBA First, Second, and Third Teams
-
-# FROM https://towardsdatascience.com/using-machine-learning-to-predict-nba-all-stars-part-1-data-collection-9fb94d386530
-
-For the next step, we need to scrape tabular data from stats.nba.com, and this is where things get a little more complicated. These webpages have a dynamic implementation using AJAX (Asynchronous JavaScript and XML), so the displayed tables are nowhere to be found in the HTML document.
-
-Instead, the webpage will send a request (with accompanying data filters) to an API endpoint and get back a JSON response. We would have to go through the process of identifying the relevant endpoints and then manually curate the data ourselves. This would get incredibly tedious since now we’re talking about deriving advanced statistics for every single player over a date range given nothing but a whole bunch of box scores.
-
-So we have two real options:
-
-use a pre-built utility to do this, like nba-api, reading all the documentation to learn the functionalities
-use automated browser software, like Selenium WebDriver
-Despite being the more brute-force approach, I opted to use Selenium for the sake of time.
-
-
-
-
-
-
-# HOW OUR MODEL IS USEFUL EVEN THO VOTING SYSTEM IS CHANGING
-
-Building a predictive model based on historical NBA All-NBA Team voting data when voting was done by positional distinctions can still be valuable, despite the potential transition to a positionless voting system. The model would capture insights into the past patterns of voting and identify the factors that influenced the selection of players within specific positions. This knowledge can serve as a foundation for understanding the historical biases, player preferences, and performance criteria that influenced the voting outcomes.
-
-To make predictions in a positionless voting system, it's essential to acknowledge the differences between the two voting formats and consider potential enhancements to the model:
-
-Feature Engineering: Include new features in the model that assess a player's overall impact on the game, irrespective of their traditional positions. These features may include advanced statistics, efficiency metrics, and versatility indicators that highlight a player's ability to contribute across different roles.
-
-Positional Versatility: Account for positional versatility in player evaluations. Consider players who have demonstrated the capability to play multiple positions effectively and adjust the model's weightings accordingly.
-
-Voting Trends: Analyze trends in voting patterns over time and identify shifts in voter preferences. This may involve examining whether certain positions gained or lost importance in the voting process and adjusting the model to reflect these changing dynamics.
-
-Bias Analysis: Conduct a thorough analysis of historical biases present in the positional voting system and assess how they might impact the predictive model's performance in a positionless system. Work to eliminate any potential biases from the model.
-
-Machine Learning Techniques: Utilize machine learning techniques such as transfer learning or domain adaptation to help the model generalize from the positional voting data to the positionless context.
-
-Data Augmentation: Augment the historical data with synthetic examples to mimic positionless voting scenarios. This could involve creating hypothetical scenarios where players are considered without positional constraints, while still reflecting historical voting patterns.
-
-Monitor Changes: Continuously monitor the voting process and evaluate how the model's predictions align with the actual outcomes in a positionless voting system. Regularly update and refine the model to adapt to any changes in voter behavior or criteria.
-
-In summary, while the transition from positional to positionless voting presents a challenge for a model trained on historical data, it remains a valuable resource. By acknowledging the changes in voting criteria, incorporating new features, and continuously improving the model based on feedback and real-world outcomes, it is possible to enhance its predictive capabilities and ensure it remains relevant and effective in predicting All-NBA Team selections in a positionless context.
-
-<img src="path/to/your/image.png" alt="Image Description" width="300" height="200">
-<img src="path/to/your/image.png" alt="Image Description" width="50%">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+At the end of this assignment, NBA team and player stakeholders will be empowered to collaboratively create robust mutually beneficial opportunities, fostering synergy between their front office and players.
 
 # Data Dictionary
 
@@ -121,88 +39,117 @@ Please note: The Reddit community "snowboardingnoobs" was used in lieu of the wi
 # Executive Summary
 
 ## Background and Purpose
-Snowboarding and skiing have a large presence in the global winter sports goods market, representing more than 30% (_[3](https://blog.gitnux.com/snowboarding-industry-statistics/)_). This market, including snowboarding and skiing gear, apparel, and accessories, is expected to expand at a steady rate over the next several years with a compound annual growth rate 4.4% through 2026 (_[4](https://blog.gitnux.com/snowboarding-industry-statistics/)_). The global snowboard equipment market, itself, is valued currently at \\$310M and is forecasted to reach \\$455M in the next decade, expanding at 3.9% CAGR (_[5](https://www.factmr.com/report/229/snowboard-equipment-market)_). With approximately double as many skiers as there are snowboarders, we can expect at least similar growth in skiing equipment manufacturing. 
 
-It is in the best interest of Burton Snowboards, Inc. to continue it's dominance in this highly competitive field by keeping their current customers and gaining new ones, such a new snowboarders and current and new skiers as well. While Burton's reputation, brand, and market share are strong, there are still many competitors also doing very well in the winter sports market, such as Salomon Group, Quiksilver, Inc., Amer Group, K2 Snowboards, and Avalanche Snowboards. Burton also faces challenges of seasonality, evolving consumer preferences, environmental concerns, and international branding/presence. Therefore, it is more important than ever for Burton to establish consumer loyalty, foster innovation, and expand its following to ensure long-term success and sustainability.
+### NBA Rise in Popularity
+The NBA has experienced a remarkable surge in popularity over the past few decades, solidifying its position as one of the world's premier sports leagues. With a global fan base, passionate viewership, and widespread media coverage, the NBA has become a cultural phenomenon, transcending borders and uniting fans from diverse backgrounds. Following a decrease in revenue (\\$6.4B in the 2020-21 season) due to the COVID-19 pandemic, the league set a revenue record of \\$10B in 2022 -- which nearly tripled the annual revenue over the last decade from \\$2.7B in 2012 ([_3_](https://huddleup.substack.com/p/the-nbas-10-billion-business)). 
 
-With our model, Burton Snowboards can understand consumer preferences at any given time, target advertisements, customize promotional offers, or strategically seek partnerships to optimize outreach and influence.
+The NBA's future continues to look bright and revenues are only projected to increase. The average NBA franchise is currently worth \\$2.48B, a 13% increase from just one season ago, and the average value of an NBA team has increased 12x since 2001 (\\$207M to \\$2.48B) ([_4_](https://huddleup.substack.com/p/the-nbas-10-billion-business)). As revenue increases, player contracts, team payrolls, and league salary caps are all projected to continue increasing in tandem. This makes it ever more crucial for players and teams to manage their contracts well and plan effectively for the future in ways that best position their teams for success.
 
+Through machine learning, we can develop innovative ways to help NBA team managers plan their rosters and budgets, as well as make an impact on the league by continually raising the level of play. Sophisticated analytics can assist in player evaluations, salary management, injury prevention, team planning, and contract negotiations and budgeting, ultimately optimizing team performance and fostering success ([_5_](https://randerson112358.medium.com/how-the-nba-uses-data-analytics-6eac3c43a096#:~:text=Most%20NBA%20teams%20have%20data,and%20track%20their%20fatigue%20levels))([_6_](https://knowledge.wharton.upenn.edu/article/nbas-adam-silver-analytics-transforming-basketball/)). 
+
+<img src="./images/NBA_Rev_Increase.png" alt="Increasing NBA Revenue Over the Last Decade" width="65%">
+
+[Source: statista.com](https://www.statista.com/statistics/193467/total-league-revenue-of-the-nba-since-2005/)
+
+### Player Salaries and All-NBA Team Selection
+Player salaries make up a critical part of every teams planning process, as this impacts the team payroll, the taxes to be paid if the salary cap is exceeded, and ultimately the financial flexibility and competitiveness of the team in acquiring and retaining talent. Player salaries, along with other financial considerations, play a crucial role in shaping a team's roster, strategic decisions, and long-term success in the highly competitive landscape of the NBA. Many players have complex contracts, with incentive structures throughout based on performance and tenure with their team. 
+
+For example, one way for a player to be eligible for a supermax contract, whereby a team can offer a longer and more lucrative deal (30-35% of the salary cap) compared to what other teams can offer the player free agency, is to be selected for an All-NBA Team: either 1st, 2nd, or 3rd teams ([_7_](https://www.hoopsrumors.com/2023/05/contract-implications-of-todays-all-nba-announcement.html))([_8_](https://en.as.com/nba/how-can-all-nba-teams-selection-affect-players-salaries-n/)). This offers a huge incentive for players, especially upcoming players who are not eligible for more than 25% of the salary cap, to be selected among the Top 15 in the league (Top 5 in 1st Team, next 5 in 2nd Team, last 5 in 3rd Team). Players receiving this league honor -- via votes cast by a group of respected sportswriters and broadcasters -- are able to make strong cases for contract negotiations, and team management executives must be prepared to make space for such negotiations whilst keeping a robust team around their "star" players.
+
+For team management to be able to effectively navigate and forecast when these potential negotiations would take place and how much they should plan to budget, data science and modeling can be productively leveraged. We built a regression model which can accurately predict the percent of voter share a player is predicted to receive based on their performance, impact, and tenure. We used this voter share to predict the Top 15 players selected: the All-NBA Teams. We also took a more granular look at which specific team -- 1st, 2nd, or 3rd -- a player would make via classification modeling. With these insights, any stakeholder involved in team analytics and planning can impactfully be a step ahead of team management activities.
+
+### Player Salaries and Over/Undervalued Players
+Another valuable insight to be gained from current or anticipated player salaries is whether or not a contract over- or undervalues a player. By using another regression model, this time predicting player salary based on performance statistics and league tenure, we were able to determine which players may currently make too much or too little salary as percent of the league salary cap. Based on robust modeling that looks for complex relationships in historical data, we are able to make inferences about current player salaries which can leveraged by players and management alike in contract negotiations.
+
+With the use of our models, players, agents, and management/ownership groups will be able to more effectively manage their contracts/careers or teams, make business decisions, handle financial matters, and oversee day-to-day operations. 
+
+### Note About Future Uses of Our All-NBA Prediction Model
+On July 1, 2023, the new 7-year collective bargaining agreement (CBA) was signed and will run through 2029-30. Starting in the 2023-24 season, All-NBA Team selection will be "positionless". In contrast to how current voting takes place, whereby voters select 2 Guards, 2 Forwards, and 1 Center per All-NBA team, moving forward, position will no longer be a factor. Voters will cast votes for only the Top 15 players, regardless of position.
+
+Our models will still be valuable in a positionless setting, as it will still capture insights into the past patterns of voting and identify the factors that influenced the selection of players. Our model uses regression to predict voter share, and I anticipate it will only take a few seasons for the model to understand the relationships in a positionless setting. By acknowledging the changes in voting criteria, incorporating new features, and continuously improving the model based on feedback and real-world outcomes, we will enhance its predictive capabilities and ensure it remains relevant and effective in predicting All-NBA Team selections in a positionless context.
+
+Read the CBA [here](https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2023/06/2023-NBA-Collective-Bargaining-Agreement.pdf) and see summaries [here](https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2023/06/2023-CBA-Summary.pdf) and [here](https://theathletic.com/4421655/2023/04/17/cba-minimum-games-mvp-awards/).
 
 ## Initial Findings
-##### Baseline Model
-In order for our model to be useful, it needed to outperform the baseline model/majority class of **51.2%**.
+### Baseline Models
+In order for our models to be useful, they needed to outperform the baseline models. 
+- All-NBA Team Regression Model
+    - Baseline: 0.0681 (mean of all past voter shares, similar value when took the average voter share by season and then averaged across that)
+    - RMSE: 0.2009
+    
+- All-NBA Team Classification Models (Multi-Class and Binary)
+    - Baseline: 0.8842
+   
+- Player Salary
+    - Baseline: 0.1455 (mean of all cap-shares [salary as a percent of salary cap])
+    - RMSE: 0.104
 
-##### Accuracy and Precision
-- Using logistic regression with TfidfVectorizer for natural language processing, our final model did the following:
-    - Accurately predicted/classified if a post came from the snowboarding or skiing subreddit **88.4%** of the time. 
-    - Accurately predicted/classified a post to be coming from the Snowboarding subreddit **91.3%** of the time. 
+### Final Model Performance
+- All-NBA Team Regression Model
+    - Model: Extra Trees
+    - Testing Score: 0.8274
+    - RMSE: 0.0832
+    
+- All-NBA Team Multi-Class Classification Models
+    - Model: SVM
+    - Accuracy Score: 0.9355
 
-##### Text Patterns and Word Exploration
-- Top words among the **snowboarding** subreddit appear to potentially align more with <u>_gear and performance_</u>, or the <u>_experience **in or during** the activity_</u>. 
-    - Notable words among the Top 50 include, boot, binding, gear, mountain, Burton, heel, toe, edge, and jump.
-- Top words among the **skiing** subreddit appear to potentially align more with the <u>_experience **around** the activity_</u>, such as the best place to go or best time of year. 
-    - Notable words among the Top 50 include, day, season, time, year, week, resort, powder, and trip.
-    - Top bigrams included mention of many places, such as east coast, North America, Jackson Hole, Park City, Winter Park, Palisade Tahoe, Lake Tahoe, Vail resort, best resort.
-    - They also mention the best passes, such as epic pass, season pass, and Ikon pass.
+- All-NBA Team Binary Classification Models
+    - Model: Logistic Regression
+    - Accuracy Score: 0.9642
 
+- Player Salary
+    - Model: LGBM
+    - Testing Score: 0.7591
+    - RMSE: 0.0527
+    
+### General Insights
+- There have been significant changes in the landscape and ecosystem of the NBA since 1990
+    - Average age of players has decreased from >28 in 1998 to 26.5 in 2022
+    - Average points per game has increase, likely consistent with higher entertainment value being incentivize as viewers increase
+    - Average 3-pointers attempted per game has increased dramatically, this can be credited to data science and efficiency analysis
+    - Team salary caps and payroll have been increasing year over year significantly, at rates much beyond inflation (having to do with growth in viewership and revenue, e.g., after the 2014 television deal)
+    
+<img src="./images/linechart_avg_age.png" alt="Average Changes Over Time" width="90%">
+
+<img src="./images/line_salcap_payroll.png" alt="Salary Cap Changes Over Time" width="90%">
+
+### All-NBA Placements
+- Once the Top 15 players are decided, granular placements from there are subject to much nuance, noise, and other external factors beyond statistics. This was made evident by high levels of misclassification in the our SVM multi-class classification model.
+- Many statistics among 1st, 2nd, and 3rd team are not significantly different, such as player efficiency ranking, box score, and win share
+
+### Salary 
+- There is very high variability in NBA player salaries, even among players with similar skill levels. Factors such as experience, performance, reputation, and market demand can lead to substantial differences in compensation.
+- Many star players will often show up as "Overvalued" (i.e., the difference between their actual and predicted salary is within the Top 25% of differences), as their salary often takes up a significant amount of the salary cap compared to the final algorithm used by our models.
+    - Giannis Antetokounmpo, Nikola Jokic, Joel Embiid, Lebron James, and Kevin Durant were all listed as overvalued, despite high accomplishments and performance. For all these instances, the model predicted high salaries, just not _as_ high as their actuals. These players are often who teams are built around, therefore, our model must be taken in conjunction with domain knowledge to be most useful
+- Role players, especially those on winning teams, are often undervalued. 
+    - Demar DeRozan is a 12 year veteran starting for Golden State, he was named to the 3rd All-NBA Team and was an allstar. He is competing for salary cap share among superstars like Steph Curry and Klay Thompson, therefore his compensation may not be as high. 
+    - However, as he _was_ selected as an All-NBA winner, he is subject now to negotiate a deeper contract - this may put Golden State too far beyond the salary cap to be comfortable, but it is also important they retain and reward strong role players. Our model can help anticipate situations like these and proactively engage.    
+    
 ## Methodology and Analysis
-To complete this analysis, a Logistic Regression model was built using TfidfVectorizer on the text of each subreddit post. This method gave a numerical representation to each word in the post and assigned weights based on word-frequency, quantifying the importance per word. Several models were tested and compared using GridSearchCV and RandomizedSearchCV across several tuned hyperparameters. Ensembling was attempted to enhance testing accuracy, as was Random Forest in attempt to reduce any overfitting.
+To complete this analysis, several regression and classification models were trained and fit of historical NBA data from 1990-91 season to 2022-23 season. Before modeling could begin, we had a variety of tasks, from data pulling, to cleaning and feature engineering, to exploration. The high-level process for this analysis is outlined below.
 
-The high-level process for this analysis is outlined below.
+# FROM https://towardsdatascience.com/using-machine-learning-to-predict-nba-all-stars-part-1-data-collection-9fb94d386530
 
-#### 1. Data Acquisition and Cleaning
-Data was acquired using PRAW API, which created an instance of the Reddit class, authenticated my credentials, and allowed me to retrieve subreddit information for the communities of my choosing. For more information, see [official PRAW documentation](https://praw.readthedocs.io/en/stable/index.html).  
+For the next step, we need to scrape tabular data from stats.nba.com, and this is where things get a little more complicated. These webpages have a dynamic implementation using AJAX (Asynchronous JavaScript and XML), so the displayed tables are nowhere to be found in the HTML document.
 
-Two methods were explored for pulling Reddit data via PRAW. Both were tested, and ultimately Method 2 was chosen to maximize the number and diversity of posts. 
+Instead, the webpage will send a request (with accompanying data filters) to an API endpoint and get back a JSON response. We would have to go through the process of identifying the relevant endpoints and then manually curate the data ourselves. This would get incredibly tedious since now we’re talking about deriving advanced statistics for every single player over a date range given nothing but a whole bunch of box scores.
 
-1. <u>**Method 1**</u>: Pulling the Top 700 newest posts and Top 500 "top" posts which occurred earlier than the newest posts - focus was on the new and top posts and then using the dates there should be no or little overlap.
-2. <u>**Method 2**</u>: Pulling Top 1000 posts from New, Hot, Top, and Controversial channels and de-duplicating - focus was on variety and getting more posts.
+So we have two real options:
 
-Note: These methods were developed in response to recent changes/restrictions in Reddit's Pushshift API, which required adjustments to the way data is retrieved and processed. Read more about the decision [here](https://techcrunch.com/2023/04/18/reddit-will-begin-charging-for-access-to-its-api/) and response [here](https://www.theverge.com/2023/6/12/23755974/reddit-subreddits-going-dark-private-protest-api-changes).
+use a pre-built utility to do this, like nba-api, reading all the documentation to learn the functionalities
+use automated browser software, like Selenium WebDriver
+Despite being the more brute-force approach, I opted to use Selenium for the sake of time.
 
-Data cleaning mainly included manipulation of variables such that there was no missing or anomalous text. 
-- The post title and post selftext were concatenated into a single object, thus eliminating any missing values. 
-- Words were tokenized using RegexpTokenizer('\w+'), keeping only word characters (letters, digits, and underscores) and discarding any non-word characters such as punctuation marks, spaces, or special symbols.
-- Words were lemmatized and stemmed for potential future use. 
-- Leftover line breaks (appearing as '\n' in the text) and any other HTML print was removed.
 
-#### 2. Data Exploration and Visualization
-Several variables were explored to understand the frequency and type of engagement in the subreddit communities, including:
-- Post length (characters)
-- Word count per post
-- Number of upvotes per post 
-- Number of comments per post
-- User-level exploration and averages (post length, word count, upvote ratio, average comments, etc. by author)
-- Top unigrams, bigrams, trigrams exploration with CountVectorizer
-    - Overall
-    - By Top 25% of most upvoted posts
-    - By Top 25% of most commented posts
+### 1. Data Acquisition 
 
-Visualizations were included in each exploration, mainly including:
-- Scatterplots (with regression line), pairplots, histograms, or correlation matrices/heatmaps for all continuous and/or numeric variables
-    - Outliers were informed by these visuals and explored/processed appropriately
-- Barplots or boxplots for categorical variables or discrete with small ranges
-- Descriptive Statstics tables for all non-categorical variables
+### 2. Data Cleaning
 
-#### 3. Data Transformation and Modeling
+### 3. Data Exploration and Visualization
+
+### 4. Data Modeling
 ##### Pre-Processing and Modeling
-Once our data was completely cleaned, manipulated, and explored, data transformation and modeling took place via pipelining and hyperparamter tuning. We started by taking a train_test_split (75% training/25% testing) of our data, and then testing various classification models using one transformer and one estimator via pipeline automation, GridSearchCV and RandomizedSearchCV with cross validation. Ultimately, 4 models (and 1 Ensembling attempt) were tested using either CountVectorizer or TfidfVectorizer to transform text data for processing, accuracy reports and/or Confusion Matrices were conducted for each, and overall model considerations were assessed. Below is a summary of each model and the parameters tuned.
-
-1. <u>**Model 1**</u>: Logistic Regression (C, penalty)
-2. <u>**Model 2**</u>: Multinomial Naive Bayes (alpha)
-3. <u>**Model 3**</u>: Suport Vector Machine (C, kernel, degree)
-4. <u>**Model 4**</u>: Random Forest and Extra Trees (n_estimators, max_depth)
-    - Performed in attempt to reduce overfitting
-
-Each model was tested with both _CountVectorizer_ and _TfidfVectorizer_, with the following general features:
- - With and Without English stopwords
- - Max features
- - Min_df and Max_df
-
-##### Modeling Considerations
-<u>Ensembling</u> the LR, MNB, and SVM models was tested, but did not lead to gain in model accuracy, so was discontinued.
-
-<u>Lemmatized</u> and <u>Stemmed</u> text was briefly explored, however, did not lead to much gain in modeling accuracy, therefore was not considered further. Moreover, <u>custom stop words</u> were created which included words that strongly help our model in identifying the subreddit from which a post originated (e.g., words such as snowboard, snowboarding, ski, skiing). These custom words were tested as stop words in our models, but were ultimately excluded from further consideration. While accuracy scores of the models still ranged around ~70-80%, meaningfully outperforming the baseline model, introducing this additional complexity to our model was unnecessary and not aligned with our problem statement. We seek to classify posts into two group to assure that the correct content is tailored to them, and the easier we can make this, the more beneficial it will be to the client (Burton Snowboards) and their target audience.
 
 ##### Final Testing Scores
 Each model outperformed the baseline significantly, but each model performed similarly in terms of accuracy. For details on the final model selected, see subsequent section.
@@ -227,28 +174,50 @@ Our final model took on the following parameters and achieved an accuracy of **8
 While we are not ultimately using our Random Forest model, we were able to gain insights into top "feature importances" which helped train our model and calculate the accuracy score. These features were very likely among the top contributors in training our final logistic regression model as well.
 <img src ="./images/Feature_Importances_RF.png" width="800" height="600">
 
-##### Community Engagement
-- On average, the snowboarding subreddit community engaged with each other by posting longer messages (mean length: 345 characters and 62 words per author, compared to 170 characters and 31 words in the skiing community) and upvoting fewer messages and/or upvoting without comment/further engagement (mean upvotes: 34 vs. 762 in the skiing community).
-- On average the skiing community engaged with each other by upvoting more messages and commenting more with each post (mean comments: 56 per author post vs. 15 in the snowboarding community)
-<img src ="./images/Author_Level.png" width="1000" height="500">
+
+
+
+
+
+- All-NBA Team Regression Model
+    - Model: Extra Trees
+    - Testing Score: 0.8274
+    - RMSE: 0.0832
+    - Average Precision:
+        - 2021: 0.939
+        - 2022: 0.902
     
-- The skiing subreddit community had a much stronger correlation between post score and number of comments (R = 0.59, respectively), potentially indicating higher discussion-based engagement, whereas snowboarding may be more informative posts, stories, announcements, or otherwise posts which do not create as much need for discussion or comment beyond giving an upvote. 
-    
-<img src ="./images/Correlation_Matrix.png" width="1000" height="600">
+- All-NBA Team Multi-Class Classification Models
+    - Model: SVM
+    - Accuracy Score: 0.9355
+    - Sensitivity:
+        - 1st Team: 0.80
+        - 2nd Team: 0.30
+        - 3rd Team: 0.10
 
-##### Community Top Words 
-- Top words among the snowboarding community had more to do with gear, performance, technique, or the experience **in or during** the activity. Whereas, top words among the skiing community aligned more with the experience **around** the activity, such as the best place to go, the best time of year, the best passes to get (epic pass, season pass, Ikon pass). 
-    - It is possible that, compared to the snowboarding community, the skiing community had more members planning general ski trips/vacations, likely including members who did not intend to partake in any slope activity at all. Therefore there may be more conversations around trip planning and recommendations, rather than the act of skiing itself - which does not seem to be the case as much for the snowboarding community. 
+- All-NBA Team Binary Classification Models
+    - Model: Logistic Regression
+    - Accuracy Score: 0.9642
+    - Sensitivity:
+        - Positive Class: 0.8333
+        - Negative Class: 0.9799
 
-<img src ="./images/Top_Snowboard_Unigrams.png" width="650" height="700"><img src ="./images/Top_Skiing_Unigrams.png" width="650" height="700">
+- Player Salary
+    - Model: LGBM
+    - Testing Score: 0.7591
+    - RMSE: 0.0527
 
-<img src ="./images/Top_Words_Side_by_Side.png" width="1000" height="800">
 
-- Notable words from the snowboarding community included boot, binding, gear, mountain, Burton, heel, toe, edge, and jump. Notable words among the skier Top 50 include, day, season, time, year, week, resort, powder, and trip.
 
-- Notable bigrams among the skiing community was the mention of several skiing locations, such as east coast, North America, Jackson Hole, Park City, Winter Park, Palisade Tahoe, Lake Tahoe, Vail resort, and best resort. 
 
-Leveraging the insights gained from our community exploration, Burton Snowboards can proactively and strategically connect with consumers, taking targeted actions that align with their distinct interests.
+Classifying players into All-NBA Teams was successful overall; the multi-class classification struggled to find patterns that could accurately place the Top 15 players into 1st, 2nd, and 3rd Team categories. Especially for 2nd and 3rd Team placement, there was high misclassification. This suggests that, once the Top 15 are decided, granular placements from there are subject to much nuance, noise, and other external factors beyond statistics. 
+    - The selection process considers aspects like preference for new talents, diversity in team composition, and subjective assessments of individual contributions to their teams. These intangible elements make the prediction task inherently challenging, and our model may not fully capture the complexities that influence the final team selections. Nevertheless, by leveraging available data and statistical analysis, we aim to provide valuable insights into player performance and potential team placement.
+
+
+
+
+
+
 
 #### 6. Conclusion and Next Steps
 
