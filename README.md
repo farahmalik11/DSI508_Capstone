@@ -17,24 +17,75 @@ At the end of this assignment, NBA team and player stakeholders will be empowere
 
 # Data Dictionary
 
-The data sourced for this analysis came from Reddit.com, a popular platform consisting of "subreddit" communities whose members share content and have discussions on topics of their interests. Reddit posts were pulled from two subreddits: snowboarding ("snowboardingnoobs"\*) and skiing ("skiing") communities. This was done using PRAW (the Python Reddit API Wrapper), a Python library that provides an interface to interact with the Reddit API, allowing me to extract posts from my chosen subreddits. 
+The data sourced for this analysis came from various sports websites responsible for recording and maintaining NBA player statistics. A vast range of data was collected, below we will list the main features used in our models. However, for a complete glossary of all NBA statistics, most of which we scraped and explored, can be found here: [https://www.nba.com/stats/help/glossary](https://www.nba.com/stats/help/glossary_)
 
-I collected a diverse range of Reddit posts and saved/generated the variables below, serving as the foundation for my analysis and insights.
+| Feature       | Type    | Source   | Definition                                                                                          |
+|-----------------|---------|----------|-----------------------------------------------------------------------------------------------------|
+| **age**             | *integer*   | NBA.com  | Age of the player                                                                                   |
+| **g**               | *integer*   | NBA.com  | Games played                                                                                        |
+| **pg_gs**           | *integer*   | NBA.com  | Games started                                                              |
+| **pg_mp**           | *integer*   | NBA.com  | Per-Game minutes played                                                            |
+| **pg_fg**           | *float*   | NBA.com  | Per-Game Field goals made                                                        |
+| **pg_fga**          | *float*   | NBA.com  | Per-Game Field goals attempted                                                    |
+| **pg_fg%**          | *float*   | NBA.com  | Per-Game Field goal percentage as a point guard                                                           |
+| **pg_3p**           | *float*   | NBA.com  | Per-Game Three-pointers made |
+| **pg_3pa**          | *float*   | NBA.com  | Per-Game Three-pointers attempted                                                   |
+| **pg_3p%**          | *float*   | NBA.com  | Per-Game Three-point percentage                                                             |
+| **pg_2p**           | *float*   | NBA.com  | Per-Game Two-point field goals                                               |
+| **pg_2pa**          | *float*   | NBA.com  | Per-Game Two-point field goals attempted per game                                          |
+| **pg_2p%**          | *float*   | NBA.com  | Per-Game Two-point field goal percentage                                                     |
+| **pg_efg%**         | *float*   | NBA.com  | Per-Game Effective field goal percentage                                                    |
+| **pg_ft**          | *float*   | NBA.com  | Per-Game Free throws made                                                           |
+| **pg_fta**          | *float*   | NBA.com  | Per-Game Free throws attempted                                                     |
+| **pg_ft%**          | *float*   | NBA.com  | Per-Game Free throw percentage                                                           |
+| **pg_orb**          | *float*   | NBA.com  | Per-Game Offensive rebounds                                                      |
+| **pg_drb**          | *float*   | NBA.com  | Per-Game Defensive rebounds                                                        |
+| **pg_trb**          | *float*   | NBA.com  | Per-Game Total rebounds                                                            |
+| **pg_ast**          | *float*   | NBA.com  | Per-Game Assists                                                                   |
+| **pg_stl**          | *float*   | NBA.com  | Per-Game Steals                                                                   |
+| **pg_blk**          | *float*   | NBA.com  | Per-Game Blocks                                                                    |
+| **pg_tov**          | *float*   | NBA.com  | Per-Game Turnovers                                                               |
+| **pg_pf**           | *float*   | NBA.com  | Per-Game Personal fouls                                                           |
+| **pg_pts**          | *float*   | NBA.com  | Total points per game per player                                                                  |
+| **tot_mp**          | *float*   | NBA.com  | Total minutes played in the season                                                                  |
+| **tot_fg%**         | *float*   | NBA.com  | Total field goal percentage throughout the season                                                         |
+| **tot_3p**          | *float*   | NBA.com  | Total three-pointers made throughout the season                                                     |
+| **tot_3p%**         | *float*   | NBA.com  | Total three-point percentage throughout the season                                                        |
+| **tot_2p%**         | *float*   | NBA.com  | Total two-point field goal percentage throughout the season                                               |
+| **tot_efg%**        | *float*   | NBA.com  | Total Effective field goal percentage throughout the season                                               |
+| **tot_ft%**         | *float*   | NBA.com  | Total Free throw percentage throughout the season                                                         |
+| **tot_pf**          | *float*   | NBA.com  | Total personal fouls committed throughout the season                                               |
+| **tot_pts**         | *float*   | NBA.com  | Total points scored throughout the season                                                           |
+| **adv_per**         | *float*   | NBA.com  | Player Efficiency Rating (PER) - An advanced measure of a player's per-minute productivity                   |
+| **adv_ts%**         | *float*   | NBA.com  | True Shooting Percentage - An advanced measure of shooting efficiency, accounting for field goals, three-pointers, and free throws |
+| **adv_3par**        | *float*   | NBA.com  | Three-Point Attempt Rate - The percentage of field goal attempts that are three-pointers           |
+| **adv_ftr**         | *float*   | NBA.com  | Free Throw Attempt Rate - The ratio of free throw attempts to field goal attempts                   |
+| **adv_orb%**        | *float*   | NBA.com  | Offensive Rebound Percentage - An estimate of the percentage of available offensive rebounds a player grabs |
+| **adv_drb%**        | *float*   | NBA.com  | Defensive Rebound Percentage - An estimate of the percentage of available defensive rebounds a player grabs |
+| **adv_trb%**       | *float*   | NBA.com  | Total Rebound Percentage - An estimate of the percentage of available rebounds a player grabs        |
+| **adv_ast%**        | *float*   | NBA.com  | Assist Percentage - An estimate of the percentage of teammate field goals a player assisted on       |
+| **adv_stl%**        | *float*   | NBA.com  | Steal Percentage - An estimate of the percentage of opponent possessions that end with a steal by the player |
+| **adv_blk%**        | *float*   | NBA.com  | Block Percentage - An estimate of the percentage of opponent two-point field goal attempts blocked by the player |
+| **adv_tov%**        | *float*   | NBA.com  | Turnover Percentage - An estimate of turnovers per 100 plays                                       |
+| **adv_usg%**        | *float*   | NBA.com  | Usage Percentage - An estimate of the percentage of team plays used by a player                     |
+| **adv_ows**         | *float*   | NBA.com  | Offensive Win Shares - An estimate of the number of wins contributed by a player's offense         |
+| **adv_dws**         | *float*   | NBA.com  | Defensive Win Shares - An estimate of the number of wins contributed by a player's defense         |
+| **adv_ws**          | *float*   | NBA.com  | Win Shares - An estimate of the number of wins contributed by a player                             |
+| **adv_ws/48**       | *float*   | NBA.com  | Win Shares per 48 minutes - An estimate of the number of wins contributed by a player per 48 minutes played |
+| **adv_obpm**       | *float*   | NBA.com  | Offensive Box Plus-Minus (BPM) - A box score-based metric that estimates a player's offensive impact on the game |
+| **adv_dbpm**        | *float*   | NBA.com  | Defensive Box Plus-Minus (BPM) - A box score-based metric that estimates a player's defensive impact on the game |
+| **adv_bpm**         | *float*   | NBA.com  | Box Plus-Minus (BPM) - A box score-based metric that estimates a player's overall impact on the game     |
+| **adv_vorp**        | *float*   | NBA.com  | Value Over Replacement Player (VORP) - The estimated points per 100 team possessions a player contributed above a replacement-level player |
+| **w/l%**            | *float*   | NBA.com  | Team win percentage                                                |
+| **seed**            | *float*   | NBA.com  | Team's playoff seed                                                                                |
+| **all_star**        | *integer*   | NBA.com  | All-Star selection status - Indicates whether the player was selected for the All-Star game        |
+| **pos_5**           | object   | NBA.com  | Player position in tradition 5 roles: PG = Point Guard, SG = Shooting Guard, SF = Small Forward, PF = Power Forward, C = Center       |
+| **year**            | *float*   | NBA.com  | Season year                                                                                         |
+| **salary_cap_adj**  | *float*   | NBA.com  | Adjusted salary cap for the season                                                                  |
+| **career_length**   | *float*   | NBA.com  | Length of the player's career (so far) in the NBA                                                           |
 
-|Feature|Type|Source|Description|
-|---|---|---|---|
-|**created_utc**|*float*|Reddit (Direct)|Time the submission was created, represented in Unix Time | 
-|**author**|*object*|Reddit (Direct)|Reddit user who is the author of the post | 
-|**score**|*integer*|Reddit (Direct)|The number of net upvotes for the submission (upvotes - downvotes) |
-|**upvote_ratio**|*float*|Reddit (Direct)|The percentage of upvotes from all votes on the submission |
-|**num_comments**|*integer*|Reddit (Generated)|The number of comments on the submission|
-|**text**|*object*|Reddit (Generated)|A combination of the title of a post and the accompanying self text, concatenated into one variable |
-|**lem_text**|*object*|Reddit (Generated)|A lemmatized version of the text column (reducing each word to its base or dictionary form, considering the word's context and part of speech) |
-|**stem_text**|*object*|Reddit (Generated)|A stemmed version of the text column (reducing each word to its root form by removing prefixes/suffixes/affixes, without consideration for the word's context or part of speech) |
-|**post_length**|*integer*|Reddit (Generated)|The count of characters in the text column |
-|**subreddit**|*object*|Reddit (Direct)|The subreddit community, converted for analysis to 1 for snowboarding and 0 for skiing  |
 
-Please note: The Reddit community "snowboardingnoobs" was used in lieu of the wider snowboarding community, as the snowboarding community was not available during the Pushshift API protest (see [Data Acquisition and Cleaning](#1.-Data-Acquisition-and-Cleaning)). The substitution did not negatively impact our problem statement, as we are still able to gain sufficient insights on the needs of the snowboarding community and where/how Burton Snowboards can respond to identified opportunities.
+
 
 # Executive Summary
 
@@ -76,10 +127,10 @@ In order for our models to be useful, they needed to outperform the baseline mod
 - **All-NBA Team Regression Model**
     - Baseline: 0.0681 (mean of all past voter shares, similar value when took the average voter share by season and then averaged across that)
     - RMSE: 0.2009
-<br></br>
+    <br></br>
 - **All-NBA Team Classification Models (Multi-Class and Binary)**
     - Baseline: 0.8842
-<br></br>
+    <br></br>
 - **Player Salary**
     - Baseline: 0.1455 (mean of all cap-shares [salary as a percent of salary cap])
     - RMSE: 0.104
@@ -93,11 +144,11 @@ In order for our models to be useful, they needed to outperform the baseline mod
 - **All-NBA Team Multi-Class Classification Models**
     - Model: SVM
     - Accuracy Score: 0.9355
-<br></br>
+    <br></br>
 - **All-NBA Team Binary Classification Models**
     - Model: Logistic Regression
     - Accuracy Score: 0.9642
-<br></br>
+    <br></br>
 - **Player Salary**
     - Model: LGBM
     - Testing Score: 0.7591
@@ -114,11 +165,11 @@ In order for our models to be useful, they needed to outperform the baseline mod
 
 <img src="./images/line_salcap_payroll.png" alt="Salary Cap Changes Over Time" width="90%">
 
-### All-NBA Placements
+#### All-NBA Placements
 - Once the Top 15 players are decided, granular placements from there are subject to much nuance, noise, and other external factors beyond statistics. This was made evident by high levels of misclassification in the our SVM multi-class classification model.
 - Many statistics among 1st, 2nd, and 3rd team are not significantly different, such as player efficiency ranking, box score, and win share
 
-### Salary 
+#### Salary 
 - There is very high variability in NBA player salaries, even among players with similar skill levels. Factors such as experience, performance, reputation, and market demand can lead to substantial differences in compensation.
 - Many star players will often show up as "Overvalued" (i.e., the difference between their actual and predicted salary is within the Top 25% of differences), as their salary often takes up a significant amount of the salary cap compared to the final algorithm used by our models.
     - Giannis Antetokounmpo, Nikola Jokic, Joel Embiid, Lebron James, and Kevin Durant were all listed as overvalued, despite high accomplishments and performance. For all these instances, the model predicted high salaries, just not _as_ high as their actuals. These players are often who teams are built around, therefore, our model must be taken in conjunction with domain knowledge to be most useful
@@ -259,119 +310,193 @@ With our cleaned data, we conducted preliminary exploration on our target variab
     - Career Length and Salary - Scatterplot showing the pattern between career length and salary, broken out by All-NBA Team placement
 
 ### 4. Data Modeling
-##### Pre-Processing and Modeling
+#### Pre-Processing and Modeling
 Once our data was completely cleaned, manipulated, and explored, data transformation and modeling took place via pipelining and hyperparameter tuning. Because out data cannot be shuffled due to it's seasonal/annual natures, rather than a traditional train/test/split, we manually setup out data into three parts:
 1. Training Data - 1990-2016 seasons
 2. Validation Data - 2017-2020
 3. Holdout/Final Testing Data - 2021-2022
 
-We begun testing our various regression and classification models using one transformer (StandardScaler) and one estimator (our chosen model) via pipeline automation and GridSearchCV with cross validation. Ultimately, 4 models (and 1 Ensembling attempt) were tested using either CountVectorizer or TfidfVectorizer to transform text data for processing, accuracy reports and/or Confusion Matrices were conducted for each, and overall model considerations were assessed. Below is a summary of each model and the parameters tuned.
+We begun testing our various regression and classification models using one transformer (StandardScaler) and one estimator (our chosen model) via pipeline automation and GridSearchCV with cross validation. Ultimately, 8 models were tested to predict All-NBA voter share, 3 to predict the All-NBA category, and 9 to predict player salary. Appropriate error metrics such as R^2 and RMSE were examined for the regression problems, and confusion matrices and accuracy reports for the classifications. 
 
-1. <u>**Model 1**</u>: Logistic Regression (C, penalty)
-2. <u>**Model 2**</u>: Multinomial Naive Bayes (alpha)
-3. <u>**Model 3**</u>: Suport Vector Machine (C, kernel, degree)
-4. <u>**Model 4**</u>: Random Forest and Extra Trees (n_estimators, max_depth)
-    - Performed in attempt to reduce overfitting
+For operationalizing our voter share predictions, we generated a new error metric: Average Precision (AP). This is a popular evaluation metric for ranking and sports-related predictions. It takes into account both the accuracy of the predictions and the order in which they are presented, effectively measuring how well the model ranks the top players or teams correctly. 
 
-Each model was tested with both _CountVectorizer_ and _TfidfVectorizer_, with the following general features:
- - With and Without English stopwords
- - Max features
- - Min_df and Max_df
-
-##### Modeling Considerations
-<u>Ensembling</u> the LR, MNB, and SVM models was tested, but did not lead to gain in model accuracy, so was discontinued.
-
-<u>Lemmatized</u> and <u>Stemmed</u> text was briefly explored, however, did not lead to much gain in modeling accuracy, therefore was not considered further. Moreover, <u>custom stop words</u> were created which included words that strongly help our model in identifying the subreddit from which a post originated (e.g., words such as snowboard, snowboarding, ski, skiing). These custom words were tested as stop words in our models, but were ultimately excluded from further consideration. While accuracy scores of the models still ranged around ~70-80%, meaningfully outperforming the baseline model, introducing this additional complexity to our model was unnecessary and not aligned with our problem statement. We seek to classify posts into two group to assure that the correct content is tailored to them, and the easier we can make this, the more beneficial it will be to the client (Burton Snowboards) and their target audience.
-
-##### Final Testing Scores
-Each model outperformed the baseline significantly, but each model performed similarly in terms of accuracy. For details on the final model selected, see subsequent section.
-<img src ="./images/Model_Performances.png" width="700" height="500">
-
-#### 5. Key Findings and Insights 
-
-Based on this exploration, below are key insights drawn in understanding the subreddit community and the final model used for predicting which community a post came from.
-
-##### Final Model
-The **Logistic Regression using TfidfVectorizer transformation** was selected to be the final model. While the accuracy of Logistic Regression and SVM models was similar, and both were slightly less than the Ensembling approach, we chose Logistic Regression for its advantages in terms of **simplicity, interpretability, and computational efficiency**. 
-- The fitting process of Logistic Regression was notably faster, taking approximately **30 seconds** with GridSearch and even less time with RandomizedSearch. In contrast, the SVM model took **95 seconds** with GridSearch and 23.5 seconds with RandomizedSearch.
-- Additionally, the SVM model exhibited slightly more overfitting compared to Logistic Regression. 
-    - Considering whatever the potential frequency of retraining the data may be (e.g., seasonally, around holidays, during relevant sporting events, etc.), opting for a simpler and faster model like Logistic Regression can be advantageous. 
-- For our specific problem statement, prioritizing accuracy over metrics such as sensitivity and specificity is more important. 
+To calculate average precision, we built a function that did the following:
+1. Sorted the voter share predictions in descending order
+2. Calculated the precision at each position for the top-K predictions (K being the number of positive/correct instances). For example, as we were interested in predicting the Top 15 players, we would receive full 'credit' for any predictions of ours that aligned with the Top 15 actuals (even if the ranks were not exactly the same)
+3. Averaged the precision values at each position to get the AP score
+    - Our AP metric penalized incorrect or out-of-order predictions (i.e., predictions that were not in the Top 15 when the actuals were in the Top 15) and rewards accurate rankings. This made it particularly suitable for our task that was ranking top players based on their performance and our predictions
     
-Our final model took on the following parameters and achieved an accuracy of **88.4%**, precision of **91.3%**, sensitivity of **85.2%**, and specificity  of **91.6%**.
-- TfidfVectorizer(max_df=0.85, max_features=8000, min_df=2)
-- C=5.577778
-- penalty='l2'
+Below is a summary of each model and the parameters tuned.
 
-While we are not ultimately using our Random Forest model, we were able to gain insights into top "feature importances" which helped train our model and calculate the accuracy score. These features were very likely among the top contributors in training our final logistic regression model as well.
-<img src ="./images/Feature_Importances_RF.png" width="800" height="600">
+- **Predicting All-NBA Voter Share**
+    1. <u>**Model 1**</u>: Support Vector Regression (C, kernel, degree, gamma, epsilon)
+    2. <u>**Model 2**</u>: Random Forest (n_estimator, max_depth, max_features)
+    3. <u>**Model 3**</u>: Elastic Net (alpha, l1_ratio, max_iter)
+    4. <u>**Model 4**</u>: Extra Trees (n_estimators, max_depth, max_feature, min_samples_leaf)
+    5. <u>**Model 5**</u>: Gradient Boost (n_estimators, max_depth, learning_rate, alpha)
+    6. <u>**Model 6**</u>: Extreme Gradient Boost (n_estimators, max_depth, learning_rate, reg_alpha)
+    7. <u>**Model 7**</u>: AdaBoost (n_estimators, learning_rate)
+    8. <u>**Model 8**</u>: Light Gradient Boost Machine (n_estimators, max_depth, learning_rate, num_leaves)
+    <br></br>
+- **Predicting All-NBA Team Placement/Selection (Multi-Class and Binary)**
+    1. <u>**Model 1**</u>: Logistic Regression (C, penalty, max_iter)
+    2. <u>**Model 2**</u>: Support Vector Classification (C, kernel, degree)
+    3. <u>**Model 3**</u>: Random Forest Classifier (n_estimators, max_depth, max_features, min_samples_leaf, min_samples_split)
+    <br></br>
+- **Predicting Player Salary**
+    1. <u>**Model 1**</u>: Linear Regression
+    2. <u>**Model 2**</u>: Lasso Regression (alpha, cv, max_iter)
+    3. <u>**Model 3**</u>: Ridge Regression (alpha, cv, scoring)
+    4. <u>**Model 4**</u>: Support Vector Regression (C, kernel, degree, gamma, epsilon)
+    5. <u>**Model 5**</u>: Elastic Net (alpha, l1_ratio, max_iter)
+    6. <u>**Model 6**</u>: Random Forest Regressor (n_estimators, max_depth, max_features)
+    7. <u>**Model 7**</u>: AdaBoost (n_estimators, learning_rate)
+    8. <u>**Model 8**</u>: Extreme Gradient Boost (n_estimators, max_depth, learning_rate, reg_alpha)
+    9. <u>**Model 9**</u>: Light Gradient Boost Machine (learning_rate, max_depth, n_estimators, num_leaves)
 
+#### Modeling Considerations
+<u>Principal Components Analysis</u> was tested and considered to pare down our variables into the most important ones that captured most variance. However, running these components through our models did not yield as high of results as using the <u>Feature Importances</u> or coefficient attributes. As such, the latter was used to select the most optimal features for our models.  
 
+Several target variables for predicting player salary were tested, including salary (```salary```), the adjusted salary (```sal_adj```), the log of the adjusted salary (```log_sal```),  the player's salary as a percent of the salary cap (```pct_cap```), and the log of ```pct_cap```. Ultimately, we chose the the percent of the salary cap (```pct_cap```), as our model was appearing to perform best with this variable. 
 
+#### Model Performances
+After training the data and fitting it to the validation set, the best performing models were chosen. They were then retrained on both the training and validation sets, and fitted to the holdout data. Each model outperformed the baseline significantly, but each model performed similarly in terms of accuracy. For details on the final models selected, see subsequent section.
 
+<u>**Predicting All-NBA Voter Share - Regression**</u>
+<img src ="./images/Reg1_Model_Performances.png" alt="Predicting All-NBA Voter Share Model Performances" width="100%">
 
+<u>**Predicting All-NBA Team Placement - 1st, 2nd, or 3rd Teams - Multiclass Classification**</u>
+<img src ="./images/Multi_Model_Performances.png" alt="Predicting Multiclass Team Model Performances" width="100%">
+<div align="center">
+<img src ="./images/Multiclass_ConfusionMatrix.png" alt="Multiclass Confusion Matrix" width="40%">
+Our precision for this model was high, however predicting 1st, 2nd, and 3rd teams was subject to much misclassification. The sensitivity for 1st Team predictions was 80%, 2nd Team was 30%, and 3rd Team was 10%.
+</div><br></br>
 
-- All-NBA Team Regression Model
-    - Model: Extra Trees
-    - Testing Score: 0.8274
-    - RMSE: 0.0832
-    - Average Precision:
-        - 2021: 0.939
-        - 2022: 0.902
+<u>**Predicting All-NBA Team Selection - Selected or Not Selected - Binary Classification**</u>
+<img src ="./images/Reg1_Model_Performances.png" alt="Predicting Binary Selection Model Performances" width="100%">
+<div align="center">
+<img src ="./images/Binary_ConfusionMatrix.png" alt="Binary Confusion Matrix" width="40%" align='center'>
+</div><br></br>
+
+<u>**Predicting Player Salaries - Regression**</u>
+<img src ="./images/Reg2_Model_Performances.png" alt="Predicting Binary Selection Model Performances" width="100%">
+
+#### Final Models
+
+After a strenuous process of webscraping/data acquisition, data cleaning and feature engineering, and building several regression and classification models, we successfully ran our trained and fitted models on completely unseen data: the most recent 2021-22 and 2022-23 NBA seasons. Our final models chosen and their performance were as follows:
     
-- All-NBA Team Multi-Class Classification Models
-    - Model: SVM
-    - Accuracy Score: 0.9355
-    - Sensitivity:
-        - 1st Team: 0.80
-        - 2nd Team: 0.30
-        - 3rd Team: 0.10
+1. <span style = 'color:orange'><u>**Predicting All-NBA Voter Share**</u></span>
+    - <span style = 'color:orange'>We used predicted voter share to apply AP metrics and ultimately forecast the Top 15 players per season. These players were the predicted All-NBA Team, and we compared our rankings to the actual rankings.</span>
+    - <span style = 'color:orange'>**Model: Extra Trees**</span>
+        - <span style = 'color:orange'>Parameters tuned/selected: </span>
+            - <span style = 'color:orange'>'et__max_depth': 20, </span>
+            - <span style = 'color:orange'>'et__max_features': 4, </span>
+            - <span style = 'color:orange'>'et__min_samples_leaf': 1, </span>
+            - <span style = 'color:orange'>'et__n_estimators': 175</span>
+    - <span style = 'color:orange'>Baseline Model: 0.0681</span>
+    - <span style = 'color:orange'>Testing Score: 0.8274</span>
+    - <span style = 'color:orange'>RMSE: 0.0832</span>
+    - <span style = 'color:orange'>Average Precision:</span>
+        - <span style = 'color:orange'>2021: 0.939</span>
+        - <span style = 'color:orange'>2022: 0.902</span>
+     
+2. <span style = 'color:dodgerblue'><u>**Predicting All-NBA Team Placement**</u></span>
+    - <span style = 'color:dodgerblue'>We used the 1st, 2nd, and 3rd Team placements as our target variable to determine which players make which specific team.</span>
+    - <span style = 'color:dodgerblue'>Model: SVM</span>
+        - <span style = 'color:dodgerblue'>Parameters tuned/selected: </span>
+            - <span style = 'color:dodgerblue'>'svc__C': 0.45222222222222225,</span>
+            - <span style = 'color:dodgerblue'>'svc__degree': 2,</span>
+            - <span style = 'color:dodgerblue'>'svc__kernel': 'rbf'</span>
+    - <span style = 'color:dodgerblue'>Baseline Model: 0.8842</span>
+    - <span style = 'color:dodgerblue'>Accuracy Score: 0.9355</span>
+    - <span style = 'color:dodgerblue'>Sensitivity: </span>
+        - <span style = 'color:dodgerblue'>1st Team: 0.80</span>
+        - <span style = 'color:dodgerblue'>2nd Team: 0.30</span>
+        - <span style = 'color:dodgerblue'>3rd Team: 0.10</span>
 
-- All-NBA Team Binary Classification Models
-    - Model: Logistic Regression
-    - Accuracy Score: 0.9642
-    - Sensitivity:
-        - Positive Class: 0.8333
-        - Negative Class: 0.9799
+3. <span style = 'color:teal'><u>**Predicting All-NBA Team Selection**</u></span>
+    - <span style = 'color:teal'>As an add-on to our regression model, we used All-NBA Team selection (binary, 1/0) to predict overall All-NBA team selection.</span>
+    - <span style = 'color:teal'>Model: Logistic Regression</span>
+        - <span style = 'color:teal'>Parameters tuned/selected: </span>
+            - <span style = 'color:teal'>'logr__C': 0.05,</span>
+            - <span style = 'color:teal'>'logr__max_iter': 750,</span>
+            - <span style = 'color:teal'>'logr__penalty': 'l1'</span>
+    - <span style = 'color:teal'>Baseline Model: 0.8842</span>
+    - <span style = 'color:teal'>Accuracy Score: 0.9642</span>
+    - <span style = 'color:teal'>Sensitivity: </span>
+        - <span style = 'color:teal'>Positive Class: 0.8333</span>
+        - <span style = 'color:teal'>Negative Class: 0.9799</span>
+    
+4. <span style = 'color:mediumvioletred'><u>**Predicting Player Salaries for Valuation**</u></span>
+    - <span style = 'color:mediumvioletred'>We transformed player salary into the percent of the salary cap used on the player, and predicted this percentage based on player statistics, all-star appearances, and career length.</span>
+    - <span style = 'color:mediumvioletred'>Model: LGBM</span>
+        - <span style = 'color:mediumvioletred'>Parameters tuned/selected: </span>
+            - <span style = 'color:mediumvioletred'>'lgb__learning_rate': 0.07999999999999999, </span>
+            - <span style = 'color:mediumvioletred'>'lgb__max_depth': 12 </span>
+            - <span style = 'color:mediumvioletred'>'lgb__n_estimators': 100, </span>
+            - <span style = 'color:mediumvioletred'>'lgb__num_leaves': 20</span>
+    - <span style = 'color:mediumvioletred'>Baseline Model: 0.1455</span>
+    - <span style = 'color:mediumvioletred'>Testing Score: 0.7591</span>
+    - <span style = 'color:mediumvioletred'>RMSE: 0.0527</span>
 
-- Player Salary
-    - Model: LGBM
-    - Testing Score: 0.7591
-    - RMSE: 0.0527
+Our models considered several factors: the applicable error metrics (testing score/R^2/accuracy score, RMSE, AP score) and computational efficiency. The latter is very important as this model will be reused annually and retrained on all data regularly as more statistics become available as the season progresses.
 
+### 5. Key Findings and Insights 
 
+Based on this exploration, below are key insights drawn in applying our models to recent NBA season data.
 
+- There have been significant changes in the NBA in the past 30 years: player ages have decreased, points per game have increased, and 3-point shooting has become a much larger part of team strategies towards point-scoring efficiency
 
-Classifying players into All-NBA Teams was successful overall; the multi-class classification struggled to find patterns that could accurately place the Top 15 players into 1st, 2nd, and 3rd Team categories. Especially for 2nd and 3rd Team placement, there was high misclassification. This suggests that, once the Top 15 are decided, granular placements from there are subject to much nuance, noise, and other external factors beyond statistics. 
-    - The selection process considers aspects like preference for new talents, diversity in team composition, and subjective assessments of individual contributions to their teams. These intangible elements make the prediction task inherently challenging, and our model may not fully capture the complexities that influence the final team selections. Nevertheless, by leveraging available data and statistical analysis, we aim to provide valuable insights into player performance and potential team placement.
+- The most important features in predicting voter share, and ultimately Top 15 players rankings via Average Precision are depicted below.
+<div align="center">
+<img src ="./images/FI_ET_FINAL.png" alt="Final All-NBA Regression Feature Importances" width="60%">
+</div>
+- The most important features in predicting player salary (reflected by salary as a percent of the salary cap) are depicted below. 
+<div align="center">
+<img src ="./images/FI_LGB_FINAL.png" alt="Final Salary Feature Importances" width="60%">
+    </div>
 
+- Classifying players into All-NBA Teams is overall possible with a high accuracy rate (~93.55%). However, multi-class classification struggles to find patterns that accurately place the Top 15 players into 1st, 2nd, and 3rd Team categories, and therefore is subject to much misclassification. This suggests that, among the Top 15 players, further granular placements are beyond statistics, and may involve much more subjectivity. 
+    - This produces a valuable opportunity to perform other types of deep learning among this selective cohort, including but not limited to:
+        - Sentiment analysis
+        - Interaction metrics that extend beyond the individual player player, such as team seed/rank and player interaction
+        - Statistics not typically captured in standard performance data, such as number of comeback wins, number of game-winning shots, off-the-court leadership, off-the-court-issues, etc. <br></br>
 
+- Our All-NBA predictive model proved that there are sometimes factors at play other than statistics when it comes to selecting players to All-NBA teams, as every season there are notable 'snubs'
+    - In 2021, Jimmy Butler had led the Miami Heat to two conference finals appearances in the past 3 years and helped the Heat to get the 1st seed in the Eastern Conference. However, Pascal Siakam was selected to the All-NBA team as his Raptors team did not have as impressive of a roster as the Heat, making him easier to notice and acknowledge.
+    - Rudy Gobert was not chosen, despite a high-performing season, potentially due to him having made the NBA's All-Defensive First Team, causing voters to want to diversify.
+    <div align="center">
+    <img src ="./images/Rank_vs_Pred_2021_FINAL.png" alt="2021 Actual vs. Predicted Rankings" width="75%">
+    </div><br>
+    - In 2022, Ja Morant was notably left off after previously facing off-the-court issues shortly before voting took place.
+    - Anthony Davis, in 2022, led the Lakers to a successful season but was sidelined due to a foot injury after 56 games. Kevin Durant, similarly, was highly efficient during his time on the court, but it was cut short due to midseason trades and injuries.
+    <div align="center">
+    <img src ="./images/Rank_vs_Pred_2022_FINAL.png" alt="2021 Actual vs. Predicted Rankings" width="75%">
+    </div>
 
+- Extra attention should be given to role players, who often are undervalued but contribute greatly to team success and dynamics. 
+    - Aaron Gordon was a key players helping to lead the Denver Nuggets to their first championship in franchise history in the 2022-23 season, but our model predicts his salary cap share is ~5% (~$6.2M) lower than what his performance indicates is fair. Especially now with a championship earned, management should be prepared for salary negotiations and understand what percentage amount increase is fair.
+    - Julius Randle is among the most undervalued players in 2022, his percent of share in the salary cap is is marked as approximately 10% below where his performance indicates is appropriate. He also made the All-NBA team in the 2022 season, therefore, management can expect a contract re-negotiation and our model can help them gauge fair compensation.
 
+### 6. Conclusion and Next Steps
 
+Based on the insights derived from this analysis, we propose the following key recommendations for NBA team management. These strategic actions will not only enhance team performance but also enable proactive financial planning and informed decision-making for building and maintaining a robust team. We recommend the NBA managers use our model for the following areas: 
+ 
+- <u>**_Long-Term Contract Decisions_**</u>: Utilize the model's player projections to make well-informed decisions on long-term contracts. Assessing player performance against predicted outcomes will minimize risk and maximize return on investment.
+    - Anticipate contract negotiations, especially among those who are predicted to make the All-NBA team, and understand what fair compensation looks like, according to our robust models based primarily on statistics.
 
+- <u>**_Salary Cap Management_**</u>: Adopt a pragmatic approach to salary cap management by considering the model's player valuations and predicted performances. With the models predictions, find a balance between player compensation and performance expectations to ensure optimal resource allocation.
 
-#### 6. Conclusion and Next Steps
+- <u>**_Player Development Strategies_**</u>: As much as our model can identify strong players, it can identify struggling ones. Use our model to organize players statistics and implement targeted player development programs to help players focus on areas they are struggling.
 
-Based on the findings of this analysis, below are the key recommendations for Burton Snowboards to focus on which will help them retain current customers and gain new ones.
+- <u>**_Player Retention Strategies_**</u>: Identify key players whose performances surpass expectations and implement retention strategies to secure their long-term commitment to the team. Recognizing and valuing exceptional talent will promote team loyalty and stability.
+    - Focus on undervalued players, as predicted by our model, and role players. 
+    - Use our model to negotiate fair compensation or put additional clauses in player contracts that make it clear their contributions are valued.
 
-<span style = 'color: dodgerblue'><u>**_1. Focus for Snowboarders_**</u></span>
+- <u>**_Collaborate with Analytics Department_**</u>: It is clear that analytics are at the forefront of taking teams to the next level via data-driven insights and decision-making. As such, expand and collaborate with team analytics departments to continue to apply and refine our model and build additional ones. 
+    - Continuously refine and update the predictive model with the latest data and advanced techniques. Enhancing the model's accuracy over time will ensure its relevancy and effectiveness in guiding team management decisions.
+    - Begin building a model with new statistics that quantify and capture missing components in our current model determining 1st, 2nd, and 3rd All-NBA team placement. Data that cannot be easily quantified as player statistics will be key in determining granular team placement among All-NBA winners. 
 
-Whether for current snowboarding customers or new, our model should be used to classify Reddit users in the snowboarding community for targeted advertising. Burton should continue with current digital transformation efforts to increase E-commerce and direct-to-consumer business by doing the following:
-1. <u>**Marketing**</u>: Advertise **promotional offers** and **exclusive discounts** to the snowboard community for gear and accessories
-2. <u>**Partnerships**</u>: Partner with professionals and snowboard schools to package **lessons and rentals/equipment** if bought through Burton
-3. <u>**Content Creation**</u>: Create and deliver targeted content (video tutorials, blog articles, social media posts) on **technical tips and tutorials**
+By leveraging our models, all stakeholders responsible for NBA team financials and management can gain valuable insights that will elevate team and player performance. With the power of machine learning and data analytics offered by our models, the management office will be empowered to effectively target players and contracts with whom early engagement is needed for future team planning. 
 
-<span style = 'color: dodgerblue'><u>**_2. Focus for/on Skiers_**</u></span>
-
-In the USA, there are roughly twice as many skiers as snowboarders (15 vs. 8M)(_[6](https://www.statista.com/topics/1770/winter-sports/#topicOverview)_), therefore, it is critical that Burton expand their reach to more skiers using our model. While the equipment needs of skiers and snowboarders are different, Burton must conduct outreach to more skiers about their high-performance apparel and accessories, which can be enjoyed by skiers and snowboarders alike. The following actions are recommended:
-1. <u>**Partnerships**</u>: Leverage the skiing communities interest in trip-planning by **partnering with ski resorts and travel agencies** to create exclusive packages that include discounted apparel from Burton, as well as exclusive offers on lift tickets, equipment rentals, and lodging.
-    - <u>**Global Expansion**</u>: Leverage any traction gained by these partnerships to expand Burton's **global presence and reputation**, especially in European countries with a high participation of winter activity (e.g., Austria, France, Italy, Switzerland) (_[7](https://www.factmr.com/report/229/snowboard-equipment-market)_). 
-    - Options include expanding retail stores in these locations (either at the resorts or in the general area), and/or by hosting joint skiing and snowboarding events in these areas.
-2. <u>**Website Promotion**</u>: Promote skiing section of Burton's website by directing skiers to **special/exclusive apparel and accessory offers**
-3. <u>**Travel Guide**</u>: Develop travel and destination guides highlighting the **best ski resorts or locations** for winter activity. Provide insights on optimal times of the year to plan the activity, and showcase the utility and **advantages of Burton** products as essential gear.
-        
-
-By leveraging our model, Burton Snowboards can gain valuable insights into consumer preferences in real-time and target both the snowboarding and skiing communities. This empowers the company to effectively target advertisements, tailor promotional offers, and strategically pursue partnerships that maximize outreach and influence. With a deeper understanding of their target audience, Burton Snowboards can optimize their marketing efforts and enhance their overall brand positioning in the market.
-
-To adapt to the evolving landscape of consumer engagement across the year and over time, important next steps for Burton should also be the <u>regular retraining and recalibration</u> of the model using updated data. Burton should consistently be gaining insights into community interests not only in real-time, but documenting this across various seasons, holidays, and local/global competitions, ensuring the development of only highly relevant promotions and vacation packages.
+To adapt to the evolving landscape of the typical NBA season, year over year, important next steps for NBA team management should also be the <u>regular retraining and recalibration</u> of the model using updated data. Stakeholders should consistently be gaining insights into team dynamics and player contributions to assure informed decision-making, foster strategic player development, and optimize overall team performance.
