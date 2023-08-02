@@ -369,11 +369,14 @@ After training the data and fitting it to the validation set, the best performin
 <img src ="./images/Multi_Model_Performances.png" alt="Predicting Multiclass Team Model Performances" width="100%">
 <div align="center">
 <img src ="./images/Multiclass_ConfusionMatrix.png" alt="Multiclass Confusion Matrix" width="40%">
+</div>    
 Our precision for this model was high, however predicting 1st, 2nd, and 3rd teams was subject to much misclassification. The sensitivity for 1st Team predictions was 80%, 2nd Team was 30%, and 3rd Team was 10%.
-</div><br></br>
+<br></br>
 
 <u>**Predicting All-NBA Team Selection - Selected or Not Selected - Binary Classification**</u>
-<img src ="./images/Reg1_Model_Performances.png" alt="Predicting Binary Selection Model Performances" width="100%">
+<div align="center">
+<img src ="./images/Binary_Model_Performances.png" alt="Predicting Binary Selection Model Performances" width="70%">
+</div>
 <div align="center">
 <img src ="./images/Binary_ConfusionMatrix.png" alt="Binary Confusion Matrix" width="40%" align='center'>
 </div><br></br>
@@ -492,11 +495,11 @@ Based on the insights derived from this analysis, we propose the following key r
 - <u>**_Player Retention Strategies_**</u>: Identify key players whose performances surpass expectations and implement retention strategies to secure their long-term commitment to the team. Recognizing and valuing exceptional talent will promote team loyalty and stability.
     - Focus on undervalued players, as predicted by our model, and role players. 
     - Use our model to negotiate fair compensation or put additional clauses in player contracts that make it clear their contributions are valued.
-
+<br></br>
 - <u>**_Collaborate with Analytics Department_**</u>: It is clear that analytics are at the forefront of taking teams to the next level via data-driven insights and decision-making. As such, expand and collaborate with team analytics departments to continue to apply and refine our model and build additional ones. 
     - Continuously refine and update the predictive model with the latest data and advanced techniques. Enhancing the model's accuracy over time will ensure its relevancy and effectiveness in guiding team management decisions.
-    - Begin building a model with new statistics that quantify and capture missing components in our current model determining 1st, 2nd, and 3rd All-NBA team placement. Data that cannot be easily quantified as player statistics will be key in determining granular team placement among All-NBA winners. 
-
+    - Begin building a model with new statistics that quantify and capture missing components in our current model determining 1st, 2nd, and 3rd All-NBA team placement. Data that cannot be easily 
+    
 By leveraging our models, all stakeholders responsible for NBA team financials and management can gain valuable insights that will elevate team and player performance. With the power of machine learning and data analytics offered by our models, the management office will be empowered to effectively target players and contracts with whom early engagement is needed for future team planning. 
 
 To adapt to the evolving landscape of the typical NBA season, year over year, important next steps for NBA team management should also be the <u>regular retraining and recalibration</u> of the model using updated data. Stakeholders should consistently be gaining insights into team dynamics and player contributions to assure informed decision-making, foster strategic player development, and optimize overall team performance.
