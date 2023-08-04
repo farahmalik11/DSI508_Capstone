@@ -27,7 +27,7 @@ The data sourced for this analysis came from various sports websites responsible
 | **pg_mp**           | *integer*   | NBA.com  | Per-Game minutes played                                                            |
 | **pg_fg**           | *float*   | NBA.com  | Per-Game Field goals made                                                        |
 | **pg_fga**          | *float*   | NBA.com  | Per-Game Field goals attempted                                                    |
-| **pg_fg%**          | *float*   | NBA.com  | Per-Game Field goal percentage as a point guard                                                           |
+| **pg_fg%**          | *float*   | NBA.com  | Per-Game Field goal percentage                                                           |
 | **pg_3p**           | *float*   | NBA.com  | Per-Game Three-pointers made |
 | **pg_3pa**          | *float*   | NBA.com  | Per-Game Three-pointers attempted                                                   |
 | **pg_3p%**          | *float*   | NBA.com  | Per-Game Three-point percentage                                                             |
