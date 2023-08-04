@@ -79,10 +79,10 @@ The data sourced for this analysis came from various sports websites responsible
 | **w/l%**            | *float*   | NBA.com  | Team win percentage                                                |
 | **seed**            | *float*   | NBA.com  | Team's playoff seed                                                                                |
 | **all_star**        | *integer*   | NBA.com  | All-Star selection status - Indicates whether the player was selected for the All-Star game        |
-| **pos_5**           | object   | NBA.com  | Player position in tradition 5 roles: PG = Point Guard, SG = Shooting Guard, SF = Small Forward, PF = Power Forward, C = Center       |
-| **year**            | *float*   | NBA.com  | Season year                                                                                         |
-| **salary_cap_adj**  | *float*   | NBA.com  | Adjusted salary cap for the season                                                                  |
-| **career_length**   | *float*   | NBA.com  | Length of the player's career (so far) in the NBA                                                           |
+| **pos_5**           | object   | NBA.com  | Player position in traditional 5 roles: PG = Point Guard, SG = Shooting Guard, SF = Small Forward, PF = Power Forward, C = Center       |
+| **year**            | *float*   | NBA.com  | Season year start (e.g., 1990 reflects 1990-91 season)            |
+| **salary_cap_adj**  | *float*   | NBA.com  | Adjusted salary cap for the season           |
+| **career_length**   | *float*   | NBA.com  | Length of the player's career (so far) in the NBA       |
 
 
 
