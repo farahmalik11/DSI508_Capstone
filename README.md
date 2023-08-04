@@ -17,7 +17,7 @@ At the end of this assignment, NBA team and player stakeholders will be empowere
 
 # Data Dictionary
 
-The data sourced for this analysis came from various sports websites responsible for recording and maintaining NBA player statistics. A vast range of data was collected, below we will list the main features used in our models. However, for a complete glossary of all NBA statistics, most of which we scraped and explored, can be found here: [https://www.nba.com/stats/help/glossary](https://www.nba.com/stats/help/glossary_)
+The data sourced for this analysis came from various sports websites responsible for recording and maintaining NBA player statistics. A vast range of data was collected, below we will list the main features used in our models. For a complete glossary of all NBA statistics, see: [https://www.nba.com/stats/help/glossary](https://www.nba.com/stats/help/glossary_)
 
 | Feature       | Type    | Source   | Definition                                                                                          |
 |-----------------|---------|----------|-----------------------------------------------------------------------------------------------------|
